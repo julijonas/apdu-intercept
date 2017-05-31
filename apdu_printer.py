@@ -56,7 +56,7 @@ class APDUCommand(object):
         elif len(msg) > 5:  # LC | DATA | [ LE ]
             indexes['lc'] = 4
             indexes['data'] = 5
-            data_size = ord(msg[indexes['data']])
+            data_size = ord(msg[indexes['lc']])
             data_end = 5 + data_size
             if len(msg) > data_end:  # LC | DATA | LE
                 indexes['le'] = data_end
