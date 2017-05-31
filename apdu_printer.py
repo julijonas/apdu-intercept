@@ -53,7 +53,7 @@ class APDUCommand(object):
         # body: [ LC | DATA ] | [ LE ]
         if len(msg) == 5:  # LE
             indexes['le'] = 4
-        else:  # LC | DATA | [ LE ]
+        elif len(msg) > 5:  # LC | DATA | [ LE ]
             indexes['lc'] = 4
             indexes['data'] = 5
             data_size = ord(msg[indexes['data']])
