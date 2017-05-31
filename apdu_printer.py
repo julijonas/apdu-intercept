@@ -102,7 +102,7 @@ class APDUResponse(object):
         self.desc = None
         for p1, p2 in probable:
             if (p1, p2) in response_desc:
-                self.cat, self.desc = response_desc[sw1, sw2]
+                self.cat, self.desc = response_desc[p1, p2]
                 break
 
     def color(self, data, offset):
