@@ -106,6 +106,9 @@ class APDUResponse(object):
                 break
 
     def color(self, data, offset):
+        if not self.cat:
+            return data
+
         colored = []
         for index, elem in enumerate(data):
             addr = offset + index
@@ -168,19 +171,19 @@ class APDUPrinter(object):
         pos = 0
         while len(head) > 0:
             if pos > 0:
-                result = result + "\n%s" % (' ' * indent)
+                result += "\n%s" % (' ' * indent)
             addr = pos + offset
-            result = result + format_string % (addr, hexable(head, addr), printable(head, addr))
-            pos = pos + len(head)
+            result += format_string % (addr, hexable(head, addr), printable(head, addr))
+            pos += len(head)
             (head, tail) = (tail[:linelen], tail[linelen:])
         return result
 
-    def show_command(self, msg):
+    def show_command(self, msg, name):
         cmd = APDUCommand(msg, self.command_desc)
-        logger.info("\nCommand  %2d bytes: %-6s %-10s %s\n%s",
-                    len(msg), cmd.ins, cmd.name, cmd.desc, self.hexdump(cmd))
+        logger.info("\n%-16s %3d bytes: %-6s %-10s %s\n%s",
+                    name, len(msg), cmd.ins, cmd.name, cmd.desc, self.hexdump(cmd))
 
-    def show_response(self, msg):
+    def show_response(self, msg, name):
         resp = APDUResponse(msg, self.response_desc)
-        logger.info("\nResponse %2d bytes: %-6s [%s] %s\n%s",
-                    len(msg), resp.sw1 + " " + resp.sw2, resp.cat, resp.desc, self.hexdump(resp))
+        logger.info("\n%-16s %3d bytes: %-6s [%s] %s\n%s",
+                    name, len(msg), resp.sw1 + " " + resp.sw2, resp.cat, resp.desc, self.hexdump(resp))
