@@ -122,8 +122,8 @@ class APDUResponse(object):
 class APDUPrinter(object):
 
     def __init__(self):
-        self.command_desc = self.parse_command_desc("apdu_parser/command_descriptions.txt")
-        self.response_desc = self.parse_response_desc("apdu_parser/response_descriptions.txt")
+        self.command_desc = self.parse_command_desc("descriptions/commands.txt")
+        self.response_desc = self.parse_response_desc("descriptions/responses.txt")
 
     def parse_command_desc(self, filename):
         command_desc = {}

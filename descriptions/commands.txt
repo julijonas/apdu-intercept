@@ -1,0 +1,145 @@
+ACTIVATE FILE	Changes the state of a file to OPERATIONAL (ACTIVATED).	44
+ACTIVATE RECORD	x	08
+APPEND RECORD	Insert a new record in a file with a linear fixed structure.	E2
+APPLICATION BLOCK	Reversibly block an application. 	1E
+APPLICATION MANAGEMENT REQUEST	x	40
+APPLICATION MANAGEMENT REQUEST	x	41
+APPLICATION UNBLOCK	Unblock an application. 	18
+ASK RANDOM	Request a random number from the smart card.	84
+CHANGE CHV	Change the PIN.	24
+CHANGE REFERENCE DATA	Change the data used for user identification (e.g., a PIN).	24
+CHANGE REFERENCE DATA	Change the data used for user identification (e.g., a PIN).	25
+CHECK RESET AND APPLET SELECTION	x	A6
+CLOSE APPLICATION	Reset all attained access condition levels.	AC
+COMPARE	x	33
+CONVERT IEP CURRENCY	Convert currency.	56
+CREATE FILE	Creates an EF under the root or the currently selected DF or creates a DF under the root.	E0
+CREATE RECORD	Create a new record in a record-oriented file.	E2
+CREDIT IEP	Load the purse (IEP).	52
+CREDIT PSAM	Pay from IEP to the PSAM.	72
+DEACTIVATE FILE	Changes the state of a file to OPERATIONAL (DEACTIVATED).	04
+DEACTIVATE RECORD	x	06
+DEBIT IEP	Pay from the purse	54
+DECREASE STAMPED	Reduce the value of a counter in a file that is protected using a cryptographic checksum.	34
+DECREASE	Reduce the value of a counter in a file.	30
+DELETE DATA	x	EE
+DELETE FILE	Deletes the current DF or EF.	E4
+DELETE	Delete a uniquely identifiable object (such as a load file, application or key).	E4
+DISABLE CHV	Disable PIN queries.	26
+DISABLE VERIFICATION REQUIREMENT	Disable user identification (e.g., PIN queries).	26
+ENABLE CHV	Enable PIN queries.	28
+ENABLE VERIFICATION REQUIREMENT	Enable user identification (e.g., PIN queries).	28
+END PERSONALIZATION	x	x
+ENVELOPE	Embed a command in a smart card command.	C2
+ENVELOPE	x	C3
+ERASE BINARY	Erases part of a binary file.	0E
+ERASE BINARY	Erases part of a binary file.	0F
+ERASE RECORD	x	0C
+EXECUTE	Execute a file.	AE
+EXTEND	Extend a file.	D4
+EXTERNAL AUTHENTICATE	Authenticates the external terminal to the card. Sets the secure channel mode.	82
+GENERAL AUTHENTICATE	The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.	86
+GENERAL AUTHENTICATE	The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.	87
+GENERATE ASYMMETRIC KEY PAIR	x	46
+GENERATE ASYMMETRIC KEY PAIR	x	47
+GENERATE AUTHORISATION CRYPTOGRAM	Generate a signature for a payment transaction.	AE
+GENERATE PUBLIC KEY PAIR	Generate a key pair for an asymmetric cryptographic algorithm.	46
+GET ATTRIBUTE	x	34
+GET ATTRIBUTE	x	35
+GET CHALLENGE	Request a random number from the smart card.	84
+GET DATA (CA)	x	CB
+GET DATA	Read TLV-coded data objects.	CA
+GET DATA	x	CB
+GET NEXT DATA	x	CC
+GET NEXT DATA	x	CD
+GET PREVIOUS IEP SIGNATURE	Repeat the computation and output of the last signature received IEP.	5A
+GET PREVIOUS PSAM SIGNATURE	Repeat the computation and output of the last signature received from the PSAM.	86
+GET RESPONSE	Retrieves the response from a previous command.	C0
+GET STATUS	Read the life-cycle state information of the card manager, application and load file.	F2
+GIVE RANDOM	Send a random number to the smart card.	86
+INCREASE STAMPED	Increase the value of a counter in a file that is protected using a cryptographic checksum.	36
+INCREASE	Increase the value of a counter in a file.	32
+INITIALIZE IEP	Initialize IEP for a subsequent purse command.	50
+INITIALIZE PSAM for Offline Collection	Initialize PSAM for offline booking of the amount.	7C
+INITIALIZE PSAM for Online Collection	Initialize PSAM for online booking of the amount.	76
+INITIALIZE PSAM	Initialize PSAM for a subsequent purse command.	70
+INITILIZE UPDATE	First step to open a secure channel. The personalization device authenticates the card.	X 
+INTERNAL AUTHENTICATE	x	88
+INVALIDATE	Reversibly block a file.	04
+ISSUER AUTHENTICATE	Verify a signature of the card issuer.	82
+LOAD APPLICATION	x	EA
+LOAD APPLICATION	Load an application by transferring the load file.	EB
+LOAD	x	E8
+MANAGE CHANNEL	x	70
+MANAGE DATA	x	CF
+MANAGE PROTOCOL	Allows or disallows use of applet commands in contactless mode.	x
+MANAGE SECURITY ENVIRONMENT	Sets or replaces one component of the current SE.	22
+MUTUAL AUTHENTICATE	Mutually authenticate the smart card and the terminal.	82
+PERFORM BIOMETRIC OPERATION	x	2E
+PERFORM BIOMETRIC OPERATION	x	2F
+PERFORM SCQL OPERATION	Execute an SCQL instruction.	10
+PERFORM SECURITY OPERATION	Execute a cryptographic algorithm in the smart card.	2A
+PERFORM SECURITY OPERATION	x	2B
+PERFORM TRANSACTION OPERATION	Execute an SCQL transaction instruction.	12
+PERFORM USER OPERATION	Manage users in the context of SCQL.	14
+PSAM COLLECT	End PSAM online booking of an amount.	7A
+PSAM COLLECT	Execute PSAM online booking of an amount.	78
+PSAM COMPLETE	End paying the IEP against the PSAM.	74
+PSAM VERIFY COLLECTION	End PSAM offline booking of an amount.	7E
+PUT DATA	Write TLV-coded data objects.	DA
+PUT DATA	x	DB
+PUT KEY	Write one or more new keys or replace existing keys.	D8
+PUT NEXT DATA	x	D8
+PUT NEXT DATA	x	D9
+REACTIVATE FILE	Unblock a file.	44
+READ BINARY STAMPED	Read data from a file with a transparent structure that is secured with a cryptographic checksum.	B4
+READ BINARY	Reads part of a binary file.	B0
+READ BINARY	Reads part of a binary file.	B1
+READ RECORD STAMPED	Read data from a file with a record-oriented structure that is secured with a cryptographic checksum.	B6
+READ RECORD(S)	Read data from a file with a record-oriented structure.	B2
+READ RECORD	Read data from a file with a record-oriented structure.	B2
+READ RECORD	x	B3
+REHABILITATE	Unblock a file.	44
+REMOVE APPLICATION	x	EC
+REMOVE APPLICATION	x	ED
+RESET RETRY COUNTER	Reset an error counter.	2C
+RESET RETRY COUNTER	x	2D
+RUN GSM ALGORITHM	Execute a GSM-specific cryptographic algorithm.	88
+SEARCH BINARY	Search for a text string in a file with a transparent structure.	A0
+SEARCH BINARY	x	A1
+SEARCH RECORD	Search for a text string in a file with a record-oriented structure.	A2
+SEEK	Search for a text string in a file with a record-oriented structure.	A2
+SELECT (FILE)	Selects a DF or an EF by its file ID, path or name (in the case of DFs).	A4
+SELECT DATA	x	A5
+SELECT	Select a file.	A4
+SET STATUS	Write life-cycle state data for the card manager, application and load file.	F0
+SLEEP	Obsolete command for setting the smart card in a power-saving state.	FA
+STATUS	Read various data from the currently selected file.	F2
+TERMINATE CARD USAGE	Irreversibly block a smart card.	FE
+TERMINATE CARD USAGE	Irreversibly block a smart card.	EF
+TERMINATE DF	Irreversibly block an DF.	E6
+TERMINATE EF	Irreversibly block an EF.	E8
+UNBLOCK CHV	Reset a PIN retry counter that has reached its maximum value.	2C
+UPDATE BINARY	Updates part of a binary file.	D6
+UPDATE BINARY	Updates part of a binary file.	D7
+UPDATE DATA	x	DE
+UPDATE DATA	x	DF
+UPDATE IEP PARAMETER	Change the general parameters of a purse.	58
+UPDATE PSAM Parameter (offline)	Modify the parameters in the PSAM (offline).	84
+UPDATE PSAM Parameter (online)	Modify the parameters in the PSAM (online).	82
+UPDATE RECORD	Write to a file with a linear fixed, linear variable or cyclic structure.	DC
+UPDATE RECORD	Write to a file with a linear fixed, linear variable or cyclic structure.	DD
+VERIFY CHV	Verify the PIN.	20
+VERIFY	Verify the transferred data (such as a PIN).	20
+VERIFY	x	21
+WRITE BINARY	Write to a file with a transparent structure using a logical AND/OR process.	D0
+WRITE BINARY	Write to a file with a transparent structure using a logical AND/OR process.	D1
+WRITE RECORD	Write to a file with a record-oriented structure using a logical AND/OR process.	D2
+SET MANAGEMENT KEY	Set a new management key.	FF
+IMPORT ASYMMETRIC KEY	Import a new asymmetric key.	FE
+GET VERSION	Get the version of the PIV implementation.	FD
+RESET	Reset to default state. Only available if both PIN and PUK is blocked.	FB
+SET PIN RETRIES	Set the PIN retries for PIN and PUK. Both PIN and PUK will be reset to default values when this is executed.	FA
+PIN POLICY	Set PIN policy to be used for a key, valid for generate and import.	AA
+TOUCH POLICY	Set touch policy to be used for a key, valid for generate and import.	AB
+ATTESTATION	Get an attestation certificate for a slot where the key has been generated on device.	F9

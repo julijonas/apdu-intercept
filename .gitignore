@@ -1,4 +1,3 @@
 /.idea
 /logs
-/apdu_parser
 *.pyc
