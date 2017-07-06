@@ -1,0 +1,69 @@
+Gemalto IDClassic 340
+---------------------
+
+
+
+Data objects (with GET DATA)
+----------------------------
+
+TLV tag: 9F 7F
+Content: card production life cycle (CPLC) data (constant)
+
+TLV tag: DF 30
+Content: returns "v3.03" (constant)
+
+GET DATA commands:
+00 CB 00 FF 0A     B6 03 83 01 0A 7F 49 02 81 00
+                               ^^          ^^
+                               ^^          81 or 82
+                               ^^
+                               slot: from 03 to 06, from 09 to 0C
+
+Public keys
+-----------
+81 contains modulus, from byte 14 to end
+82 contains exponent, from bye 14 to end
+first 9 bytes match are same as command tag
+
+
+RSA 1024 slots: 0C, 0B, 0A, 09
+RSA 2048 slots:
+
+public keys
+05-06 same data
+
+
+Private keys
+------------
+
+
+
+File structure (with SELECT FILE/READ BINARY)
+---------------------------------------------
+
+3F 00
+
+    A0 00 00 00 18 0C 00 00 01 63 42 00
+        DF label/AID to enable most commands
+
+    2F 00           EF_DIR containing AID and textual label of application (constant)
+
+    50 00 50 31     Repeating pattern 30 08 04 06 3F 00 50 00 50 06 A0 0A (constant)
+
+    50 00 50 33     Repeating pattern, erased and written again after keypairgen, delete key << free slots?
+
+    50 00 50 32     Gemalto S.A. GemP15-1 (constant)
+
+    00 02           Numeric value in format 333Z.33333333 that library updates on every write access
+
+    50 00           DF, to read content need to satisfy security condition
+
+    50 00 50 01     Labels and IDs of private keys
+
+    50 00 50 02     Labels and IDs of public keys
+    One key occupies 0x24 bytes
+    Bit 12 is the ID
+
+    50 00 50 06     PIN and PUK code information
+
+    50 00 50 34     Information about private key slots

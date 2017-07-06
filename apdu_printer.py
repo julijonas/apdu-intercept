@@ -21,10 +21,11 @@ COMMAND_COLORS = {
 }
 
 RESPONSE_COLORS = {
-    'E' : RED,
+    'E': RED,
     'W': YELLOW,
     'I': GREEN,
     'S': BLUE,
+    '?': LIGHT_PURPLE,
 }
 
 _myprintable = " " + string.letters + string.digits + string.punctuation
@@ -138,6 +139,8 @@ class APDUPrinter(object):
         with open(filename, "r") as f:
             for line in f:
                 sw1, sw2, category, desc = line[:-1].split("\t")
+                if category not in RESPONSE_COLORS.keys():
+                    category = '?'
                 response_desc[sw1, sw2] = category, desc
         return response_desc
 

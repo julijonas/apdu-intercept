@@ -1,0 +1,561 @@
+[begin]
+SCardTransmit (handle 0xEA010000)#
+apduCounter:0#
+totalBytesINCounter:1#
+transmitted:80 ca 9f 7f
+responseTime:20#
+SCardTransmit result:0x0#
+received:6e 00
+
+SCardTransmit (handle 0xEA010000)#
+apduCounter:1#
+totalBytesINCounter:5#
+transmitted:00 ca 9f 7f
+responseTime:10#
+SCardTransmit result:0x0#
+received:6c 2d
+
+SCardTransmit (handle 0xEA010000)#
+apduCounter:2#
+totalBytesINCounter:9#
+transmitted:00 ca 9f 7f 2d
+responseTime:10#
+SCardTransmit result:0x0#
+received:9f 7f 2a 47 90 50 81 12 91 11 02 02 01 22 34 00 00 af 04 e3 a9 40 82 30 23 12 93 30 23 20 05 30 23 00 00 00 14 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA010000)#
+apduCounter:3#
+totalBytesINCounter:14#
+transmitted:00 a4 04 00 0c a0 00 00 00 18 0a 00 00 01 63 42 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:6a 82
+
+SCardTransmit (handle 0xEA020000)#
+apduCounter:4#
+totalBytesINCounter:31#
+transmitted:00 a4 00 0c 02 3f 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA020000)#
+apduCounter:5#
+totalBytesINCounter:38#
+transmitted:00 a4 02 04 02 2f 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA020000)#
+apduCounter:6#
+totalBytesINCounter:45#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:62 13 81 02 00 17 82 01 01 83 02 2f 00 8a 01 05 8c 03 03 ff 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:7#
+totalBytesINCounter:50#
+transmitted:00 a4 04 00 0c a0 00 00 00 18 0c 00 00 01 63 42 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:8#
+totalBytesINCounter:67#
+transmitted:00 ca 9f 7f 2d
+responseTime:20#
+SCardTransmit result:0x0#
+received:9f 7f 2a 47 90 50 81 12 91 11 02 02 01 22 34 00 00 af 04 e3 a9 40 82 30 23 12 93 30 23 20 05 30 23 00 00 00 14 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:9#
+totalBytesINCounter:72#
+transmitted:00 a4 08 00 02 00 01
+responseTime:20#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:10#
+totalBytesINCounter:79#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 00 08 82 01 01 83 02 00 01 8a 01 05 8c 03 03 ff 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:11#
+totalBytesINCounter:84#
+transmitted:00 a4 08 00 02 00 02
+responseTime:31#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:12#
+totalBytesINCounter:91#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 00 20 82 01 01 83 02 00 02 8a 01 05 8c 03 03 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:13#
+totalBytesINCounter:96#
+transmitted:00 b0 00 00 20
+responseTime:30#
+SCardTransmit result:0x0#
+received:2e 33 31 32 5a 00 30 33 31 36 32 32 33 39 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:14#
+totalBytesINCounter:101#
+transmitted:00 a4 08 0c 02 00 01
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:15#
+totalBytesINCounter:108#
+transmitted:00 b0 00 00 08
+responseTime:30#
+SCardTransmit result:0x0#
+received:30 40 00 1a 66 83 29 71 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:16#
+totalBytesINCounter:113#
+transmitted:00 a4 08 00 02 2f 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:17#
+totalBytesINCounter:120#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 00 17 82 01 01 83 02 2f 00 8a 01 05 8c 03 03 ff 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:18#
+totalBytesINCounter:125#
+transmitted:00 b0 00 00 17
+responseTime:30#
+SCardTransmit result:0x0#
+received:61 15 4f 0d e8 28 bd 08 0f 01 47 65 6d 20 50 31 35 51 04 3f 00 50 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:19#
+totalBytesINCounter:130#
+transmitted:00 a4 08 00 04 50 00 50 31
+responseTime:20#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:20#
+totalBytesINCounter:139#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 00 54 82 01 01 83 02 50 31 8a 01 05 8c 03 03 ff 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:21#
+totalBytesINCounter:144#
+transmitted:00 b0 00 00 54
+responseTime:40#
+SCardTransmit result:0x0#
+received:a8 0a 30 08 04 06 3f 00 50 00 50 06 a0 0a 30 08 04 06 3f 00 50 00 50 01 a1 0a 30 08 04 06 3f 00 50 00 50 02 a4 0a 30 08 04 06 3f 00 50 00 50 03 a7 0a 30 08 04 06 3f 00 50 00 50 04 a7 0a 30 08 04 06 3f 00 50 00 50 05 a3 0a 30 08 04 06 3f 00 50 00 50 07 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:22#
+totalBytesINCounter:149#
+transmitted:00 a4 08 00 04 50 00 50 06
+responseTime:20#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:23#
+totalBytesINCounter:158#
+transmitted:00 c0 00 00 15
+responseTime:20#
+SCardTransmit result:0x0#
+received:6f 13 81 02 00 c0 82 01 01 83 02 50 06 8a 01 05 8c 03 03 13 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:24#
+totalBytesINCounter:163#
+transmitted:00 b0 00 00 c0
+responseTime:40#
+SCardTransmit result:0x0#
+received:30 31 30 11 0c 08 55 73 65 72 20 50 49 4e 03 02 06 c0 04 01 82 30 03 04 01 81 a1 17 30 15 03 03 04 8c 10 0a 01 02 02 01 06 02 01 10 80 02 00 81 04 01 00 30 2c 30 0c 0c 06 53 4f 20 50 49 4e 03 02 06 c0 30 03 04 01 82 a1 17 30 15 03 03 04 9d 10 0a 01 02 02 01 06 02 01 10 80 02 00 82 04 01 00 02 00 82 04 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:25#
+totalBytesINCounter:168#
+transmitted:00 a4 08 00 04 50 00 50 32
+responseTime:30#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:26#
+totalBytesINCounter:177#
+transmitted:00 c0 00 00 15
+responseTime:0#
+SCardTransmit result:0x0#
+received:6f 13 81 02 00 2b 82 01 01 83 02 50 32 8a 01 05 8c 03 03 d2 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:27#
+totalBytesINCounter:182#
+transmitted:00 b0 00 00 2b
+responseTime:40#
+SCardTransmit result:0x0#
+received:30 29 02 01 01 04 08 30 40 00 1a 66 83 29 71 0c 0c 47 65 6d 61 6c 74 6f 20 53 2e 41 2e 80 08 47 65 6d 50 31 35 2d 31 03 02 05 60 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:28#
+totalBytesINCounter:187#
+transmitted:00 ca df 30
+responseTime:30#
+SCardTransmit result:0x0#
+received:6c 08
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:29#
+totalBytesINCounter:191#
+transmitted:00 ca df 30 08
+responseTime:10#
+SCardTransmit result:0x0#
+received:df 30 05 76 33 2e 30 33 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:30#
+totalBytesINCounter:196#
+transmitted:00 a4 08 00 04 50 00 50 33
+responseTime:20#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:31#
+totalBytesINCounter:205#
+transmitted:00 c0 00 00 15
+responseTime:20#
+SCardTransmit result:0x0#
+received:6f 13 81 02 06 00 82 01 01 83 02 50 33 8a 01 05 8c 03 03 c1 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:32#
+totalBytesINCounter:210#
+transmitted:00 b0 00 00 ee
+responseTime:50#
+SCardTransmit result:0x0#
+received:30 11 30 0f 04 06 3f 00 50 00 50 40 02 01 00 80 02 75 30 30 14 30 0f 04 06 3f 00 50 00 50 50 02 01 00 80 02 0f a0 04 01 81 30 0a 30 02 04 00 04 01 81 02 01 07 30 0a 30 02 04 00 04 01 81 02 01 08 30 0a 30 02 04 00 04 01 81 02 01 0d 30 0a 30 02 04 00 04 01 81 02 01 0e 30 0a 30 02 04 00 04 01 81 02 01 0a 30 0a 30 02 04 00 04 01 81 02 01 09 30 0a 30 02 04 00 04 01 81 02 01 0b 30 0a 30 02 04 00 04 01 81 02 01 0c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:33#
+totalBytesINCounter:215#
+transmitted:00 b0 00 ee ee
+responseTime:40#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:34#
+totalBytesINCounter:220#
+transmitted:00 b0 01 dc ee
+responseTime:40#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:35#
+totalBytesINCounter:225#
+transmitted:00 b0 02 ca ee
+responseTime:50#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:36#
+totalBytesINCounter:230#
+transmitted:00 b0 03 b8 ee
+responseTime:40#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:37#
+totalBytesINCounter:235#
+transmitted:00 b0 04 a6 ee
+responseTime:40#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:38#
+totalBytesINCounter:240#
+transmitted:00 b0 05 94 6c
+responseTime:40#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:39#
+totalBytesINCounter:245#
+transmitted:00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00 00 00 00 00 00
+responseTime:40#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:40#
+totalBytesINCounter:266#
+transmitted:00 20 00 81 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:41#
+totalBytesINCounter:271#
+transmitted:00 20 00 81 00
+responseTime:31#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:42#
+totalBytesINCounter:276#
+transmitted:00 20 00 81 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:43#
+totalBytesINCounter:281#
+transmitted:00 20 00 81 00
+responseTime:30#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:44#
+totalBytesINCounter:286#
+transmitted:00 20 00 81 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:45#
+totalBytesINCounter:291#
+transmitted:00 20 00 81 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:46#
+totalBytesINCounter:296#
+transmitted:00 a4 08 00 04 50 00 50 34
+responseTime:30#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:47#
+totalBytesINCounter:305#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 03 a4 82 01 01 83 02 50 34 8a 01 05 8c 03 03 ff 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:48#
+totalBytesINCounter:310#
+transmitted:00 b0 00 00 ee
+responseTime:51#
+SCardTransmit result:0x0#
+received:30 4b 30 23 0c 1a 52 53 41 20 50 72 69 76 61 74 65 20 31 2d 32 30 34 38 2d 44 65 63 2d 53 69 67 03 02 06 c0 04 01 81 30 16 04 09 52 53 41 20 70 72 6b 20 31 03 02 02 74 03 02 04 b0 02 01 03 a0 00 a1 0a 30 08 30 02 04 00 02 02 08 00 30 4b 30 23 0c 1a 52 53 41 20 50 72 69 76 61 74 65 20 32 2d 32 30 34 38 2d 44 65 63 2d 53 69 67 03 02 06 c0 04 01 81 30 16 04 09 52 53 41 20 70 72 6b 20 32 03 02 02 74 03 02 04 b0 02 01 04 a0 00 a1 0a 30 08 30 02 04 00 02 02 08 00 30 4b 30 23 0c 1a 52 53 41 20 50 72 69 76 61 74 65 20 33 2d 32 30 34 38 2d 44 65 63 2d 53 69 67 03 02 06 c0 04 01 81 30 16 04 09 52 53 41 20 70 72 6b 20 33 03 02 02 74 03 02 04 b0 02 01 05 a0 00 a1 0a 30 08 30 02 04 00 02 02 08 00 30 4b 30 23 0c 1a 52 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:49#
+totalBytesINCounter:315#
+transmitted:00 b0 00 ee ee
+responseTime:40#
+SCardTransmit result:0x0#
+received:53 41 20 50 72 69 76 61 74 65 20 34 2d 32 30 34 38 2d 44 65 63 2d 53 69 67 03 02 06 c0 04 01 81 30 16 04 09 52 53 41 20 70 72 6b 20 34 03 02 02 74 03 02 04 b0 02 01 06 a0 00 a1 0a 30 08 30 02 04 00 02 02 08 00 30 4b 30 22 0c 16 52 53 41 20 50 72 69 76 61 74 65 20 35 2d 32 30 34 38 2d 53 69 67 03 02 06 c0 04 01 81 02 01 01 30 17 04 09 52 53 41 20 70 72 6b 20 35 03 03 06 30 40 03 02 04 b0 02 01 07 a0 00 a1 0a 30 08 30 02 04 00 02 02 08 00 30 4b 30 22 0c 16 52 53 41 20 50 72 69 76 61 74 65 20 36 2d 32 30 34 38 2d 53 69 67 03 02 06 c0 04 01 81 02 01 01 30 17 04 09 52 53 41 20 70 72 6b 20 36 03 03 06 30 40 03 02 04 b0 02 01 08 a0 00 a1 0a 30 08 30 02 04 00 02 02 08 00 30 4b 30 23 0c 1a 52 53 41 20 50 72 69 76 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:50#
+totalBytesINCounter:320#
+transmitted:00 b0 01 dc ee
+responseTime:80#
+SCardTransmit result:0x0#
+received:61 74 65 20 37 2d 31 30 32 34 2d 44 65 63 2d 53 69 67 03 02 06 c0 04 01 81 30 16 04 09 52 53 41 20 70 72 6b 20 37 03 02 02 74 03 02 04 b0 02 01 09 a0 00 a1 0a 30 08 30 02 04 00 02 02 04 00 30 4b 30 23 0c 1a 52 53 41 20 50 72 69 76 61 74 65 20 38 2d 31 30 32 34 2d 44 65 63 2d 53 69 67 03 02 06 c0 04 01 81 30 16 04 09 52 53 41 20 70 72 6b 20 38 03 02 02 74 03 02 04 b0 02 01 0a a0 00 a1 0a 30 08 30 02 04 00 02 02 04 00 30 4b 30 23 0c 1a 52 53 41 20 50 72 69 76 61 74 65 20 39 2d 31 30 32 34 2d 44 65 63 2d 53 69 67 03 02 06 c0 04 01 81 30 16 04 09 52 53 41 20 70 72 6b 20 39 03 02 02 74 03 02 04 b0 02 01 0b a0 00 a1 0a 30 08 30 02 04 00 02 02 04 00 30 4d 30 24 0c 1b 52 53 41 20 50 72 69 76 61 74 65 20 31 30 2d 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:51#
+totalBytesINCounter:325#
+transmitted:00 b0 02 ca da
+responseTime:50#
+SCardTransmit result:0x0#
+received:31 30 32 34 2d 44 65 63 2d 53 69 67 03 02 06 c0 04 01 81 30 17 04 0a 52 53 41 20 70 72 6b 20 31 30 03 02 02 74 03 02 04 b0 02 01 0c a0 00 a1 0a 30 08 30 02 04 00 02 02 04 00 30 4d 30 23 0c 17 52 53 41 20 50 72 69 76 61 74 65 20 31 31 2d 31 30 32 34 2d 53 69 67 03 02 06 c0 04 01 81 02 01 01 30 18 04 0a 52 53 41 20 70 72 6b 20 31 31 03 03 06 30 40 03 02 04 b0 02 01 0d a0 00 a1 0a 30 08 30 02 04 00 02 02 04 00 30 4d 30 23 0c 17 52 53 41 20 50 72 69 76 61 74 65 20 31 32 2d 31 30 32 34 2d 53 69 67 03 02 06 c0 04 01 81 02 01 01 30 18 04 0a 52 53 41 20 70 72 6b 20 31 32 03 03 06 30 40 03 02 04 b0 02 01 0e a0 00 a1 0a 30 08 30 02 04 00 02 02 04 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:52#
+totalBytesINCounter:330#
+transmitted:00 20 00 81 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:53#
+totalBytesINCounter:335#
+transmitted:00 20 00 81 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:54#
+totalBytesINCounter:340#
+transmitted:00 20 00 81 00
+responseTime:20#
+SCardTransmit result:0x0#
+received:90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:55#
+totalBytesINCounter:345#
+transmitted:00 a4 08 00 04 50 00 50 05
+responseTime:30#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:56#
+totalBytesINCounter:354#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 08 00 82 01 01 83 02 50 05 8a 01 05 8c 03 03 c1 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:57#
+totalBytesINCounter:359#
+transmitted:00 b0 00 00 ee
+responseTime:50#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:58#
+totalBytesINCounter:364#
+transmitted:00 a4 08 00 04 50 00 50 04
+responseTime:20#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:59#
+totalBytesINCounter:373#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 06 00 82 01 01 83 02 50 04 8a 01 05 8c 03 03 d1 11 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:60#
+totalBytesINCounter:378#
+transmitted:00 b0 00 00 ee
+responseTime:60#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:61#
+totalBytesINCounter:383#
+transmitted:00 a4 08 00 04 50 00 50 03
+responseTime:20#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:62#
+totalBytesINCounter:392#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 06 00 82 01 01 83 02 50 03 8a 01 05 8c 03 03 c1 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:63#
+totalBytesINCounter:397#
+transmitted:00 b0 00 00 ee
+responseTime:40#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:64#
+totalBytesINCounter:402#
+transmitted:00 a4 08 00 04 50 00 50 02
+responseTime:40#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:65#
+totalBytesINCounter:411#
+transmitted:00 c0 00 00 15
+responseTime:20#
+SCardTransmit result:0x0#
+received:6f 13 81 02 06 00 82 01 01 83 02 50 02 8a 01 05 8c 03 03 c1 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:66#
+totalBytesINCounter:416#
+transmitted:00 b0 00 00 ee
+responseTime:50#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:67#
+totalBytesINCounter:421#
+transmitted:00 a4 08 00 04 50 00 50 01
+responseTime:40#
+SCardTransmit result:0x0#
+received:61 15
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:68#
+totalBytesINCounter:430#
+transmitted:00 c0 00 00 15
+responseTime:10#
+SCardTransmit result:0x0#
+received:6f 13 81 02 06 00 82 01 01 83 02 50 01 8a 01 05 8c 03 03 d1 11 90 00
+
+SCardTransmit (handle 0xEA030000)#
+apduCounter:69#
+totalBytesINCounter:435#
+transmitted:00 b0 00 00 ee
+responseTime:50#
+SCardTransmit result:0x0#
+received:00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 90 00
+

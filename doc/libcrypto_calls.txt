@@ -1,0 +1,206 @@
+_ZNSt8ios_base4InitC1Ev(0x6021b1, 0xffff, 0x7ffdf0d71838, 480) = 9
+__cxa_atexit(0x400b10, 0x6021b1, 0x602090, 480)  = 0
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(0x6020a0, 0x4011f1, 0x7ffdf0d71838, 512) = 0x6020a0
+C_Initialize(0, 0, 0x7f8d190b4960, 0x4011fc)     = 0
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(0x6020a0, 0x40122f, 0xf8ec20, 0) = 0x6020a0
+C_OpenSession(1, 6, 0, 0 <unfinished ...>
+    RAND_seed@libcrypto.so.1.0.0(0x7ffdf0d5d770, 8, 11, 320 <unfinished ...>
+    <... RAND_seed resumed> )                    = 0
+    SHA1@libcrypto.so.1.0.0(0x7f8d174b3454, 21, 0x7ffdf0d5bd60, 4 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d5bd60
+    SHA1@libcrypto.so.1.0.0(0x7f8d174b3454, 21, 0x7ffdf0d5bcb0, 4 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d5bcb0
+    SHA1@libcrypto.so.1.0.0(0xfbca50, 26, 0x7ffdf0d5bcd0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d5bcd0
+    SHA1@libcrypto.so.1.0.0(0xfbca50, 26, 0x7ffdf0d5bc20, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d5bc20
+    SHA1@libcrypto.so.1.0.0(0xfbca50, 26, 0x7ffdf0d5bcd0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d5bcd0
+    SHA1@libcrypto.so.1.0.0(0xfbca50, 26, 0x7ffdf0d5bc20, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d5bc20
+    RAND_seed@libcrypto.so.1.0.0(0x7ffdf0d5d780, 8, 19, 576 <unfinished ...>
+    <... RAND_seed resumed> )                    = 0
+    SHA1@libcrypto.so.1.0.0(0xfaf6a0, 19, 0x7ffdf0d6de50, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6de50
+    SHA1@libcrypto.so.1.0.0(0xfaf6a0, 19, 0x7ffdf0d6dda0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6dda0
+    SHA1@libcrypto.so.1.0.0(0xfe6320, 19, 0x7ffdf0d6de50, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6de50
+    SHA1@libcrypto.so.1.0.0(0xfe6320, 19, 0x7ffdf0d6dda0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6dda0
+    SHA1@libcrypto.so.1.0.0(0xfeaa40, 35, 0x7ffdf0d6d950, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6d950
+    SHA1@libcrypto.so.1.0.0(0xfeaa40, 35, 0x7ffdf0d6d8a0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6d8a0
+    SHA1@libcrypto.so.1.0.0(0xfeaa70, 35, 0x7ffdf0d6d950, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6d950
+    SHA1@libcrypto.so.1.0.0(0xfeaa70, 35, 0x7ffdf0d6d8a0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6d8a0
+    SHA1@libcrypto.so.1.0.0(0xfe6320, 19, 0x7ffdf0d6de50, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6de50
+    SHA1@libcrypto.so.1.0.0(0xfe6320, 19, 0x7ffdf0d6dda0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6dda0
+    SHA1@libcrypto.so.1.0.0(0xfea610, 35, 0x7ffdf0d6d950, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6d950
+    SHA1@libcrypto.so.1.0.0(0xfea610, 35, 0x7ffdf0d6d8a0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6d8a0
+    SHA1@libcrypto.so.1.0.0(0xfebb50, 17, 0x7ffdf0d6e5a0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6e5a0
+    SHA1@libcrypto.so.1.0.0(0xfebb50, 17, 0x7ffdf0d6e4f0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6e4f0
+    SHA1@libcrypto.so.1.0.0(0xfeb370, 19, 0x7ffdf0d6de50, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6de50
+    SHA1@libcrypto.so.1.0.0(0xfeb370, 19, 0x7ffdf0d6dda0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6dda0
+    SHA1@libcrypto.so.1.0.0(0xfea1c0, 124, 0x7ffdf0d70e40, 0xf000000000000000 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d70e40
+    SHA1@libcrypto.so.1.0.0(0xfea1c0, 124, 0x7ffdf0d70d90, 0xf000000000000000 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d70d90
+<... C_OpenSession resumed> )                    = 0
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(0x6020a0, 0x40123c, 0xf8ec20, 0) = 0x6020a0
+C_Login(0x10001, 1, 0x7ffdf0d71729, 6 <unfinished ...>
+    SHA256_Init@libcrypto.so.1.0.0(0x7ffdf0d70470, 0x7f8d193f6040, 0x7ffdf0d70590, 512) = 1
+    SHA256_Update@libcrypto.so.1.0.0(0x7ffdf0d70470, 0x7f8d176ff350, 16, 0) = 1
+    SHA256_Update@libcrypto.so.1.0.0(0x7ffdf0d70470, 0xfebb20, 29, 0) = 1
+    SHA256_Final@libcrypto.so.1.0.0(0x7ffdf0d704e0, 0x7ffdf0d70470, 29, 0 <unfinished ...>
+    <... SHA256_Final resumed> )                 = 1
+    AES_set_encrypt_key@libcrypto.so.1.0.0(0x7ffdf0d70500, 256, 0x7ffdf0d70290, 0x7ffdf0d704e0 <unfinished ...>
+    <... AES_set_encrypt_key resumed> )          = 0
+    AES_cbc_encrypt@libcrypto.so.1.0.0(0x7ffdf0d70590, 0x7ffdf0d70590, 512, 0x7ffdf0d70290 <unfinished ...>
+    <... AES_cbc_encrypt resumed> )              = 0x89635155
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d70290, 244, 0x343240a7, 0x76b56056) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d70390, 8, 0x343240a7, 0x76b56056) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d704e0, 32, 0, 0x76b56056) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d70500, 32, 0, 0x76b56056) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d70520, 32, 0, 0x76b56056) = 0
+<... C_Login resumed> )                          = 0
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc(0x6020a0, 0x401243, 0xf8ec20, 0) = 0x6020a0
+C_GenerateKeyPair(0x10001, 0x7ffdf0d71700, 0x7ffdf0d715f0, 10 <unfinished ...>
+    SHA1@libcrypto.so.1.0.0(0x102c100, 1307, 0x7ffdf0d6e4f0, 0 <unfinished ...>
+    <... SHA1 resumed> )                         = 0x7ffdf0d6e4f0
+    RSA_new@libcrypto.so.1.0.0(0x7ffdf0d6e480, 0, 19, 0x7ffdf0d6e57c <unfinished ...>
+    <... RSA_new resumed> )                      = 0x102d520
+    BN_bin2bn@libcrypto.so.1.0.0(0x7f8d158d0200, 64, 0, 0x7f8d18804ae0 <unfinished ...>
+    <... BN_bin2bn resumed> )                    = 0x102f570
+    BN_bin2bn@libcrypto.so.1.0.0(0x7f8d158d01e0, 4, 0, 7 <unfinished ...>
+    <... BN_bin2bn resumed> )                    = 0x102f5e0
+    RSA_public_encrypt@libcrypto.so.1.0.0(64, 0x7ffdf0d6e510, 0x102f520, 0x102d520 <unfinished ...>
+    <... RSA_public_encrypt resumed> )           = 64
+    RSA_free@libcrypto.so.1.0.0(0x102d520, 0x7f8d18804b00, 0x102def0, 0x13057c1654456100 <unfinished ...>
+    <... RSA_free resumed> )                     = 0
+    AES_set_decrypt_key@libcrypto.so.1.0.0(0x102f520, 256, 0x7ffdf0d6e5f0, 0x7ffdf0d6e860 <unfinished ...>
+    <... AES_set_decrypt_key resumed> )          = 0
+    AES_cbc_encrypt@libcrypto.so.1.0.0(0x102f4d0, 0x102f570, 32, 0x7ffdf0d6e5f0 <unfinished ...>
+    <... AES_cbc_encrypt resumed> )              = 0x57ae561
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e5f0, 244, 0x1d800c4, 0x1d855d8) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e6f0, 8, 0x1d800c4, 0x1d855d8) = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a0, 0x7ffdf0d6e550, 0x102b420, 0x102f5a0 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a8, 0x7ffdf0d6e5d0, 0x11260405, 0x800ff00 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a0, 0x7ffdf0d6e650, 0x15260405, 0xc00ff00 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_ecb3_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e860, 0x102b420, 0x7ffdf0d6e550, 0x7ffdf0d6e5d0 <unfinished ...>
+    <... DES_ecb3_encrypt resumed> )             = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e550, 128, 1, 0xd5b7) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e5d0, 128, 1, 0xd5b7) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e650, 128, 1, 0xd5b7) = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a8, 0x7ffdf0d6e550, 0x102b428, 0x102f5a8 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a0, 0x7ffdf0d6e5d0, 0x15260405, 0xc00ff00 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a8, 0x7ffdf0d6e650, 0x11260405, 0x800ff00 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_ecb3_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e860, 0x102b428, 0x7ffdf0d6e550, 0x7ffdf0d6e5d0 <unfinished ...>
+    <... DES_ecb3_encrypt resumed> )             = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e550, 128, 1, 0xf76e) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e5d0, 128, 1, 0xf76e) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e650, 128, 1, 0xf76e) = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a0, 0x7ffdf0d6e550, 0x102b830, 0x102f5a0 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a8, 0x7ffdf0d6e5d0, 0x11260405, 0x800ff00 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a0, 0x7ffdf0d6e650, 0x15260405, 0xc00ff00 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_ecb3_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e860, 0x102b830, 0x7ffdf0d6e550, 0x7ffdf0d6e5d0 <unfinished ...>
+    <... DES_ecb3_encrypt resumed> )             = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e550, 128, 1, 0x2fa4) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e5d0, 128, 1, 0x2fa4) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e650, 128, 1, 0x2fa4) = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a8, 0x7ffdf0d6e550, 0x102b838, 0x102f5a8 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a0, 0x7ffdf0d6e5d0, 0x15260405, 0xc00ff00 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102f5a8, 0x7ffdf0d6e650, 0x11260405, 0x800ff00 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_ecb3_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e860, 0x102b838, 0x7ffdf0d6e550, 0x7ffdf0d6e5d0 <unfinished ...>
+    <... DES_ecb3_encrypt resumed> )             = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e550, 128, 1, 7020) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e5d0, 128, 1, 7020) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e650, 128, 1, 7020) = 0
+    RAND_bytes@libcrypto.so.1.0.0(0x1029fd0, 8, 0x102a3c0, 0x102a3c0 <unfinished ...>
+    <... RAND_bytes resumed> )                   = 1
+    RAND_bytes@libcrypto.so.1.0.0(0x102bc40, 8, 0x102c040, 0x102c040 <unfinished ...>
+    <... RAND_bytes resumed> )                   = 1
+    RAND_bytes@libcrypto.so.1.0.0(0x102b010, 32, 0x102b400, 0x102b400 <unfinished ...>
+    <... RAND_bytes resumed> )                   = 1
+    DES_set_key@libcrypto.so.1.0.0(0x102b420, 0x7ffdf0d6e7e0, 0x102bc40, 0x7ffdf0d6f230 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102b428, 0x7ffdf0d6e860, 0x140a0532, 0xd631831 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102b420, 0x7ffdf0d6e8e0, 0x3a311e29, 0x2be3b5e <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_ede3_cbc_encrypt@libcrypto.so.1.0.0(0x1029bc0, 0x102bc40, 64, 0x7ffdf0d6e7e0 <unfinished ...>
+    <... DES_ede3_cbc_encrypt resumed> )         = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e7e0, 128, 0xcb5e2cd5, 0xcb5e) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e860, 128, 0xcb5e2cd5, 0xcb5e) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e8e0, 128, 0xcb5e2cd5, 0xcb5e) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e960, 8, 0xcb5e2cd5, 0xcb5e) = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102b830, 0x7ffdf0d6e880, 0x7ffdf0d6e970, 0x102b830 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6f230, 0x7ffdf0d6e970, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e880, 128, 0x4ef0, 0x5ea36d7c) = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102b830, 0x7ffdf0d6e880, 0x7ffdf0d6e960, 0x7ffdf0d6e970 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e900, 0x7ffdf0d6e960, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e900, 0x7ffdf0d6e960, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e900, 0x7ffdf0d6e960, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e900, 0x7ffdf0d6e960, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e900, 0x7ffdf0d6e960, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e900, 0x7ffdf0d6e960, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e900, 0x7ffdf0d6e960, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    DES_ecb_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e900, 0x7ffdf0d6e960, 0x7ffdf0d6e880, 1 <unfinished ...>
+    <... DES_ecb_encrypt resumed> )              = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e880, 128, 8519, 0x13c8473a) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e900, 8, 8519, 0x13c8473a) = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102b830, 0x7ffdf0d6e770, 0x7ffdf0d6e970, 0x102b830 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102b838, 0x7ffdf0d6e7f0, 0xf1b0206, 0xd3d8564 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_set_key@libcrypto.so.1.0.0(0x102b830, 0x7ffdf0d6e870, 0x25041413, 0x723e803 <unfinished ...>
+    <... DES_set_key resumed> )                  = 0
+    DES_ecb3_encrypt@libcrypto.so.1.0.0(0x7ffdf0d6e960, 0x7ffdf0d6e970, 0x7ffdf0d6e770, 0x7ffdf0d6e7f0 <unfinished ...>
+    <... DES_ecb3_encrypt resumed> )             = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e770, 128, 1, 0x58af) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e7f0, 128, 1, 0x58af) = 0
+    OPENSSL_cleanse@libcrypto.so.1.0.0(0x7ffdf0d6e870, 128, 1, 0x58af) = 0
+<... C_GenerateKeyPair resumed> )                = 6
+_ZNSolsEm(0x6020a0, 6, 0xf8ec20, 0)              = 0x6020a0
+_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_c(0x6020a0, 10, 0x7f8d190b4960, 0) = 0x6020a0
+__assert_fail(0x401222, 0x401200, 91, 0x401280pkcs: /home/julijonas/git/pkcs/main.cpp:91: int main(int, char**): Assertion `rv == CKR_OK' failed.
+Initialize
+OpenSession
+Login
+GenerateKeyPair
+6
+ <no return ...>
+--- SIGABRT (Aborted) ---
++++ killed by SIGABRT +++
