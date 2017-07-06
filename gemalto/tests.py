@@ -77,7 +77,7 @@ def test_mac_message():
     ''')
 
     c.calc_mac_params()
-    assert c.check_mac_message(message)
+    assert c.check_message_mac(message)
 
 
 def test_second_mac_message():
@@ -114,7 +114,7 @@ def test_second_mac_message():
 
     c.calc_mac_params()
     c.mac_counter = 2
-    assert c.check_mac_message(message)
+    assert c.check_message_mac(message)
 
 
 if __name__ == '__main__':

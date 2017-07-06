@@ -24,10 +24,6 @@ CR_MAC_SEED = '\x00' * 8
 CR_DES3_IV = '\x00' * 8
 
 
-CARD_CHALLENGE = from_hex("00 11 22 33 44 55 66 77")
-CARD_NONCE = "".join(chr(i) for i in range(32))
-
-
 def pad(blocks):
     last_len = len(blocks) % 8
     blocks += "\x80" + "\x00" * (7 - last_len)
@@ -65,8 +61,8 @@ def decrypt_cr(ciphertext):
 
 class GemaltoCrypto(object):
     def __init__(self):
-        self.card_challenge = CARD_CHALLENGE
-        self.card_nonce = CARD_NONCE
+        self.card_challenge = None
+        self.card_nonce = None
 
         self.lib_random = None
         self.lib_constant = None
@@ -77,17 +73,22 @@ class GemaltoCrypto(object):
 
         self.mac_counter = 0
 
-    def parse_lib_cr_message(self, message):
-        ciphertext = message[5:-8]
-        mac = message[-8:]
+    def parse_card_challenge(self, response):
+        self.card_challenge = response[:-2]
+
+        logger.info("card challenge\n%s", to_hex_blocks(self.card_challenge))
+
+    def make_card_challenge(self):
+        return self.card_challenge + "\x90\x00"
+
+    def parse_lib_challenge(self, msg):
+        ciphertext = msg[5:-8]
+        mac = msg[-8:]
 
         mac_valid = mac_cr(ciphertext) == mac
         logger.info("MAC valid: %s", mac_valid)
 
-        return decrypt_cr(ciphertext)
-
-    def parse_lib_challenge(self, msg):
-        msg_data = self.parse_lib_cr_message(msg)
+        msg_data = decrypt_cr(ciphertext)
 
         self.lib_random = msg_data[:16]
         challenge = msg_data[16:24]
@@ -96,15 +97,30 @@ class GemaltoCrypto(object):
 
         logger.info("Challenge valid: %s", challenge == self.card_challenge)
 
-        logger.info("Established parameters:")
-        logger.info("card challenge\n%s", to_hex_blocks(self.card_challenge))
         logger.info("lib random\n%s", to_hex_blocks(self.lib_random))
         logger.info("lib constant\n%s", to_hex_blocks(self.lib_constant))
-
-        logger.info("card nonce\n%s", to_hex_blocks(self.card_nonce))
         logger.info("lib nonce\n%s", to_hex_blocks(self.lib_nonce))
 
-        self.calc_mac_params()
+    def parse_card_ch_response(self, msg):
+        ciphertext = msg[:-10]
+        mac = msg[-10:-2]
+
+        mac_valid = mac_cr(ciphertext) == mac
+        logger.info("MAC valid: %s", mac_valid)
+
+        msg_data = decrypt_cr(ciphertext)
+
+        params_valid = msg_data[:32] == self.card_challenge + \
+                                        self.lib_constant + self.lib_random
+        logger.info("Parameters valid: %s", params_valid)
+
+        self.card_nonce = msg_data[32:64]
+        logger.info("card nonce\n%s", to_hex_blocks(self.card_nonce))
+
+    def make_card_ch_response(self):
+        data = self.card_challenge + self.lib_constant + \
+               self.lib_random + self.card_nonce
+        return encrypt_cr(data) + mac_cr(data) + "\x90\x00"
 
     def calc_mac_params(self):
         self.xor_nonce = sxor(self.card_nonce, self.lib_nonce) + "\x00\x00\x00\x02"
@@ -115,26 +131,42 @@ class GemaltoCrypto(object):
 
         self.mac_counter = 0
 
-    def get_card_cr_response(self):
-        data = self.card_challenge + self.lib_constant + \
-               self.lib_random + self.card_nonce
-        return encrypt_cr(data) + mac_cr(data) + "\x90\x00"
-
-    def mac_message(self, header, data):
+    def mac_data(self, data, header=''):
         seed = self.card_challenge[4:8] + self.lib_random[4:7] + \
                chr((ord(self.lib_random[7]) + self.mac_counter) % 256)
         # not sure whether mod or carry to next byte
         return des_cbc_mac(self.digest, seed, data, header)
 
-    def check_mac_message(self, message):
+    def check_message_mac(self, msg):
         self.mac_counter += 1
 
-        if len(message) <= 5:
+        if len(msg) <= 5:
             return True
 
-        header = message[:4]
-        data = message[5:-10]
-        mac = message[-8:]
+        header = msg[:4]
+        data = msg[5:-10]
+        mac = msg[-8:]
 
-        calc_mac = self.mac_message(header, data)
+        calc_mac = self.mac_data(data, header)
+        logger.info("MAC valid: %s", calc_mac == mac)
         return calc_mac == mac
+
+    def check_response_mac(self, resp):
+        if len(resp) <= 2:
+            return True
+
+        data = resp[:-12]
+        mac = resp[-10:-2]
+
+        calc_mac = self.mac_data(data)
+        logger.info("MAC valid: %s", calc_mac == mac)
+        return calc_mac == mac
+
+    def make_message(self, data, header):
+        self.mac_counter += 1
+
+        rest = "\x8E\x08" + self.mac_data(data, header)
+        return header + str(len(rest)) + rest
+
+    def make_response(self, data, ret):
+        return data + "\x8E\x08" + self.mac_data(data) + ret

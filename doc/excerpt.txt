@@ -1,0 +1,46 @@
+User command       5 bytes: 84     UPDATE PSAM Parameter (offline) Modify the parameters in the PSAM (offline).
+0000:  80 84 00 00 08                                   .....
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  C9 93 6F E0 48 29 B5 43 90 00                    ..o.H).C..
+
+User command      77 bytes: 82     UPDATE PSAM Parameter (online) Modify the parameters in the PSAM (online).
+0000:  80 82 00 00 48 10 49 F7 E3 08 0A 93 D1 B5 E6 20  ....H.I........
+0010:  AF 68 1A 7E 5E 78 5C 50 5D 52 BD 2C E9 2C CB 64  .h.~^x\P]R.,.,.d
+0020:  BE 8F DD 17 C2 EC 5B 70 59 6C 9E ED 01 84 67 B9  ......[pYl....g.
+0030:  54 EA 68 1D 08 A2 0A D0 A0 FC 22 2E 9E 47 E8 FC  T.h......."..G..
+0040:  7C EF 9F CB 57 2F 5B 26 09 90 68 B8 9E           |...W/[&..h..
+
+Response           2 bytes: 61 48  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 48                                            aH
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  80 C0 00 00 48                                   ....H
+
+Response          74 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  BD 23 61 C3 DE 90 C4 88 89 CD B0 99 BA 50 23 90  .#a..........P#.
+0010:  9D B5 A3 97 98 14 92 59 19 CC 91 BB 6A A0 7F C2  .......Y....j...
+0020:  8A C3 78 99 6F DE FD 4B 4A B8 66 86 F9 FF 57 CC  ..x.o..KJ.f...W.
+0030:  F2 9D 30 C4 0B 42 5D 51 E7 FB 6D 74 95 D7 FA CF  ..0..B]Q..mt....
+0040:  1C DE 4C 98 19 8A 20 0A 90 00                    ..L... ...
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      49 bytes: D6     UPDATE BINARY Updates part of a binary file.
+0000:  0C D6 00 00 2C 81 20 2E 32 30 37 5A 00 32 37 30  ....,. .207Z.270
+0010:  39 33 31 34 35 00 00 00 00 00 00 00 00 00 00 00  93145...........
+0020:  00 00 00 00 00 00 00 8E 08 30 CF B2 A8 4C 19 A2  .........0...L..
+0030:  AF                                               .
+
+Response           2 bytes: 61 0E  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 0E                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  0C C0 00 00 0E                                   .....
+
+Response          16 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  99 02 90 00 8E 08 EA 65 1F 43 05 A5 E0 D3 90 00  .......e.C......

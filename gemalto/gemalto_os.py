@@ -4,21 +4,18 @@ from virtualsmartcard.VirtualSmartcard import SmartcardOS
 
 from util import from_hex
 from .msg_crypto import GemaltoCrypto
+from .resp_codes import Resp
 
 
 logger = logging.getLogger(__name__)
-
-RESP_FILE_NOT_FOUND = from_hex("6A 82")
-
-RESP_SUCCESS = from_hex("90 00")
-RESP_SUCCESS_FILE_INFO_AVAILABLE = from_hex("61 15")
-RESP_WRONG_LENGTH = from_hex("67 00")
 
 
 class GemaltoOS(SmartcardOS):
     def __init__(self):
         self.file = None
         self.crypto = GemaltoCrypto()
+        self.crypto.card_challenge = from_hex("00 11 22 33 44 55 66 77")
+        self.crypto.card_nonce = "".join(chr(i) for i in range(32))
 
     def powerDown(self):
         pass
@@ -32,9 +29,9 @@ class GemaltoOS(SmartcardOS):
     def execute(self, msg):
         # SELECT FILE AID
         if msg == from_hex("00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42 00"):
-            return RESP_FILE_NOT_FOUND
+            return Resp.FILE_NOT_FOUND
         if msg == from_hex("00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42 00"):
-            return RESP_SUCCESS
+            return Resp.SUCCESS
 
         # GET DATA
         if msg == from_hex("00 CA 9F 7F 2D"):
@@ -51,10 +48,10 @@ class GemaltoOS(SmartcardOS):
         # SELECT FILE
         if msg == from_hex("00 A4 08 0C 02 2F 00"):
             self.file = from_hex("2F 00")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 02 2F 00"):
             self.file = from_hex("2F 00")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("2F 00") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 00 17 82 01 01 83 02 2F 00 8A 01 05
@@ -63,10 +60,10 @@ class GemaltoOS(SmartcardOS):
 
         if msg == from_hex("00 A4 08 0C 04 50 00 50 31"):
             self.file = from_hex("50 00 50 31")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 04 50 00 50 31"):
             self.file = from_hex("50 00 50 31")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("50 00 50 31") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 00 54 82 01 01 83 02 50 31 8A 01 05
@@ -75,10 +72,10 @@ class GemaltoOS(SmartcardOS):
 
         if msg == from_hex("00 A4 08 0C 04 50 00 50 06"):
             self.file = from_hex("50 00 50 06")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 04 50 00 50 06"):
             self.file = from_hex("50 00 50 06")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("50 00 50 06") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 00 C0 82 01 01 83 02 50 06 8A 01 05
@@ -88,10 +85,10 @@ class GemaltoOS(SmartcardOS):
 
         if msg == from_hex("00 A4 08 0C 04 50 00 50 32"):
             self.file = from_hex("50 00 50 32")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 04 50 00 50 32"):
             self.file = from_hex("50 00 50 32")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("50 00 50 32") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 00 2B 82 01 01 83 02 50 32 8A 01 05
@@ -100,10 +97,10 @@ class GemaltoOS(SmartcardOS):
 
         if msg == from_hex("00 A4 08 0C 04 50 00 50 33"):
             self.file = from_hex("50 00 50 33")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 04 50 00 50 33"):
             self.file = from_hex("50 00 50 33")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("50 00 50 33") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 06 00 82 01 01 83 02 50 33 8A 01 05
@@ -112,10 +109,10 @@ class GemaltoOS(SmartcardOS):
 
         if msg == from_hex("00 A4 08 0C 02 00 01"):
             self.file = from_hex("00 01")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 02 00 01"):
             self.file = from_hex("00 02 00 01")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("00 02 00 01") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 00 08 82 01 01 83 02 00 01 8A 01 05
@@ -124,10 +121,10 @@ class GemaltoOS(SmartcardOS):
 
         if msg == from_hex("00 A4 08 0C 02 00 02"):
             self.file = from_hex("00 02")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 02 00 02"):
             self.file = from_hex("00 02")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("00 02") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 00 20 82 01 01 83 02 00 02 8A 01 05
@@ -135,14 +132,14 @@ class GemaltoOS(SmartcardOS):
             """)
 
         if msg == from_hex("00 A4 02 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"):
-            return RESP_WRONG_LENGTH
+            return Resp.WRONG_LENGTH
 
         if msg == from_hex("00 A4 08 0C 04 50 00 50 34"):
             self.file = from_hex("50 00 50 34")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 04 50 00 50 34"):
             self.file = from_hex("50 00 50 34")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("50 00 50 34") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 03 A4 82 01 01 83 02 50 34 8A 01 05
@@ -151,10 +148,10 @@ class GemaltoOS(SmartcardOS):
 
         if msg == from_hex("00 A4 08 0C 04 50 00 50 02"):
             self.file = from_hex("50 00 50 02")
-            return RESP_SUCCESS
+            return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 04 50 00 50 02"):
             self.file = from_hex("50 00 50 02")
-            return RESP_SUCCESS_FILE_INFO_AVAILABLE
+            return Resp.SUCCESS_FILE_INFO_AVAILABLE
         if self.file == from_hex("50 00 50 02") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 06 00 82 01 01 83 02 50 02 8A 01 05
@@ -395,33 +392,34 @@ class GemaltoOS(SmartcardOS):
         if msg == from_hex("00 20 00 82 00"):
             return from_hex("63 C3")
         if msg == from_hex("00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00 00 00 00 00 00"):
-            return RESP_SUCCESS
+            return Resp.SUCCESS
 
         # MANAGE SECURITY ENVIRONMENT
         if msg == from_hex("00 22 41 A4 06 83 01 01 95 01 80"):
-            return RESP_SUCCESS
+            return Resp.SUCCESS
 
         # Sending challenge
         if msg == from_hex("80 84 00 00 08"):
-            return self.crypto.card_challenge + RESP_SUCCESS
+            return self.crypto.make_card_challenge()
 
         # Responding to challenge
         if msg.startswith(from_hex("80 82 00 00 48")):
             self.crypto.parse_lib_challenge(msg)
+            self.crypto.calc_mac_params()
             return from_hex("61 48")
 
         if self.crypto.lib_nonce and msg == from_hex("80 C0 00 00 48"):
-            return self.crypto.get_card_cr_response()
+            return self.crypto.make_card_ch_response()
 
         # MAC verification for class 0C
         if msg[0] == "\x0C":
-            logger.info("MAC valid: %s", self.crypto.check_mac_message(msg))
+            self.crypto.check_message_mac(msg)
 
         if self.file == from_hex("00 02"):
             if msg.startswith(from_hex("0C D6 00 00 2C")):
                 return from_hex("61 0E")
             if msg == from_hex("0C C0 00 00 0E"):
-                return from_hex("99 02 90     00 8E   08 EA 65 1F 43 05 A5 E0 D3    90 00")  # this is mac'ed, and not with correct session key
+                return self.crypto.make_response(from_hex("99 02 90 00"), Resp.SUCCESS)
 
         if self.file == from_hex("50 00 50 02"):
             if msg.startswith(from_hex("0C D6 00 00 30")):
