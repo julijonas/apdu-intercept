@@ -148,7 +148,7 @@ class GemaltoCrypto(object):
         mac = msg[-8:]
 
         calc_mac = self.mac_data(data, header)
-        logger.info("MAC valid: %s", calc_mac == mac)
+        logger.info("Message MAC valid: %s", calc_mac == mac)
         return calc_mac == mac
 
     def check_response_mac(self, resp):
@@ -159,7 +159,7 @@ class GemaltoCrypto(object):
         mac = resp[-10:-2]
 
         calc_mac = self.mac_data(data)
-        logger.info("MAC valid: %s", calc_mac == mac)
+        logger.info("Response MAC valid: %s", calc_mac == mac)
         return calc_mac == mac
 
     def make_message(self, data, header):

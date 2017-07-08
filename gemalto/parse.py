@@ -3,7 +3,7 @@ import logging
 import sys
 
 from util import from_hex
-from gemalto.msg_crypto import GemaltoCrypto
+from gemalto.crypto import GemaltoCrypto
 
 
 logging.basicConfig(level=logging.DEBUG, format=None, stream=sys.stdout)

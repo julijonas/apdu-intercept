@@ -2,10 +2,9 @@ import logging
 
 from virtualsmartcard.VirtualSmartcard import SmartcardOS
 
+from resp_codes import Resp
 from util import from_hex
-from .msg_crypto import GemaltoCrypto
-from .resp_codes import Resp
-
+from .crypto import GemaltoCrypto
 
 logger = logging.getLogger(__name__)
 

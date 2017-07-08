@@ -1,12 +1,9 @@
-import socket
-import sys
 import logging
+import sys
 import atexit
+import socket
 import struct
 import errno
-
-from gemalto.gemalto_os import GemaltoOS
-from apdu_printer import APDUPrinter
 
 
 _Csizeof_short = len(struct.pack('h', 0))
@@ -18,12 +15,20 @@ VPCD_CTRL_RESET = 2
 VPCD_CTRL_ATR = 4
 
 
+class VirtualCard(object):
+    """
+    This class is responsible for maintaining the communication of the virtual
+    PCD and the emulated smartcard. vpicc and vpcd communicate via a socket.
+    The vpcd sends command APDUs (which it receives from an application) to the
+    vicc. The vicc passes these CAPDUs on to an emulated smartcard, which
+    produces a response APDU. This RAPDU is then passed back by the vicc to
+    the vpcd, which forwards it to the application.
+    """
 
-class SimulatedGemaltoCard(object):
-    def __init__(self, host, port):
+    def __init__(self, host, port, os, attack):
 
-        self.os = GemaltoOS()
-        self.printer = APDUPrinter()
+        self.os = os
+        self.attack = attack
 
         # Connect to the VPCD
         self.host = host
@@ -141,22 +146,10 @@ class SimulatedGemaltoCard(object):
                     logging.warning("Expected %u bytes, but received only %u",
                                     size, len(msg))
 
-                self.printer.show_command(msg, 'User command')
-                answer = self.os.execute(msg)
-                self.printer.show_response(answer, 'Response')
+                answer = self.attack.user_execute(msg)
                 self.__sendToVPICC(answer)
 
     def stop(self):
         self.sock.close()
         if self.server_sock:
             self.server_sock.close()
-
-
-if __name__ == '__main__':
-    logger = logging.getLogger()
-    logger.addHandler(logging.StreamHandler(sys.stdout))
-    logger.setLevel(logging.DEBUG)
-
-
-    card = SimulatedGemaltoCard('localhost', 35963)
-    card.run()

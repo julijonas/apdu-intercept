@@ -2,7 +2,7 @@ import logging
 import sys
 
 from util import from_hex, to_hex_blocks
-from msg_crypto import GemaltoCrypto, mac_cr, decrypt_cr
+from .crypto import GemaltoCrypto, mac_cr, decrypt_cr
 
 
 def test_challenge_response():
