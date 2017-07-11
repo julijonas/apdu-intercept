@@ -101,6 +101,12 @@ class GemaltoCrypto(object):
         logger.info("lib constant\n%s", to_hex_blocks(self.lib_constant))
         logger.info("lib nonce\n%s", to_hex_blocks(self.lib_nonce))
 
+    def make_lib_challenge(self):
+        data = self.lib_random + self.card_challenge + \
+               self.lib_constant + self.lib_nonce
+        ciphertext = encrypt_cr(data)
+        return "\x80\x82\x00\x00\x48" + ciphertext + mac_cr(ciphertext)
+
     def parse_card_ch_response(self, msg):
         ciphertext = msg[:-10]
         mac = msg[-10:-2]
@@ -120,7 +126,8 @@ class GemaltoCrypto(object):
     def make_card_ch_response(self):
         data = self.card_challenge + self.lib_constant + \
                self.lib_random + self.card_nonce
-        return encrypt_cr(data) + mac_cr(data) + "\x90\x00"
+        ciphertext = encrypt_cr(data)
+        return ciphertext + mac_cr(ciphertext) + "\x90\x00"
 
     def calc_mac_params(self):
         self.xor_nonce = sxor(self.card_nonce, self.lib_nonce) + "\x00\x00\x00\x02"
@@ -165,8 +172,8 @@ class GemaltoCrypto(object):
     def make_message(self, data, header):
         self.mac_counter += 1
 
-        rest = "\x8E\x08" + self.mac_data(data, header)
-        return header + str(len(rest)) + rest
+        rest = data + "\x8E\x08" + self.mac_data(data, header)
+        return header + chr(len(rest)) + rest
 
     def make_response(self, data, ret):
         return data + "\x8E\x08" + self.mac_data(data) + ret

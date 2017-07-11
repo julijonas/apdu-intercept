@@ -12,6 +12,7 @@ logger = logging.getLogger(__name__)
 class GemaltoOS(SmartcardOS):
     def __init__(self):
         self.file = None
+        self.data_tag = None
         self.crypto = GemaltoCrypto()
         self.crypto.card_challenge = from_hex("00 11 22 33 44 55 66 77")
         self.crypto.card_nonce = "".join(chr(i) for i in range(32))
@@ -420,9 +421,33 @@ class GemaltoOS(SmartcardOS):
             if msg == from_hex("0C C0 00 00 0E"):
                 return self.crypto.make_response(from_hex("99 02 90 00"), Resp.SUCCESS)
 
-        if self.file == from_hex("50 00 50 02"):
-            if msg.startswith(from_hex("0C D6 00 00 30")):
-                pass
+        # if self.file == from_hex("50 00 50 02"):
+        #     if msg.startswith(from_hex("0C D6 00 00 30")):
+        #         pass
+
+        # if msg.startswith(from_hex("0C CB 00 FF 16 81 0A B6 03 83 01")): #  0C 7F 49 02 81 00 8E 08 30 29 18 19 0A 2B 32 B4
+        #     self.data_tag == msg[11] + msg[15]
+        #     if msg[15] == '\x81':
+        #         return from_hex("61 9B")
+        #     if msg[15] == '\x82':
+        #         return from_hex("61 11")
+        # if self.data_tag and msg == from_hex("00 C0 00 00 8E"):
+        #     return from_hex('''
+        #     81 81 8E B6 03 83 01 ''' + self.data_tag[0] + ''' 7F 49 82 00 84 81 82 00
+        #     80 93 FE 70 51 AE DE F6 E4 AC 52 36 B7 B6 F1 3F
+        #     90 4C 2B 9B EA 81 2C 32 67 E3 DF 6E F6 A3 BF 87
+        #     F9 CD E4 27 C8 01 61 CC 61 A6 CB 2F 21 67 5E B8
+        #     46 BB 98 F9 54 06 B4 05 4B 2A 2C C1 F3 3E 1D A2
+        #     38 BB 0B E9 A6 38 46 CE D0 1B 01 B9 3C 53 37 10
+        #     79 42 3B 9D 66 B7 00 0E F2 AB 8A 0A 04 DD 72 3D
+        #     B1 86 4C 64 CE 96 18 8B 68 E7 66 A6 1A 3E 96 C7
+        #     DC 08 71 EA 09 D6 73 73 3E D2 A9 F2 2E 03 A9 76
+        #     1F 8E 08 E1 47 93 FF D8 18 E2 27 90 00
+        #     ''')
+        # if self.data_tag and msg == from_hex("00 ")
+
+
+
 
 
 
