@@ -1,5 +1,6 @@
 import binascii
 import string
+import struct
 
 
 def from_hex(line):
@@ -20,6 +21,14 @@ def sxor(s1, s2):
 
 def str_to_int(s):
     return int(s.encode('hex'), 16)
+
+
+def str8_to_int(s):
+    return struct.unpack('>Q', s)[0]
+
+
+def int_to_str8(i):
+    return struct.pack('>Q', i)
 
 
 PRINTABLE_CHARS = " " + string.letters + string.digits + string.punctuation

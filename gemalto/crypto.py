@@ -4,7 +4,7 @@ import logging
 from Crypto.Cipher import DES, DES3
 from Crypto.Hash import SHA
 
-from util import from_hex, to_hex_blocks, sxor
+from util import from_hex, to_hex_blocks, sxor, str8_to_int, int_to_str8
 
 
 logger = logging.getLogger(__name__)
@@ -139,9 +139,8 @@ class GemaltoCrypto(object):
         self.mac_counter = 0
 
     def mac_data(self, data, header=''):
-        seed = self.card_challenge[4:8] + self.lib_random[4:7] + \
-               chr((ord(self.lib_random[7]) + self.mac_counter) % 256)
-        # not sure whether mod or carry to next byte
+        init = self.card_challenge[4:8] + self.lib_random[4:8]
+        seed = int_to_str8(str8_to_int(init) + self.mac_counter)
         return des_cbc_mac(self.digest, seed, data, header)
 
     def check_message_mac(self, msg):
