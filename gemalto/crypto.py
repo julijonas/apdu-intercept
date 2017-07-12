@@ -145,6 +145,7 @@ class GemaltoCrypto(object):
 
     def check_message_mac(self, msg):
         self.mac_counter += 1
+        logger.info("MAC counter: %d", self.mac_counter)
 
         if len(msg) <= 5:
             return True
@@ -170,6 +171,7 @@ class GemaltoCrypto(object):
 
     def make_message(self, data, header):
         self.mac_counter += 1
+        logger.info("MAC counter: %d", self.mac_counter)
 
         rest = data + "\x8E\x08" + self.mac_data(data, header)
         return header + chr(len(rest)) + rest

@@ -421,9 +421,11 @@ class GemaltoOS(SmartcardOS):
             if msg == from_hex("0C C0 00 00 0E"):
                 return self.crypto.make_response(from_hex("99 02 90 00"), Resp.SUCCESS)
 
-        # if self.file == from_hex("50 00 50 02"):
-        #     if msg.startswith(from_hex("0C D6 00 00 30")):
-        #         pass
+        if self.file == from_hex("50 00 50 02"):
+            if msg.startswith(from_hex("0C D6 00 00 30")):  # UPDATE BINARY
+                return from_hex("61 0E")
+            if msg == from_hex("0C C0 00 00 0E"):
+                return self.crypto.make_response(from_hex("99 02 90 00"), Resp.SUCCESS)
 
         # if msg.startswith(from_hex("0C CB 00 FF 16 81 0A B6 03 83 01")): #  0C 7F 49 02 81 00 8E 08 30 29 18 19 0A 2B 32 B4
         #     self.data_tag == msg[11] + msg[15]
