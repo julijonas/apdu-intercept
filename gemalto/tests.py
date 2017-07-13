@@ -3,7 +3,47 @@ import sys
 import os
 
 from util import from_hex, to_hex_blocks
-from .crypto import GemaltoCrypto, mac_cr, decrypt_cr
+from .crypto import GemaltoCrypto
+
+
+def test_cr_keys():
+    c = GemaltoCrypto()
+
+    CR_CARD_IDENTIFIER_CARD1 = from_hex('30 40 00 1A 66 83 29 71')
+
+    CR_MAC_KEY_CARD1 = from_hex("""
+    4d 81 a4 2f 34 fd 05 7c
+    44 43 6c 1b 45 1f b3 b5
+    """)
+
+    CR_DES3_KEY_CARD1 = from_hex('''
+    13 36 b7 d5 58 16 29 b9
+    21 8d 6e f7 eb a8 ff 45
+    ''')
+
+    c.card_identifier = CR_CARD_IDENTIFIER_CARD1
+    c.calc_cr_params()
+
+    assert c.cr_mac_key == CR_MAC_KEY_CARD1
+    assert c.cr_des3_key == CR_DES3_KEY_CARD1
+
+    CR_CARD_IDENTIFIER_CARD2 = from_hex("30 40 00 19 67 C3 29 71")
+
+    CR_MAC_KEY_CARD2 = from_hex('''
+    0x82  0x5c    0x73 0xf5 0x38 0xf4 0xd4 0x23
+    0x00  0x5b    0xa9 0x14 0x0c 0x7e 0x07 0x6a
+    ''')
+
+    CR_DES3_KEY_CARD2 = from_hex('''
+    0x0d  0x15    0x33 0x8e 0x7e 0xce 0xef 0x89
+    0x88  0x1b    0xec 0x86 0xa7 0x78 0xe9 0x78
+    ''')
+
+    c.card_identifier = CR_CARD_IDENTIFIER_CARD2
+    c.calc_cr_params()
+
+    assert c.cr_mac_key == CR_MAC_KEY_CARD2
+    assert c.cr_des3_key == CR_DES3_KEY_CARD2
 
 
 def test_challenge_response():
@@ -25,19 +65,23 @@ def test_challenge_response():
     34 92 28 9D 81 01 78 E6 90 00
     ''')
 
+    c = GemaltoCrypto()
+    c.card_identifier = from_hex('30 40 00 1A 66 83 29 71')
+    c.calc_cr_params()
+
     lib_encr = lib_msg[5:-8]
     lib_mac = lib_msg[-8:]
     card_encr = card_msg[:-10]
     card_mac = card_msg[-10:-2]
 
-    lib_decr = decrypt_cr(lib_encr)
-    card_decr = decrypt_cr(card_encr)
+    lib_decr = c.decrypt_cr(lib_encr)
+    card_decr = c.decrypt_cr(card_encr)
 
     logger.info("lib decr\n%s", to_hex_blocks(lib_decr))
     logger.info("card decr\n%s", to_hex_blocks(card_decr))
 
-    lib_mac_calc = mac_cr(lib_encr)
-    card_mac_calc = mac_cr(card_encr)
+    lib_mac_calc = c.mac_cr(lib_encr)
+    card_mac_calc = c.mac_cr(card_encr)
 
     assert challenge == lib_decr[16:24]
     assert challenge == card_decr[:8]
@@ -120,6 +164,7 @@ def test_second_mac_message():
 
 def test_parse_challenge_response():
     crypto = GemaltoCrypto()
+    crypto.parse_card_identifier(from_hex('30 40 00 1A 66 83 29 71 90 00'))
 
     crypto.parse_card_challenge(from_hex('''
     C9 93 6F E0 48 29 B5 43 90 00
@@ -155,6 +200,9 @@ def test_parse_challenge_response():
 
 def test_challenge_response_make():
     c = GemaltoCrypto()
+    c.card_identifier = os.urandom(8)
+    c.calc_cr_params()
+
     c.card_challenge = os.urandom(8)
     c.card_nonce = os.urandom(32)
     c.lib_nonce = os.urandom(32)
@@ -185,6 +233,7 @@ if __name__ == '__main__':
     logger.addHandler(logging.StreamHandler(sys.stdout))
     logger.setLevel(logging.DEBUG)
 
+    test_cr_keys()
     test_challenge_response()
     test_mac_message()
     test_second_mac_message()

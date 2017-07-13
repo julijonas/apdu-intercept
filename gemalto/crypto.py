@@ -1,7 +1,7 @@
 from __future__ import print_function
 import logging
 
-from Crypto.Cipher import DES, DES3
+from Crypto.Cipher import AES, DES, DES3
 from Crypto.Hash import SHA
 
 from util import from_hex, to_hex_blocks, sxor, str8_to_int, int_to_str8
@@ -10,15 +10,20 @@ from util import from_hex, to_hex_blocks, sxor, str8_to_int, int_to_str8
 logger = logging.getLogger(__name__)
 
 
-CR_MAC_KEY = from_hex("""
-4d 81 a4 2f 34 fd 05 7c
-44 43 6c 1b 45 1f b3 b5
+AES_KEY = "Yy32echR8gWImxqKKqxmIWg8Rhce23yY"
+
+AES_PLAINTEXT = from_hex("""
+58 dc e2 03 c6 63 d1 ac
+42 a0 e9 8e 70 32 a9 18
+71 47 79 06 c5 6f 8b 76
+41 f6 b8 be d1 20 f4 6a
 """)
 
-CR_DES3_KEY = from_hex('''
-13 36 b7 d5 58 16 29 b9  
-21 8d 6e f7 eb a8 ff 45  
-''')
+AES_IV = from_hex("""
+c2 fd fa 6b 6f b4 87 38
+07 89 10 40 6e d7 fa 2a
+""")
+
 
 CR_MAC_SEED = '\x00' * 8
 CR_DES3_IV = '\x00' * 8
@@ -47,20 +52,14 @@ def des_cbc_mac(key, seed, data, header=''):
     return cipher.encrypt(xor)
 
 
-def mac_cr(message):
-    return des_cbc_mac(CR_MAC_KEY, CR_MAC_SEED, message)
-
-
-def encrypt_cr(plaintext):
-    return DES3.new(CR_DES3_KEY, DES3.MODE_CBC, CR_DES3_IV).encrypt(plaintext)
-
-
-def decrypt_cr(ciphertext):
-    return DES3.new(CR_DES3_KEY, DES3.MODE_CBC, CR_DES3_IV).decrypt(ciphertext)
-
-
 class GemaltoCrypto(object):
     def __init__(self):
+        self.static_key = None
+        self.card_identifier = None
+
+        self.cr_des3_key = None
+        self.cr_mac_key = None
+        
         self.card_challenge = None
         self.card_nonce = None
 
@@ -73,8 +72,42 @@ class GemaltoCrypto(object):
 
         self.mac_counter = 0
 
-    def parse_card_challenge(self, response):
-        self.card_challenge = response[:-2]
+        self.initialize_static_key()
+        
+    def initialize_static_key(self):
+        cipher = AES.new(AES_KEY, AES.MODE_CBC, AES_IV)
+        self.static_key = cipher.decrypt(AES_PLAINTEXT)[:16]
+        
+    def parse_card_identifier(self, resp):
+        self.card_identifier = resp[:-2]
+        self.calc_cr_params()
+
+    def make_card_identifier(self):
+        return self.card_identifier + "\x90\x00"
+
+    def calc_cr_params(self):
+        card_identifier_rev = self.card_identifier[::-1]
+
+        cipher1 = DES3.new(self.static_key, DES3.MODE_ECB)
+        cipher2 = DES3.new(self.static_key[8:16] + self.static_key[:8], DES3.MODE_ECB)
+
+        self.cr_des3_key = cipher1.encrypt(self.card_identifier) + cipher2.encrypt(self.card_identifier)
+        self.cr_mac_key = cipher1.encrypt(card_identifier_rev) + cipher2.encrypt(card_identifier_rev)
+
+        logger.info("cr des3 key\n%s", to_hex_blocks(self.cr_des3_key))
+        logger.info("cr mac key\n%s", to_hex_blocks(self.cr_mac_key))
+
+    def mac_cr(self, message):
+        return des_cbc_mac(self.cr_mac_key, CR_MAC_SEED, message)
+
+    def encrypt_cr(self, plaintext):
+        return DES3.new(self.cr_des3_key, DES3.MODE_CBC, CR_DES3_IV).encrypt(plaintext)
+
+    def decrypt_cr(self, ciphertext):
+        return DES3.new(self.cr_des3_key, DES3.MODE_CBC, CR_DES3_IV).decrypt(ciphertext)
+
+    def parse_card_challenge(self, resp):
+        self.card_challenge = resp[:-2]
 
         logger.info("card challenge\n%s", to_hex_blocks(self.card_challenge))
 
@@ -85,10 +118,10 @@ class GemaltoCrypto(object):
         ciphertext = msg[5:-8]
         mac = msg[-8:]
 
-        mac_valid = mac_cr(ciphertext) == mac
+        mac_valid = self.mac_cr(ciphertext) == mac
         logger.info("MAC valid: %s", mac_valid)
 
-        msg_data = decrypt_cr(ciphertext)
+        msg_data = self.decrypt_cr(ciphertext)
 
         self.lib_random = msg_data[:16]
         challenge = msg_data[16:24]
@@ -104,17 +137,17 @@ class GemaltoCrypto(object):
     def make_lib_challenge(self):
         data = self.lib_random + self.card_challenge + \
                self.lib_constant + self.lib_nonce
-        ciphertext = encrypt_cr(data)
-        return "\x80\x82\x00\x00\x48" + ciphertext + mac_cr(ciphertext)
+        ciphertext = self.encrypt_cr(data)
+        return "\x80\x82\x00\x00\x48" + ciphertext + self.mac_cr(ciphertext)
 
     def parse_card_ch_response(self, msg):
         ciphertext = msg[:-10]
         mac = msg[-10:-2]
 
-        mac_valid = mac_cr(ciphertext) == mac
+        mac_valid = self.mac_cr(ciphertext) == mac
         logger.info("MAC valid: %s", mac_valid)
 
-        msg_data = decrypt_cr(ciphertext)
+        msg_data = self.decrypt_cr(ciphertext)
 
         params_valid = msg_data[:32] == self.card_challenge + \
                                         self.lib_constant + self.lib_random
@@ -126,8 +159,8 @@ class GemaltoCrypto(object):
     def make_card_ch_response(self):
         data = self.card_challenge + self.lib_constant + \
                self.lib_random + self.card_nonce
-        ciphertext = encrypt_cr(data)
-        return ciphertext + mac_cr(ciphertext) + "\x90\x00"
+        ciphertext = self.encrypt_cr(data)
+        return ciphertext + self.mac_cr(ciphertext) + "\x90\x00"
 
     def calc_mac_params(self):
         self.xor_nonce = sxor(self.card_nonce, self.lib_nonce) + "\x00\x00\x00\x02"

@@ -13,7 +13,14 @@ class GemaltoOS(SmartcardOS):
     def __init__(self):
         self.file = None
         self.data_tag = None
+
         self.crypto = GemaltoCrypto()
+
+        self.crypto.card_identifier = from_hex("00 11 22 33 44 55 66 77")
+        "30 40 00 1A 66 83 29 71 90 00"  # card 1
+        "30 40 00 19 67 C3 29 71 90 00"  # card 2
+        self.crypto.calc_cr_params()
+
         self.crypto.card_challenge = from_hex("00 11 22 33 44 55 66 77")
         self.crypto.card_nonce = "".join(chr(i) for i in range(32))
 
@@ -35,9 +42,11 @@ class GemaltoOS(SmartcardOS):
 
         # GET DATA
         if msg == from_hex("00 CA 9F 7F 2D"):
+            x = "AF 04" # card1
+            # x = "B5 6A" # card2
             return from_hex("""
             9F 7F 2A 47 90 50 81 12 91 11 02 02 01 22 34 00
-            00 AF 04 E3 A9 40 82 30 23 12 93 30 23 20 05 30
+            00 """+x+""" E3 A9 40 82 30 23 12 93 30 23 20 05 30
             23 00 00 00 14 00 00 00 00 00 00 00 00 90 00
             """)
         if msg == from_hex("00 CA DF 30"):
@@ -111,9 +120,9 @@ class GemaltoOS(SmartcardOS):
             self.file = from_hex("00 01")
             return Resp.SUCCESS
         if msg == from_hex("00 A4 08 00 02 00 01"):
-            self.file = from_hex("00 02 00 01")
+            self.file = from_hex("00 01")
             return Resp.SUCCESS_FILE_INFO_AVAILABLE
-        if self.file == from_hex("00 02 00 01") and msg == from_hex("00 C0 00 00 15"):
+        if self.file == from_hex("00 01") and msg == from_hex("00 C0 00 00 15"):
             return from_hex("""
             6F 13 81 02 00 08 82 01 01 83 02 00 01 8A 01 05
             8C 03 03 FF 00 90 00
@@ -161,7 +170,7 @@ class GemaltoOS(SmartcardOS):
 
         # READ BINARY
         if msg == from_hex("00 B0 00 00 08") and self.file == from_hex("00 01"):
-            return from_hex("30 40 00 1A 66 83 29 71 90 00")
+            return self.crypto.make_card_identifier()
 
         if msg == from_hex("00 B0 00 00 20") and self.file == from_hex("00 02"):
             return magic("30 30 30 5A 00 30 30 30 30 30 30 30 30")
@@ -204,8 +213,10 @@ class GemaltoOS(SmartcardOS):
             ''')
 
         if msg == from_hex("00 B0 00 00 2B") and self.file == from_hex("50 00 50 32"):
+            x = "1A 66 83" # card1
+            # x = "19 67 C3" # card2
             return from_hex('''
-            30 29 02 01 01 04 08 30 40 00 1A 66 83 29 71 0C
+            30 29 02 01 01 04 08 30 40 00 '''+x+'''29 71 0C
             0C 47 65 6D 61 6C 74 6F 20 53 2E 41 2E 80 08 47
             65 6D 50 31 35 2D 31 03 02 05 60 90 00
             ''')
