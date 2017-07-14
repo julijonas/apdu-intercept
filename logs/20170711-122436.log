@@ -1,0 +1,135 @@
+Launched virtual smart card os=relay attack=intercept
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+
+User command      11 bytes: 22     MANAGE SECURITY ENVIRONMENT Sets or replaces one component of the current SE.
+0000:  00 22 41 A4 06 83 01 01 95 01 80                 ."A........
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: 84     UPDATE PSAM Parameter (offline) Modify the parameters in the PSAM (offline).
+0000:  80 84 00 00 08                                   .....
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF EE 3C 5C 9E 65 13 65 90 00                    ..<\.e.e..
+
+User command      77 bytes: 82     UPDATE PSAM Parameter (online) Modify the parameters in the PSAM (online).
+0000:  80 82 00 00 48 6F 64 EF F8 EA 7E 70 39 2C 4B 2F  ....Hod...~p9,K/
+0010:  A6 52 4D 3E A8 88 E2 8F 36 5E 05 6C FA 50 E7 64  .RM>....6^.l.P.d
+0020:  30 4A CB A6 DB 3B BC E7 F7 B8 A6 6F 5F 4E 69 4A  0J...;.....o_NiJ
+0030:  0C 98 B0 B8 A5 13 D4 F3 65 25 15 3C B8 EA 70 32  ........e%.<..p2
+0040:  94 8C 93 62 B5 D8 6E F3 08 E5 EB 3B 77           ...b..n....;w
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+
+User command      11 bytes: 22     MANAGE SECURITY ENVIRONMENT Sets or replaces one component of the current SE.
+0000:  00 22 41 A4 06 83 01 01 95 01 80                 ."A........
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: 84     UPDATE PSAM Parameter (offline) Modify the parameters in the PSAM (offline).
+0000:  80 84 00 00 08                                   .....
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  34 2E 2C 49 E6 95 FB 3E 90 00                    4.,I...>..
+
+User command      77 bytes: 82     UPDATE PSAM Parameter (online) Modify the parameters in the PSAM (online).
+0000:  80 82 00 00 48 6F 64 EF F8 EA 7E 70 39 2C 4B 2F  ....Hod...~p9,K/
+0010:  A6 52 4D 3E A8 08 CF DF A5 96 CA 99 D7 71 62 41  .RM>.........qbA
+0020:  6B 83 D4 0E 4B 19 04 2E A0 AC 37 71 87 12 4D 2B  k...K.....7q..M+
+0030:  3D 6A C2 0B 9E CC EA B0 25 79 DD 84 6E C4 23 A5  =j......%y..n.#.
+0040:  F2 20 BA A4 04 30 BC AD 7D 1B A1 E8 9C           . ...0..}....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Power Down
+----------------------------------------------------------------------

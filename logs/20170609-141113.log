@@ -1,0 +1,15 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 14 7B 36 37 28 AD F1 30 90 00        |....{67(..0..
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 51 B6 C1 14 C3 6D BE 07 90 00        |...Q....m....

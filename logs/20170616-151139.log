@@ -1,0 +1,239 @@
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 00 03                             .......
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 2F 00                             ...../.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 04 04 FF                                   .....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 2F 02                             ...../.
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 2F 00                             ...../.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 03 04 FF                                   .....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command      20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 0F F0 45 73 74 45 49 44 20 76 65 72  ......EstEID ver
+0010:  20 31 2E 30                                       1.0
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      13 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 08 27 60 00 12 1F 00 00 01           .....'`......
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 2F 00                             ...../.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 FF                                   .....
+
+Response           2 bytes: 62 82  [W] End of file/record reached before reading Le bytes
+0000:  62 82                                            b.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 50 15                             .....P.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command      11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 06 3F 00 DF 00 50 32                 .....?...P2
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.

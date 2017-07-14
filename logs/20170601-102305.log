@@ -1,0 +1,66 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   5 bytes: F9     None       None
+0000:  00 F9 9A 00 00                                   .....
+
+Response 256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  30 82 02 44 30 82 01 2C A0 03 02 01 02 02 11 00  0..D0..,........
+0010:  E1 C3 6E 5C 05 D1 1A 13 2D B6 AF BE 19 03 00 49  ..n\....-......I
+0020:  30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30  0...*.H........0
+0030:  21 31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69  !1.0...U....Yubi
+0040:  63 6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69  co PIV Attestati
+0050:  6F 6E 30 20 17 0D 31 36 30 33 31 34 30 30 30 30  on0 ..1603140000
+0060:  30 30 5A 18 0F 32 30 35 32 30 34 31 37 30 30 30  00Z..20520417000
+0070:  30 30 30 5A 30 25 31 23 30 21 06 03 55 04 03 0C  000Z0%1#0!..U...
+0080:  1A 59 75 62 69 4B 65 79 20 50 49 56 20 41 74 74  .YubiKey PIV Att
+0090:  65 73 74 61 74 69 6F 6E 20 39 61 30 59 30 13 06  estation 9a0Y0..
+00a0:  07 2A 86 48 CE 3D 02 01 06 08 2A 86 48 CE 3D 03  .*.H.=....*.H.=.
+00b0:  01 07 03 42 00 04 33 0B A9 F0 10 A5 1A DA F3 2B  ...B..3........+
+00c0:  69 C9 ED E3 F0 36 0D 26 B1 98 63 5E E2 B4 31 2B  i....6.&..c^..1+
+00d0:  BE 53 8D D8 B8 94 F0 37 F8 1B F6 F9 EA A0 17 A2  .S.....7........
+00e0:  B8 38 92 22 0E 05 60 35 58 A7 74 0F CB 4F 9D ED  .8."..`5X.t..O..
+00f0:  BD 71 FD 74 25 8A A3 3C 30 3A 30 11 06 0A 61 FF  .q.t%..<0:0...a.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 256 bytes: 61 4C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  2B 06 01 04 01 82 C4 0A 03 03 04 03 04 03 04 30  +..............0
+0010:  13 06 0A 2B 06 01 04 01 82 C4 0A 03 07 04 05 02  ...+............
+0020:  03 52 82 5A 30 10 06 0A 2B 06 01 04 01 82 C4 0A  .R.Z0...+.......
+0030:  03 08 04 02 02 01 30 0D 06 09 2A 86 48 86 F7 0D  ......0...*.H...
+0040:  01 01 0B 05 00 03 82 01 01 00 1E 19 94 07 8D 39  ...............9
+0050:  0C 64 73 A8 01 75 40 C7 4C E1 2C 4A 31 B3 FB B2  .ds..u@.L.,J1...
+0060:  49 1F 7D 4C F0 9F 40 A0 65 07 2F A1 29 71 06 0D  I.}L..@.e./.)q..
+0070:  37 CE 53 27 7C 54 37 99 00 8D 46 A9 E8 28 E5 9D  7.S'|T7...F..(..
+0080:  98 68 30 06 1F CA 18 AC 25 75 9A 36 46 8E F9 70  .h0.....%u.6F..p
+0090:  73 D1 4B 5A BD F7 1E 5A D4 0E AE 56 CE 6B AB A2  s.KZ...Z...V.k..
+00a0:  DA A8 F8 E5 CC 4E 35 58 90 B7 86 7D D3 8A A4 6D  .....N5X...}...m
+00b0:  20 1B B9 79 20 7D 6E CC 0B EC 97 A8 2E 50 8A 6A   ..y }n......P.j
+00c0:  08 72 E9 C3 9A FC 97 22 1E E5 5A 59 15 72 43 D0  .r....."..ZY.rC.
+00d0:  CB 6F 20 A1 30 C7 39 FA 7A BA 67 D0 F5 A3 C5 F6  .o .0.9.z.g.....
+00e0:  9B E8 99 29 3D A5 0E 70 C6 69 C7 D4 83 83 AF CA  ...)=..p.i......
+00f0:  83 F7 8A 7A D9 AB 1C C2 E8 CB B9 37 04 69 61 4C  ...z.......7.iaL
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 78 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  A8 88 1B 68 D0 BA 81 A0 D5 3D 57 F9 00 78 AD CF  ...h.....=W..x..
+0010:  B8 E0 55 63 B7 42 3B 4D 3D A9 73 D6 C1 C9 CB D1  ..Uc.B;M=.s.....
+0020:  10 F1 8E 29 1A 1B D5 5D 3E B1 9F F4 57 10 DF 68  ...)...]>...W..h
+0030:  49 9E 68 53 AB 97 31 17 BA 0D B3 50 6C 04 F5 BD  I.hS..1....Pl...
+0040:  D7 93 4E EA 09 E1 33 3D BC B5 D0 42 90 00        ..N...3=...B..
+Reset
+Power Down

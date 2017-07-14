@@ -1,0 +1,59 @@
+Launched virtual smart card os=relay attack=intercept
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  01                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 62 83  [W] Selected file invalidated
+0000:  62 83                                            b.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 62 83  [W] Selected file invalidated
+0000:  62 83                                            b.
+
+User command       5 bytes: 44     REHABILITATE Unblock a file.
+0000:  A0 44 00 00 00                                   .D...
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 62 83  [W] Selected file invalidated
+0000:  62 83                                            b.
+
+User command      17 bytes: 44     REHABILITATE Unblock a file.
+0000:  A0 44 00 00 00 A0 00 00 00 18 0C 00 00 01 63 42  .D............cB
+0010:  00                                               .
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Power Down
+----------------------------------------------------------------------

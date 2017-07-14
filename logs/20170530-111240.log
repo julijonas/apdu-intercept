@@ -1,0 +1,478 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02                    ..?..\._..
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A7  hX!.B..!8B...4..
+0020:  5C EE 4E E4 BE 0D AB 38 99 79 49 AA 92 06 5C 35  \.N....8.yI...\5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02                    ..?..\._..
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A7  hX!.B..!8B...4..
+0020:  5C EE 4E E4 BE 0D AB 38 99 79 49 AA 92 06 5C 35  \.N....8.yI...\5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 07                    ..?..\._..
+
+Response 55 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 33 F0 15 A0 00 00 01 16 FF 02 8A 1A 8C E2 90  S3..............
+0010:  60 FE 62 1C EE DC E7 98 B8 F1 01 21 F2 01 21 F3  `.b........!..!.
+0020:  00 F4 01 00 F5 01 10 F6 00 F7 00 FA 00 FB 00 FC  ................
+0030:  00 FD 00 FE 00 90 00                             .......
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0B                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 01                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0D                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0E                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0F                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 10                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 11                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 12                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 13                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 14                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 15                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 16                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 17                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 18                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 19                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1B                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1C                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1D                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1E                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1F                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 20                    ..?..\._. 
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 00                                   . ...
+
+Response  2 bytes: 63 C3  [W] Verify fail, 3 tries left.
+0000:  63 C3                                            c.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   5 bytes: FD     None       None
+0000:  00 FD 00 00 00                                   .....
+
+Response  5 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  04 03 04 90 00                                   .....
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 78 5E E3 13 3F 42 BC 7D 90 00        |...x^..?B.}..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 AD ED 48 23 82 21 B4  .....|.....H#.!.
+0010:  5A 81 08 0F 1A 3C C3 4C 24 26 6C                 Z....<.L$&l
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 F4 F6 6D 15 43 2D 41 64 90 00        |.....m.C-Ad..
+
+Command  10 bytes: 47     GENERATE ASYMMETRIC KEY PAIR x
+0000:  00 47 00 9A 05 AC 03 80 01 11                    .G........
+
+Response 72 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7F 49 43 86 41 04 33 0B A9 F0 10 A5 1A DA F3 2B  .IC.A.3........+
+0010:  69 C9 ED E3 F0 36 0D 26 B1 98 63 5E E2 B4 31 2B  i....6.&..c^..1+
+0020:  BE 53 8D D8 B8 94 F0 37 F8 1B F6 F9 EA A0 17 A2  .S.....7........
+0030:  B8 38 92 22 0E 05 60 35 58 A7 74 0F CB 4F 9D ED  .8."..`5X.t..O..
+0040:  BD 71 FD 74 25 8A 90 00                          .q.t%...
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02                    ..?..\._..
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A7  hX!.B..!8B...4..
+0020:  5C EE 4E E4 BE 0D AB 38 99 79 49 AA 92 06 5C 35  \.N....8.yI...\5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 07                    ..?..\._..
+
+Response 55 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 33 F0 15 A0 00 00 01 16 FF 02 8A 1A 8C E2 90  S3..............
+0010:  60 FE 62 1C EE DC E7 98 B8 F1 01 21 F2 01 21 F3  `.b........!..!.
+0020:  00 F4 01 00 F5 01 10 F6 00 F7 00 FA 00 FB 00 FC  ................
+0030:  00 FD 00 FE 00 90 00                             .......
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0B                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 01                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0D                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0E                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0F                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 10                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 11                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 12                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 13                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 14                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 15                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 16                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 17                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 18                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 19                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1B                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1C                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1D                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1E                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1F                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 20                    ..?..\._. 
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 00                                   . ...
+
+Response  2 bytes: 63 C3  [W] Verify fail, 3 tries left.
+0000:  63 C3                                            c.
+Reset
+Power Down
+Error getting ATR: Failed to disconnect: Reader is unavailable.
+Error disconnecting from card: Failed to disconnect: Reader is unavailable.

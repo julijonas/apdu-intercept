@@ -1,0 +1,1587 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+User command      11 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 06 31 32 33 34 35 36                 . ...123456
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Reset
+Power Down
+Power Up
+
+User command      11 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 06 31 32 33 34 35 36                 . ...123456
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command      13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Power Down
+Power Up
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Power Down
+Power Up
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Power Down
+Error getting ATR: Failed to disconnect: Invalid value given.
+Error disconnecting from card: Failed to disconnect: Invalid value given.

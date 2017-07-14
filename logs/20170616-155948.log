@@ -1,0 +1,4061 @@
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+Power Down
+Power Up
+
+User command       7 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 12 02 34 56                             . ...4V
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+Power Down
+Power Up
+
+User command       7 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 12 02 34 56                             . ...4V
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+Power Down
+Power Up
+
+User command      11 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 06 31 32 33 34 35 36                 . ...123456
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+Power Down
+Power Up
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+Power Down
+Power Up
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 01 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 03 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 04 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 08 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 74 37                             .....t7
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 00 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 04 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 08 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 00 0C 02 3F 00                             .....?.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B1     READ BINARY Reads part of a binary file.
+0000:  00 B1 74 37                                      ..t7
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 81 00                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 04                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: B2     READ RECORD Read data from a file with a record-oriented structure.
+0000:  00 B2 01 14                                      ....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 00                                      ....
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 04 50 00 50 04                       .....P.P.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 EE                                   .....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 EE                                   .....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 04 50 00 50 01                       .....P.P.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 EE                                   .....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 EE                                   .....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 2F 00                             ...../.
+
+Response           2 bytes: 61 15  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 15                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 15                                   .....
+
+Response          23 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6F 13 81 02 00 17 82 01 01 83 02 2F 00 8A 01 05  o........../....
+0010:  8C 03 03 FF 00 90 00                             .......
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 17                                   .....
+
+Response          25 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 15 4F 0D E8 28 BD 08 0F 01 47 65 6D 20 50 31  a.O..(....Gem P1
+0010:  35 51 04 3F 00 50 00 90 00                       5Q.?.P...
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 50 00                             .....P.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 04 50 00 50 31                       .....P.P1
+
+Response           2 bytes: 61 15  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 15                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 15                                   .....
+
+Response          23 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6F 13 81 02 00 54 82 01 01 83 02 50 31 8A 01 05  o....T.....P1...
+0010:  8C 03 03 FF 00 90 00                             .......
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 54                                   ....T
+
+Response          86 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  A8 0A 30 08 04 06 3F 00 50 00 50 06 A0 0A 30 08  ..0...?.P.P...0.
+0010:  04 06 3F 00 50 00 50 01 A1 0A 30 08 04 06 3F 00  ..?.P.P...0...?.
+0020:  50 00 50 02 A4 0A 30 08 04 06 3F 00 50 00 50 03  P.P...0...?.P.P.
+0030:  A7 0A 30 08 04 06 3F 00 50 00 50 04 A7 0A 30 08  ..0...?.P.P...0.
+0040:  04 06 3F 00 50 00 50 05 A3 0A 30 08 04 06 3F 00  ..?.P.P...0...?.
+0050:  50 00 50 07 90 00                                P.P...
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 04 50 00 50 32                       .....P.P2
+
+Response           2 bytes: 61 15  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 15                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 15                                   .....
+
+Response          23 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6F 13 81 02 00 C0 82 01 01 83 02 50 32 8A 01 05  o..........P2...
+0010:  8C 03 03 D2 00 90 00                             .......
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 C0                                   .....
+
+Response         194 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  30 29 02 01 01 04 08 40 00 00 2A 18 0F 29 72 0C  0).....@..*..)r.
+0010:  0C 47 65 6D 61 6C 74 6F 20 53 2E 41 2E 80 08 47  .Gemalto S.A...G
+0020:  65 6D 50 31 35 2D 31 03 02 05 60 00 00 00 00 00  emP15-1...`.....
+0030:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0040:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0050:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0060:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0070:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0080:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0090:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00a0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00b0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00c0:  90 00                                            ..
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 04 50 00 50 06                       .....P.P.
+
+Response           2 bytes: 61 15  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 15                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 15                                   .....
+
+Response          23 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6F 13 81 02 00 C0 82 01 01 83 02 50 06 8A 01 05  o..........P....
+0010:  8C 03 03 13 00 90 00                             .......
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 C0                                   .....
+
+Response         194 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  30 31 30 11 0C 08 55 73 65 72 20 50 49 4E 03 02  010...User PIN..
+0010:  06 C0 04 01 82 30 03 04 01 81 A1 17 30 15 03 03  .....0......0...
+0020:  04 84 10 0A 01 02 02 01 06 02 01 10 80 02 00 81  ................
+0030:  04 01 00 30 2C 30 0C 0C 06 53 4F 20 50 49 4E 03  ...0,0...SO PIN.
+0040:  02 06 C0 30 03 04 01 82 A1 17 30 15 03 03 04 9D  ...0......0.....
+0050:  10 0A 01 02 02 01 06 02 01 10 80 02 00 82 04 01  ................
+0060:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0070:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0080:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0090:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00a0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00b0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00c0:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 02 2F 00                             ...../.
+
+Response           2 bytes: 61 15  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 15                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 15                                   .....
+
+Response          23 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6F 13 81 02 00 17 82 01 01 83 02 2F 00 8A 01 05  o........../....
+0010:  8C 03 03 FF 00 90 00                             .......
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 17                                   .....
+
+Response          25 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 15 4F 0D E8 28 BD 08 0F 01 47 65 6D 20 50 31  a.O..(....Gem P1
+0010:  35 51 04 3F 00 50 00 90 00                       5Q.?.P...
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 50 00                             .....P.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 04 50 00 50 31                       .....P.P1
+
+Response           2 bytes: 61 15  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 15                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 15                                   .....
+
+Response          23 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6F 13 81 02 00 54 82 01 01 83 02 50 31 8A 01 05  o....T.....P1...
+0010:  8C 03 03 FF 00 90 00                             .......
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 54                                   ....T
+
+Response          86 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  A8 0A 30 08 04 06 3F 00 50 00 50 06 A0 0A 30 08  ..0...?.P.P...0.
+0010:  04 06 3F 00 50 00 50 01 A1 0A 30 08 04 06 3F 00  ..?.P.P...0...?.
+0020:  50 00 50 02 A4 0A 30 08 04 06 3F 00 50 00 50 03  P.P...0...?.P.P.
+0030:  A7 0A 30 08 04 06 3F 00 50 00 50 04 A7 0A 30 08  ..0...?.P.P...0.
+0040:  04 06 3F 00 50 00 50 05 A3 0A 30 08 04 06 3F 00  ..?.P.P...0...?.
+0050:  50 00 50 07 90 00                                P.P...
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 04 50 00 50 32                       .....P.P2
+
+Response           2 bytes: 61 15  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 15                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 15                                   .....
+
+Response          23 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6F 13 81 02 00 C0 82 01 01 83 02 50 32 8A 01 05  o..........P2...
+0010:  8C 03 03 D2 00 90 00                             .......
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 C0                                   .....
+
+Response         194 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  30 29 02 01 01 04 08 40 00 00 2A 18 0F 29 72 0C  0).....@..*..)r.
+0010:  0C 47 65 6D 61 6C 74 6F 20 53 2E 41 2E 80 08 47  .Gemalto S.A...G
+0020:  65 6D 50 31 35 2D 31 03 02 05 60 00 00 00 00 00  emP15-1...`.....
+0030:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0040:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0050:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0060:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0070:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0080:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0090:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00a0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00b0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00c0:  90 00                                            ..
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 00 04 50 00 50 06                       .....P.P.
+
+Response           2 bytes: 61 15  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 15                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 15                                   .....
+
+Response          23 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6F 13 81 02 00 C0 82 01 01 83 02 50 06 8A 01 05  o..........P....
+0010:  8C 03 03 13 00 90 00                             .......
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 C0                                   .....
+
+Response         194 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  30 31 30 11 0C 08 55 73 65 72 20 50 49 4E 03 02  010...User PIN..
+0010:  06 C0 04 01 82 30 03 04 01 81 A1 17 30 15 03 03  .....0......0...
+0020:  04 84 10 0A 01 02 02 01 06 02 01 10 80 02 00 81  ................
+0030:  04 01 00 30 2C 30 0C 0C 06 53 4F 20 50 49 4E 03  ...0,0...SO PIN.
+0040:  02 06 C0 30 03 04 01 82 A1 17 30 15 03 03 04 9D  ...0......0.....
+0050:  10 0A 01 02 02 01 06 02 01 10 80 02 00 82 04 01  ................
+0060:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0070:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0080:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0090:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00a0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00b0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00c0:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      11 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 06 31 32 33 34 35 36                 . ...123456
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      11 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 06 31 32 33 34 35 36                 . ...123456
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      11 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 06 31 32 33 34 35 36                 . ...123456
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      12 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 07 31 32 33 34 35 36 00              . ...123456.
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      10 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 05 31 32 33 34 35                    . ...12345
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      10 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 05 31 32 33 34 35                    . ...12345
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      11 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 06 31 32 33 34 35 36                 . ...123456
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+
+User command      37 bytes: 24     CHANGE REFERENCE DATA Change the data used for user identification (e.g., a PIN).
+0000:  00 24 00 81 20 31 32 33 34 35 36 00 00 00 00 00  .$.. 123456.....
+0010:  00 00 00 00 00 31 32 33 34 35 36 00 00 00 00 00  .....123456.....
+0020:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+
+User command      37 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 20 00 00 00 00 00 00 00 00 00 00 00  .... ...........
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 04 50 00 50 04                       .....P.P.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 EE                                   .....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 EE                                   .....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 04 50 00 50 01                       .....P.P.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 EE                                   .....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 EE                                   .....
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 33 47 00  ..*G.P.......3G.
+0010:  00 BB B3 74 D6 12 92 41 07 20 03 41 07 20 05 41  ...t...A. .A. .A
+0020:  07 00 00 00 14 00 00 00 00 00 00 00 00 90 00     ...............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+Power Down
+Error getting ATR: Failed to disconnect: Reader is unavailable.
+Error disconnecting from card: Failed to disconnect: Reader is unavailable.

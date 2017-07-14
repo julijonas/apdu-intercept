@@ -1,0 +1,291 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+
+Command   4 bytes: AA     PIN POLICY Set PIN policy to be used for a key, valid for generate and import.
+0000:  AA AA AA AA                                      ....
+
+Response  2 bytes: 6E 00  [E] Class not supported
+0000:  6E 00                                            n.
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+
+Command   4 bytes: 00     None       None
+0000:  00 00 00 00                                      ....
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Reset
+Power Down

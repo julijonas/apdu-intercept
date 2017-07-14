@@ -1,0 +1,59 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C F2 76 A2 88 BC FB A6 9D 34 F3 10  ......v......4..
+0010:  01                                               .
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 97 42 54 46 59 00     ..........BTFY.
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 06 D2 76 00 01 24 01                 ......v..$.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Reset
+Power Down

@@ -1,0 +1,118 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 42 4C 59 CA AF B7 8C 0C 90 00        |...BLY.......
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 4E 2B 84 76 48 6D F8  .....|...N+.vHm.
+0010:  D9 81 08 0E A1 EF 5B 8C 4D B4 29                 ......[.M.)
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 39 82 51 57 9B A4 C0 B5 90 00        |...9.QW......
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: 47     GENERATE ASYMMETRIC KEY PAIR x
+0000:  00 47 00 9A 05 AC 03 80 01 07                    .G........
+
+Response 256 bytes: 61 10  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 49 82 01 09 81 82 01 00 9D 59 D1 5A 41 08 06  .I........Y.ZA..
+0010:  C0 8A 93 B4 A7 24 21 BD F9 18 4D 40 06 75 25 CF  .....$!...M@.u%.
+0020:  C3 84 C2 80 22 06 9E 65 B3 A9 D7 30 24 23 ED 32  ...."..e...0$#.2
+0030:  9E D5 39 5F 4F A1 68 71 87 2B 05 18 41 04 FF 56  ..9_O.hq.+..A..V
+0040:  76 B6 F3 C1 7E B1 A0 12 25 45 51 ED F2 EB 62 95  v...~...%EQ...b.
+0050:  F8 28 45 3C 7E 8F 7E 6B F2 DE 80 FA 8A 22 8F 69  .(E<~.~k.....".i
+0060:  48 D9 39 8A 03 5E 45 91 71 81 E3 D6 91 2B 15 A6  H.9..^E.q....+..
+0070:  A4 4D A3 17 E2 F9 34 A4 F3 3B 91 24 F2 D6 1E 8B  .M....4..;.$....
+0080:  42 FC 18 FD E3 90 D5 64 FB 99 A1 74 B0 B9 A5 B5  B......d...t....
+0090:  70 F9 81 30 52 68 25 D7 59 6B 46 8B 97 43 6C 7A  p..0Rh%.YkF..Clz
+00a0:  15 77 F5 AC A5 A5 CC CD 7F 35 E2 3A D6 53 F9 C3  .w.......5.:.S..
+00b0:  AA F2 D1 6C 6B E3 97 1B 15 40 25 29 37 CD 82 5B  ...lk....@%)7..[
+00c0:  A0 22 DA 6F 3F 6D 6F 8D C9 09 D0 06 40 16 F3 5E  .".o?mo.....@..^
+00d0:  61 44 B5 48 A7 39 3B 92 29 F3 C7 BC B1 38 9D C2  aD.H.9;.)....8..
+00e0:  C4 DA 97 E4 48 18 53 F2 61 73 E9 14 D6 DF E9 1B  ....H.S.as......
+00f0:  88 0D D2 AE 33 9D 58 89 7E 08 64 C6 97 FF 61 10  ....3.X.~.d...a.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  0E A3 07 DA 31 AD A5 21 81 0D 5D 82 03 01 00 01  ....1..!..].....
+0010:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 2E A4 3F 08 ED B8 9E 58 90 00        |.....?....X..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 3F 75 0D 81 EC 74 1D  .....|...?u...t.
+0010:  C2 81 08 19 B9 C4 1F 1C F2 6A B3                 .........j.
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 EA 8D C2 01 E3 10 61 A0 90 00        |.........a...
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: 47     GENERATE ASYMMETRIC KEY PAIR x
+0000:  00 47 00 9A 05 AC 03 80 01 07                    .G........
+
+Response 256 bytes: 61 10  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 49 82 01 09 81 82 01 00 9B 23 E6 D5 AA 6B E5  .I........#...k.
+0010:  25 C6 A8 53 15 4A C7 53 8D 7A 2E 16 E5 DC EF C2  %..S.J.S.z......
+0020:  83 EE BC F2 AB 03 4F EA CA 4F EB 7F B6 67 A2 94  ......O..O...g..
+0030:  6D 7C 35 EB 60 5C ED 80 86 33 F0 7C 8E 6E 60 15  m|5.`\...3.|.n`.
+0040:  96 04 AE 94 E8 64 BE 4F 1D 0B 08 7D C1 0A AE 21  .....d.O...}...!
+0050:  61 A7 46 2C AA E3 CE 9B 04 C2 11 F3 F3 50 37 31  a.F,.........P71
+0060:  23 93 80 35 B7 25 08 2E AD 42 0A 3C B4 07 AD D0  #..5.%...B.<....
+0070:  4A C9 08 F1 49 C2 2B AF E8 7C 46 4F EE B6 25 D7  J...I.+..|FO..%.
+0080:  76 E9 1A 2A A9 95 FE DD 47 36 C5 C4 9A F4 69 20  v..*....G6....i 
+0090:  57 7E 0E 86 7A A7 8B 6A 5F 1A 04 5A BD 84 FC 90  W~..z..j_..Z....
+00a0:  1B 6C 52 83 AD EA E2 B3 BE 8E A8 21 5E D9 24 79  .lR........!^.$y
+00b0:  37 13 F4 87 C7 9C 28 C0 61 91 57 2E 33 08 26 67  7.....(.a.W.3.&g
+00c0:  7F 31 54 DB 05 0D 46 51 F7 4A AD F0 91 EA C4 34  .1T...FQ.J.....4
+00d0:  D9 E5 70 D8 04 33 27 6E 4F D5 71 A2 94 7E 95 80  ..p..3'nO.q..~..
+00e0:  F4 AC B3 7B 59 34 93 99 3D 8D F8 32 2B B8 70 90  ...{Y4..=..2+.p.
+00f0:  04 6C 1E 21 43 DD 00 65 D1 47 82 09 59 78 61 10  .l.!C..e.G..Yxa.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  1A 8B 6E 3C F8 44 82 61 CF 57 9D 82 03 01 00 01  ..n<.D.a.W......
+0010:  90 00                                            ..
+Reset
+Power Down

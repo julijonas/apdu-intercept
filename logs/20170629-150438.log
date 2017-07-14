@@ -1,0 +1,13 @@
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Down
+Power Up
+Power Down
+Power Up
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 05 00 00                                   .....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Power Down

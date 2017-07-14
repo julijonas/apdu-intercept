@@ -1,0 +1,45 @@
+Launched virtual smart card os=relay attack=intercept
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 69 84  [E] Referenced data reversibly blocked (invalidated)
+0000:  69 84                                            i.
+
+User command      11 bytes: 22     MANAGE SECURITY ENVIRONMENT Sets or replaces one component of the current SE.
+0000:  00 22 41 A4 06 83 01 01 95 01 80                 ."A........
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: 84     UPDATE PSAM Parameter (offline) Modify the parameters in the PSAM (offline).
+0000:  80 84 00 00 08                                   .....
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  BC 65 DA F1 52 9C 85 45 90 00                    .e..R..E..
+
+User command      77 bytes: 82     UPDATE PSAM Parameter (online) Modify the parameters in the PSAM (online).
+0000:  80 82 00 00 48 80 F6 61 33 CE AC 36 11 45 30 B7  ....H..a3..6.E0.
+0010:  80 48 77 D9 F9 58 F5 08 B2 A6 F3 70 07 E9 B3 E0  .Hw..X.....p....
+0020:  EB 8E BB E7 7D 3B A5 57 EC 34 19 D8 DF CE 22 95  ....};.W.4....".
+0030:  8B C5 10 37 C7 47 CB D3 8B EE 6A F3 9B 93 D1 8F  ...7.G....j.....
+0040:  4A C8 FE 7D 7D 93 22 C4 B0 A4 62 4D 1B           J..}}."...bM.
+
+Response           2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Power Down
+----------------------------------------------------------------------

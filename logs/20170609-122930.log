@@ -1,0 +1,35 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 55 22 16 0A 52 89 E1 72 90 00        |...U"..R..r..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 24 1D 2A 7A 4F F7 C0  .....|...$.*zO..
+0010:  2F 81 08 AD B6 B5 B3 24 C5 CD 1B                 /......$...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 18 81 6B 46 27 7B 84 B2 90 00        |.....kF'{....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: 47     GENERATE ASYMMETRIC KEY PAIR x
+0000:  00 47 00 9A 05 AC 03 80 01 07                    .G........
+Intercepting GENERATE ASYMMETRIC KEY PAIR slot 9a

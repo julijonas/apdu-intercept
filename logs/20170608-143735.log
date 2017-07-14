@@ -1,0 +1,527 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 B6 0B 5C BE 15 83 C2 FC 90 00        |.....\.......
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 C3 5E 00 70 7C A3 E9  .....|....^.p|..
+0010:  74 81 08 9E 60 60 09 EE E6 72 06                 t...``...r.
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 85 35 F1 B4 3D D9 48 EE 90 00        |....5..=.H...
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: 47     GENERATE ASYMMETRIC KEY PAIR x
+0000:  00 47 00 9A 05 AC 03 80 01 07                    .G........
+
+Response 256 bytes: 61 10  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 49 82 01 09 81 82 01 00 98 FA 1E 5E 7D 51 F4  .I..........^}Q.
+0010:  D3 B2 2A 1E 8F FE 1D 0D 97 56 A7 A1 26 46 0C 3D  ..*......V..&F.=
+0020:  B1 D3 B5 FE BE ED A8 00 3F 49 6F CB 00 F0 2F 84  ........?Io.../.
+0030:  EC 08 6A 41 81 34 DD 6A 72 47 14 D7 AA 79 99 E3  ..jA.4.jrG...y..
+0040:  AC D6 D8 15 5F 7D 58 5E 76 2B FD 21 54 6C 44 12  ...._}X^v+.!TlD.
+0050:  7D D6 49 F1 BC 86 8A 9E 44 9A F0 C1 59 CB 07 46  }.I.....D...Y..F
+0060:  FB 60 59 66 2C 3A 7B 8B 8A 35 E5 4A BE 06 A6 E1  .`Yf,:{..5.J....
+0070:  56 5F 08 68 AB 55 E2 B8 17 0D 57 E8 A4 37 36 36  V_.h.U....W..766
+0080:  9A 0F 58 DF 67 1B E1 60 7D 3E 81 6F 85 C3 53 31  ..X.g..`}>.o..S1
+0090:  B0 22 09 41 C8 7F D7 93 0F ED A1 85 40 A9 E7 2A  .".A........@..*
+00a0:  87 CD 29 F4 15 9F 53 BB 43 EF CC 6B FC CC 24 5D  ..)...S.C..k..$]
+00b0:  1F 25 56 59 96 6B 5F 32 9C 65 54 FC 69 DF 85 83  .%VY.k_2.eT.i...
+00c0:  71 57 A3 0A 8A C7 1C 6A A1 62 6B 8D 65 BF 63 1B  qW.....j.bk.e.c.
+00d0:  7E A7 14 80 07 90 CD 60 4E 22 86 A0 9C 3D 8F 31  ~......`N"...=.1
+00e0:  22 50 9C A8 5A A2 D8 17 E7 B2 FC D4 36 11 C5 F6  "P..Z.......6...
+00f0:  39 EE 29 5B D3 EE 4A 68 23 EF EF EF 1F 28 61 10  9.)[..Jh#....(a.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 6D 02 EF 55 66 54 A0 DC 6B 5D 82 03 01 00 01  .m..UfT..k].....
+0010:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 7A 94 7A 5C 43 27 11 C5 90 00        |...z.z\C'....
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 F9 94 3D 55 EB 3E 54  .....|.....=U.>T
+0010:  50 81 08 36 5E 68 28 FC 89 07 10                 P..6^h(....
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 C1 C0 E3 00 48 AB 41 28 90 00        |.......H.A(..
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: 47     GENERATE ASYMMETRIC KEY PAIR x
+0000:  00 47 00 9A 05 AC 03 80 01 07                    .G........
+
+Response 256 bytes: 61 10  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 49 82 01 09 81 82 01 00 95 F5 43 7A 05 EF A9  .I.........Cz...
+0010:  97 1D A7 08 D7 23 25 62 02 18 2A 79 88 5E E9 88  .....#%b..*y.^..
+0020:  E2 AA DB B0 6A 92 A0 4B 22 47 DB 49 69 A2 DC 87  ....j..K"G.Ii...
+0030:  E6 9E 13 41 78 26 36 DB 4D F9 06 55 07 57 F2 D0  ...Ax&6.M..U.W..
+0040:  FC DE 43 0B D1 1D 38 31 ED C3 53 39 3F D9 A1 5F  ..C...81..S9?.._
+0050:  9A A0 22 D3 76 85 DA D0 8A 1F 94 A2 11 0F 39 F6  ..".v.........9.
+0060:  BC F0 11 1D 39 88 AB 48 3C F4 25 09 10 27 02 DA  ....9..H<.%..'..
+0070:  5C B3 DC 1C 28 3D FE 11 45 73 83 16 2A 2D 6B 4E  \...(=..Es..*-kN
+0080:  CA 4E F0 44 B1 EA 30 8E 38 07 42 62 EB 33 1F 5F  .N.D..0.8.Bb.3._
+0090:  00 4C 64 2E 70 27 4A 8E FD C0 64 A0 64 AC 86 FA  .Ld.p'J...d.d...
+00a0:  6D B8 BD 1F DE 34 57 C5 E4 77 BC 9A 20 5B 16 73  m....4W..w.. [.s
+00b0:  9C 70 DA F0 73 ED 9E C6 B7 E0 EF 5F 23 46 EE E9  .p..s......_#F..
+00c0:  7D F9 D7 8B 7F C7 09 9A B8 FC E0 8A 9A 67 83 DF  }............g..
+00d0:  16 7D AB A7 A2 3A D7 FF F5 08 4F 1F 84 DC 1D 6D  .}...:....O....m
+00e0:  A4 00 12 1D 35 EF DF 94 E4 02 86 47 FE BB 8F 23  ....5......G...#
+00f0:  1F EE 74 66 33 BF 43 0D 0B BA 3C 7F F3 42 61 10  ..tf3.C...<..Ba.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  EC 4C A7 A8 51 A6 BF F8 8E 02 F9 82 03 01 00 01  .L..Q...........
+0010:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 8E 7F 39 ED AF AF F4 C6 90 00        |.....9.......
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 77 E4 85 40 CD 70 BD  .....|...w..@.p.
+0010:  C6 81 08 B4 C9 E2 44 FB 87 95 C1                 ......D....
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 F1 66 79 3E 6D 0D A3 83 90 00        |....fy>m.....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 06 7E 52 30 44 73 C0 EA 90 00        |....~R0Ds....
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 F2 E3 A3 B4 3C F5 6A  .....|.......<.j
+0010:  72 81 08 38 D9 04 43 E2 8D 9F BE                 r..8..C....
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 1A F5 9A 2F D0 DB 22 D8 90 00        |....../.."...
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 96 82 C5 79 C9 5E 8A 99 90 00        |......y.^....
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 C7 4C AB 77 13 4A F6  .....|....L.w.J.
+0010:  6A 81 08 84 51 A9 0F B2 70 C4 08                 j...Q...p..
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 0E FF A4 75 9C 79 04 E4 90 00        |......u.y....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF 01 81 80 FF DD B6 9A BC F7 41 10  ..............A.
+0010:  5F 2E 09 7F A7 E5 CB 32 77 35 EB C5 36 1C F9 3F  _......2w5..6..?
+0020:  BF C7 C0 1E 14 38 26 B5 11 68 07 AE B9 23 A0 BC  .....8&..h...#..
+0030:  BC 42 8C 5B 88 D4 C6 DE E5 C6 54 D1 EE C7 AB D2  .B.[......T.....
+0040:  A4 E6 4A 75 17 44 92 94 72 F4 B7 B4 A0 ED 9B 8B  ..Ju.D..r.......
+0050:  00 62 AE AD FD 33 28 E7 B6 87 66 89 58 85 8F C0  .b...3(...f.X...
+0060:  21 46 EF CB E5 05 9C 3B 65 6A 4D 37 39 E7 FA 25  !F.....;ejM79..%
+0070:  98 E8 44 78 EC 67 96 02 5C 75 41 37 2E 0D 83 80  ..Dx.g..\uA7....
+0080:  D8 0A 08 CA 6A 69 FA AF 02 81 80 F0 11 8C 2A 75  ....ji........*u
+0090:  B1 DF 32 81 12 D3 1D 33 81 FC 6B C7 97 D1 09 BA  ..2....3..k.....
+00a0:  B5 01 91 F9 C3 BC 22 3E 60 1A 2B F0 C3 42 EC C8  ......">`.+..B..
+00b0:  23 26 66 10 98 67 AF 1C 71 A7 E8 D9 15 CC AD 4D  #&f..g..q......M
+00c0:  3D 05 73 6F DB 10 5F 4C 44 0C 96 20 F5 21 8D 3E  =.so.._LD.. .!.>
+00d0:  5C C0 65 67 86 70 0F 47 C9 6D B4 40 F7 0D 0A 05  \.eg.p.G.m.@....
+00e0:  70 45 5C 2A DF F3 42 8F 91 97 75 49 18 C3 F7 92  pE\*..B...uI....
+00f0:  FC C5 63 35 9C 7C 8C F4 31 61 3E BD 00 80 F4 44  ..c5.|..1a>....D
+0100:  D5 7C 71 4D                                      .|qM
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF DB E8 BA A3 25 5A F7 03 81 80 31  .........%Z....1
+0010:  70 2E 93 51 85 D8 DD 87 F6 86 41 53 38 B4 7D 68  p..Q......AS8.}h
+0020:  C9 53 68 04 9F AE 8D 61 C9 FF D6 10 04 15 7E 91  .Sh....a......~.
+0030:  01 6F D2 93 D5 4D 7E 8A 45 B5 87 0E 36 46 C2 D4  .o...M~.E...6F..
+0040:  D4 F0 98 AB B1 8B 02 A5 78 15 D4 F0 0D 00 E1 8C  ........x.......
+0050:  20 BA CA 3C FA 0C 3E DC 71 34 DD 4B 7A 32 22 2B   ..<..>.q4.Kz2"+
+0060:  83 98 0D 5B BC 5A DD 3D D0 CE 0E B0 8E D7 F4 26  ...[.Z.=.......&
+0070:  11 57 20 1F A1 32 15 47 A9 41 69 B8 0B FF D1 2E  .W ..2.G.Ai.....
+0080:  FA 3D 02 A3 74 5A FF 6F 3E E9 19 EB 5B D4 E3 04  .=..tZ.o>...[...
+0090:  81 80 EC E9 34 3C D6 A7 31 4F A2 E7 13 E6 16 65  ....4<..1O.....e
+00a0:  A9 D8 27 41 60 2E 4C CD C1 FD EF D0 C5 01 BA 32  ..'A`.L........2
+00b0:  96 C1 54 39 2D FB 83 CA 84 63 66 EF 30 2B 34 53  ..T9-....cf.0+4S
+00c0:  C9 53 55 A0 58 BB 91 A4 AD 93 6D 08 6F 90 CC 2F  .SU.X.....m.o../
+00d0:  BF 88 0C 80 3C 9B 29 B6 D8 BB 79 BD C7 2A 9D 3A  ....<.)...y..*.:
+00e0:  60 03 E9 B4 A4 6E 86 4D 74 75 6F 6E 50 9F 18 15  `....n.MtuonP...
+00f0:  A2 B5 40 EC AA BF D0 93 98 AB BE 45 6E F8 9F 27  ..@........En..'
+0100:  78 03 34 FB                                      x.4.
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  150 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  00 FE 07 9A 91 A1 46 EE 03 0C 6A B8 5E 53 BE 93  ......F...j.^S..
+0010:  B0 12 A3 05 81 80 98 96 5B A8 1A 1B 97 11 A7 95  ........[.......
+0020:  CF 29 D2 42 E2 34 C0 3B 55 4A 81 D5 B7 9D 54 68  .).B.4.;UJ....Th
+0030:  70 34 71 4D 81 2C 10 B3 60 07 0E BD 6E 66 BE 31  p4qM.,..`...nf.1
+0040:  39 A1 1B 32 19 72 B0 35 76 C7 D4 D0 74 88 B9 BB  9..2.r.5v...t...
+0050:  DF CF 4E 80 40 C9 20 A5 78 CA 41 DF 69 E2 F5 39  ..N.@. .x.A.i..9
+0060:  66 B2 8E 38 22 2A AA B2 E7 E8 56 69 01 1C 33 C5  f..8"*....Vi..3.
+0070:  D1 26 79 14 B5 42 DD 89 E7 2C D4 31 E2 A4 85 2C  .&y..B...,.1...,
+0080:  36 10 CB 1C 25 23 5E A0 97 E0 D2 26 CC 4B A4 35  6...%#^....&.K.5
+0090:  51 7C 09 DD 03 4B                                Q|...K
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 79 A4 1F 39 08 E6 91 4F 90 00        |...y..9...O..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 63 F2 D5 BC F1 F5 0B  .....|...c......
+0010:  70 81 08 7F B5 75 A8 05 45 5C 9B                 p....u..E\.
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 B8 5E DE 90 82 5B 59 6A 90 00        |....^...[Yj..
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF 01 81 80 FF DD B6 9A BC F7 41 10  ..............A.
+0010:  5F 2E 09 7F A7 E5 CB 32 77 35 EB C5 36 1C F9 3F  _......2w5..6..?
+0020:  BF C7 C0 1E 14 38 26 B5 11 68 07 AE B9 23 A0 BC  .....8&..h...#..
+0030:  BC 42 8C 5B 88 D4 C6 DE E5 C6 54 D1 EE C7 AB D2  .B.[......T.....
+0040:  A4 E6 4A 75 17 44 92 94 72 F4 B7 B4 A0 ED 9B 8B  ..Ju.D..r.......
+0050:  00 62 AE AD FD 33 28 E7 B6 87 66 89 58 85 8F C0  .b...3(...f.X...
+0060:  21 46 EF CB E5 05 9C 3B 65 6A 4D 37 39 E7 FA 25  !F.....;ejM79..%
+0070:  98 E8 44 78 EC 67 96 02 5C 75 41 37 2E 0D 83 80  ..Dx.g..\uA7....
+0080:  D8 0A 08 CA 6A 69 FA AF 02 81 80 F0 11 8C 2A 75  ....ji........*u
+0090:  B1 DF 32 81 12 D3 1D 33 81 FC 6B C7 97 D1 09 BA  ..2....3..k.....
+00a0:  B5 01 91 F9 C3 BC 22 3E 60 1A 2B F0 C3 42 EC C8  ......">`.+..B..
+00b0:  23 26 66 10 98 67 AF 1C 71 A7 E8 D9 15 CC AD 4D  #&f..g..q......M
+00c0:  3D 05 73 6F DB 10 5F 4C 44 0C 96 20 F5 21 8D 3E  =.so.._LD.. .!.>
+00d0:  5C C0 65 67 86 70 0F 47 C9 6D B4 40 F7 0D 0A 05  \.eg.p.G.m.@....
+00e0:  70 45 5C 2A DF F3 42 8F 91 97 75 49 18 C3 F7 92  pE\*..B...uI....
+00f0:  FC C5 63 35 9C 7C 8C F4 31 61 3E BD 00 80 F4 44  ..c5.|..1a>....D
+0100:  D5 7C 71 4D                                      .|qM
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF DB E8 BA A3 25 5A F7 03 81 80 31  .........%Z....1
+0010:  70 2E 93 51 85 D8 DD 87 F6 86 41 53 38 B4 7D 68  p..Q......AS8.}h
+0020:  C9 53 68 04 9F AE 8D 61 C9 FF D6 10 04 15 7E 91  .Sh....a......~.
+0030:  01 6F D2 93 D5 4D 7E 8A 45 B5 87 0E 36 46 C2 D4  .o...M~.E...6F..
+0040:  D4 F0 98 AB B1 8B 02 A5 78 15 D4 F0 0D 00 E1 8C  ........x.......
+0050:  20 BA CA 3C FA 0C 3E DC 71 34 DD 4B 7A 32 22 2B   ..<..>.q4.Kz2"+
+0060:  83 98 0D 5B BC 5A DD 3D D0 CE 0E B0 8E D7 F4 26  ...[.Z.=.......&
+0070:  11 57 20 1F A1 32 15 47 A9 41 69 B8 0B FF D1 2E  .W ..2.G.Ai.....
+0080:  FA 3D 02 A3 74 5A FF 6F 3E E9 19 EB 5B D4 E3 04  .=..tZ.o>...[...
+0090:  81 80 EC E9 34 3C D6 A7 31 4F A2 E7 13 E6 16 65  ....4<..1O.....e
+00a0:  A9 D8 27 41 60 2E 4C CD C1 FD EF D0 C5 01 BA 32  ..'A`.L........2
+00b0:  96 C1 54 39 2D FB 83 CA 84 63 66 EF 30 2B 34 53  ..T9-....cf.0+4S
+00c0:  C9 53 55 A0 58 BB 91 A4 AD 93 6D 08 6F 90 CC 2F  .SU.X.....m.o../
+00d0:  BF 88 0C 80 3C 9B 29 B6 D8 BB 79 BD C7 2A 9D 3A  ....<.)...y..*.:
+00e0:  60 03 E9 B4 A4 6E 86 4D 74 75 6F 6E 50 9F 18 15  `....n.MtuonP...
+00f0:  A2 B5 40 EC AA BF D0 93 98 AB BE 45 6E F8 9F 27  ..@........En..'
+0100:  78 03 34 FB                                      x.4.
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  150 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  00 FE 07 9A 91 A1 46 EE 03 0C 6A B8 5E 53 BE 93  ......F...j.^S..
+0010:  B0 12 A3 05 81 80 98 96 5B A8 1A 1B 97 11 A7 95  ........[.......
+0020:  CF 29 D2 42 E2 34 C0 3B 55 4A 81 D5 B7 9D 54 68  .).B.4.;UJ....Th
+0030:  70 34 71 4D 81 2C 10 B3 60 07 0E BD 6E 66 BE 31  p4qM.,..`...nf.1
+0040:  39 A1 1B 32 19 72 B0 35 76 C7 D4 D0 74 88 B9 BB  9..2.r.5v...t...
+0050:  DF CF 4E 80 40 C9 20 A5 78 CA 41 DF 69 E2 F5 39  ..N.@. .x.A.i..9
+0060:  66 B2 8E 38 22 2A AA B2 E7 E8 56 69 01 1C 33 C5  f..8"*....Vi..3.
+0070:  D1 26 79 14 B5 42 DD 89 E7 2C D4 31 E2 A4 85 2C  .&y..B...,.1...,
+0080:  36 10 CB 1C 25 23 5E A0 97 E0 D2 26 CC 4B A4 35  6...%#^....&.K.5
+0090:  51 7C 09 DD 03 4B                                Q|...K
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 02 12 B8 1E D1 55 30 84 90 00        |........U0...
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 A0 13 18 4D 92 7F 8C  .....|......M...
+0010:  BD 81 08 AC 5B 6D EB AF 61 A8 F8                 ....[m..a..
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 88 DE 8C D3 F8 22 C1 D8 90 00        |........"....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF 01 81 80 FF DD B6 9A BC F7 41 10  ..............A.
+0010:  5F 2E 09 7F A7 E5 CB 32 77 35 EB C5 36 1C F9 3F  _......2w5..6..?
+0020:  BF C7 C0 1E 14 38 26 B5 11 68 07 AE B9 23 A0 BC  .....8&..h...#..
+0030:  BC 42 8C 5B 88 D4 C6 DE E5 C6 54 D1 EE C7 AB D2  .B.[......T.....
+0040:  A4 E6 4A 75 17 44 92 94 72 F4 B7 B4 A0 ED 9B 8B  ..Ju.D..r.......
+0050:  00 62 AE AD FD 33 28 E7 B6 87 66 89 58 85 8F C0  .b...3(...f.X...
+0060:  21 46 EF CB E5 05 9C 3B 65 6A 4D 37 39 E7 FA 25  !F.....;ejM79..%
+0070:  98 E8 44 78 EC 67 96 02 5C 75 41 37 2E 0D 83 80  ..Dx.g..\uA7....
+0080:  D8 0A 08 CA 6A 69 FA AF 02 81 80 F0 11 8C 2A 75  ....ji........*u
+0090:  B1 DF 32 81 12 D3 1D 33 81 FC 6B C7 97 D1 09 BA  ..2....3..k.....
+00a0:  B5 01 91 F9 C3 BC 22 3E 60 1A 2B F0 C3 42 EC C8  ......">`.+..B..
+00b0:  23 26 66 10 98 67 AF 1C 71 A7 E8 D9 15 CC AD 4D  #&f..g..q......M
+00c0:  3D 05 73 6F DB 10 5F 4C 44 0C 96 20 F5 21 8D 3E  =.so.._LD.. .!.>
+00d0:  5C C0 65 67 86 70 0F 47 C9 6D B4 40 F7 0D 0A 05  \.eg.p.G.m.@....
+00e0:  70 45 5C 2A DF F3 42 8F 91 97 75 49 18 C3 F7 92  pE\*..B...uI....
+00f0:  FC C5 63 35 9C 7C 8C F4 31 61 3E BD 00 80 F4 44  ..c5.|..1a>....D
+0100:  D5 7C 71 4D                                      .|qM
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF DB E8 BA A3 25 5A F7 03 81 80 31  .........%Z....1
+0010:  70 2E 93 51 85 D8 DD 87 F6 86 41 53 38 B4 7D 68  p..Q......AS8.}h
+0020:  C9 53 68 04 9F AE 8D 61 C9 FF D6 10 04 15 7E 91  .Sh....a......~.
+0030:  01 6F D2 93 D5 4D 7E 8A 45 B5 87 0E 36 46 C2 D4  .o...M~.E...6F..
+0040:  D4 F0 98 AB B1 8B 02 A5 78 15 D4 F0 0D 00 E1 8C  ........x.......
+0050:  20 BA CA 3C FA 0C 3E DC 71 34 DD 4B 7A 32 22 2B   ..<..>.q4.Kz2"+
+0060:  83 98 0D 5B BC 5A DD 3D D0 CE 0E B0 8E D7 F4 26  ...[.Z.=.......&
+0070:  11 57 20 1F A1 32 15 47 A9 41 69 B8 0B FF D1 2E  .W ..2.G.Ai.....
+0080:  FA 3D 02 A3 74 5A FF 6F 3E E9 19 EB 5B D4 E3 04  .=..tZ.o>...[...
+0090:  81 80 EC E9 34 3C D6 A7 31 4F A2 E7 13 E6 16 65  ....4<..1O.....e
+00a0:  A9 D8 27 41 60 2E 4C CD C1 FD EF D0 C5 01 BA 32  ..'A`.L........2
+00b0:  96 C1 54 39 2D FB 83 CA 84 63 66 EF 30 2B 34 53  ..T9-....cf.0+4S
+00c0:  C9 53 55 A0 58 BB 91 A4 AD 93 6D 08 6F 90 CC 2F  .SU.X.....m.o../
+00d0:  BF 88 0C 80 3C 9B 29 B6 D8 BB 79 BD C7 2A 9D 3A  ....<.)...y..*.:
+00e0:  60 03 E9 B4 A4 6E 86 4D 74 75 6F 6E 50 9F 18 15  `....n.MtuonP...
+00f0:  A2 B5 40 EC AA BF D0 93 98 AB BE 45 6E F8 9F 27  ..@........En..'
+0100:  78 03 34 FB                                      x.4.
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  150 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  00 FE 07 9A 91 A1 46 EE 03 0C 6A B8 5E 53 BE 93  ......F...j.^S..
+0010:  B0 12 A3 05 81 80 98 96 5B A8 1A 1B 97 11 A7 95  ........[.......
+0020:  CF 29 D2 42 E2 34 C0 3B 55 4A 81 D5 B7 9D 54 68  .).B.4.;UJ....Th
+0030:  70 34 71 4D 81 2C 10 B3 60 07 0E BD 6E 66 BE 31  p4qM.,..`...nf.1
+0040:  39 A1 1B 32 19 72 B0 35 76 C7 D4 D0 74 88 B9 BB  9..2.r.5v...t...
+0050:  DF CF 4E 80 40 C9 20 A5 78 CA 41 DF 69 E2 F5 39  ..N.@. .x.A.i..9
+0060:  66 B2 8E 38 22 2A AA B2 E7 E8 56 69 01 1C 33 C5  f..8"*....Vi..3.
+0070:  D1 26 79 14 B5 42 DD 89 E7 2C D4 31 E2 A4 85 2C  .&y..B...,.1...,
+0080:  36 10 CB 1C 25 23 5E A0 97 E0 D2 26 CC 4B A4 35  6...%#^....&.K.5
+0090:  51 7C 09 DD 03 4B                                Q|...K
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 BA 06 15 34 CF DA C4 11 90 00        |......4......
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 0D 50 7C F8 06 D4 8F  .....|....P|....
+0010:  73 81 08 30 56 80 91 DC 24 20 55                 s..0V...$ U
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 94 1C 90 5E 4D 1C 37 2C 90 00        |......^M.7,..
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF 01 81 80 F8 48 84 D6 8B 41 8A E6  .........H...A..
+0010:  97 43 B9 EF 5A 71 B6 0D F8 4E EB 20 45 EE C2 E3  .C..Zq...N. E...
+0020:  7C 75 B9 65 3B 29 36 C6 C8 1B EB 25 23 82 93 45  |u.e;)6....%#..E
+0030:  5C F2 9B 12 AC F0 80 54 BF CB 36 AC 48 BA CB A9  \......T..6.H...
+0040:  5A 6B E2 05 F6 03 80 24 95 68 61 F5 D4 2B D6 AC  Zk.....$.ha..+..
+0050:  A9 4E 8C 26 B3 5D E0 AD 50 E9 F3 4B 42 5F 14 D9  .N.&.]..P..KB_..
+0060:  14 06 FB 0B DE 99 32 51 9D C3 B9 5B 7C 73 95 0C  ......2Q...[|s..
+0070:  22 CB 09 F9 74 BA 2E 19 F4 59 D8 D7 7F 09 2D 95  "...t....Y....-.
+0080:  5D 9B A4 B4 C2 B9 DE 8D 02 81 80 EC AE 57 AD 99  ]............W..
+0090:  45 46 46 47 60 C7 70 82 46 94 2A 53 0E 8C D6 E4  EFFG`.p.F.*S....
+00a0:  60 63 15 7E 81 D6 C3 45 86 5A 61 28 B7 32 8A 45  `c.~...E.Za(.2.E
+00b0:  AA FD FE 7E 2E D2 D9 7B 8C FB 1E D5 FA 1D 5A 4F  ...~...{......ZO
+00c0:  25 5B A4 E1 CC F7 48 C4 C4 99 4F 36 5C D1 0F 60  %[....H...O6\..`
+00d0:  1C 66 DF FB 26 7A CD AE B4 EB 55 4D C2 92 C5 3C  .f..&z....UM...<
+00e0:  63 D2 FD 77 A2 49 F3 2F A9 7E BA 14 E8 4E A3 0D  c..w.I./.~...N..
+00f0:  6D 56 FF AD D7 B9 96 8B 2E DD 5B 7A EF C3 EB B1  mV........[z....
+0100:  BA B0 F2 F1                                      ....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF CD 74 45 54 B5 AC A7 03 81 80 15  ......tET.......
+0010:  08 8F B8 5D 33 C0 40 A8 AF E4 20 92 D8 EF 43 5F  ...]3.@... ...C_
+0020:  B5 CF D5 7C 17 2E 0B 77 8F C1 95 01 DE 0B F5 EB  ...|...w........
+0030:  1D F2 5D C3 14 5C C5 93 8A 39 F8 EB 0D B4 D1 79  ..]..\...9.....y
+0040:  2E 0E 03 AA 65 A8 BB 40 1D C3 98 1D AF 4E 3B CB  ....e..@.....N;.
+0050:  2C 7C A0 06 C9 6F F6 50 A1 86 DE 00 74 03 84 AB  ,|...o.P....t...
+0060:  46 26 86 49 A9 24 6A FF 77 57 ED 39 7E 60 F4 E9  F&.I.$j.wW.9~`..
+0070:  18 9B AB 54 6F B6 40 C0 F1 D2 76 7F 9D 06 2A CC  ...To.@...v...*.
+0080:  B8 8F D6 31 BC E5 4F B2 0E 6D 75 A2 C9 7C 41 04  ...1..O..mu..|A.
+0090:  81 80 E3 D8 0A 0B D2 8A FF D5 D4 0C F4 B1 F8 97  ................
+00a0:  DD 36 C9 72 2E 5F 08 C7 49 5B 7D C7 9C 69 AB 5A  .6.r._..I[}..i.Z
+00b0:  65 53 37 10 F5 14 6B 70 EA C6 BD CE 71 A8 6F EA  eS7...kp....q.o.
+00c0:  0E 2D 67 2C 3A 69 9F DB 84 D7 BB 8F C7 56 44 26  .-g,:i.......VD&
+00d0:  46 B8 1C CB 49 6E 95 C5 81 BB 89 59 47 CB 0D AE  F...In.....YG...
+00e0:  99 06 2B AF 6D FF 75 DD 5B 56 2A 7F 0E D5 8F 42  ..+.m.u.[V*....B
+00f0:  89 FE B4 F5 D6 0D DD 75 2E D5 40 13 76 53 D8 75  .......u..@.vS.u
+0100:  2B 1F 4F BF                                      +.O.
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  150 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  00 FE 07 9A 91 D5 49 E6 74 A4 B7 9B D3 7F 64 E6  ......I.t.....d.
+0010:  E1 65 ED 05 81 80 F1 8A 7F FE B7 C0 E9 E7 6D 68  .e............mh
+0020:  11 D6 51 B8 1D 9D 7A 6E 7A FB BE 5E E0 DF FD 3D  ..Q...znz..^...=
+0030:  89 55 31 8D 84 25 14 AF D0 2E 5B 14 2C B1 DD D2  .U1..%....[.,...
+0040:  B3 AA 4B 54 F6 57 58 38 2D DD 7B 4F 24 4F F4 7B  ..KT.WX8-.{O$O.{
+0050:  82 30 3A 22 5A 97 83 71 78 5F 0F 84 20 99 52 E3  .0:"Z..qx_.. .R.
+0060:  9E 66 B4 F8 54 A5 81 22 00 AE 27 F7 21 11 DF 5A  .f..T.."..'.!..Z
+0070:  29 22 2D CE 9C 22 29 AA B7 A7 86 11 47 35 77 07  )"-..").....G5w.
+0080:  6B 40 0C 20 8E A0 11 F7 49 FA 80 C5 3D E5 13 0A  k@. ....I...=...
+0090:  68 88 06 BF E2 5A                                h....Z
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down

@@ -1,0 +1,6 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Error getting ATR: Failed to disconnect: Reader is unavailable.
+Error disconnecting from card: Failed to disconnect: Reader is unavailable.

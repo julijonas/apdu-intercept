@@ -1,0 +1,2380 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   5 bytes: F9     ATTESTATION Get an attestation certificate for a slot where the key has been generated on device.
+0000:  00 F9 9A 00 00                                   .....
+
+Response 256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  30 82 02 43 30 82 01 2B A0 03 02 01 02 02 10 0D  0..C0..+........
+0010:  98 62 46 6B 90 41 0D B6 E7 17 BD 15 51 04 33 30  .bFk.A......Q.30
+0020:  0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30 21  ...*.H........0!
+0030:  31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69 63  1.0...U....Yubic
+0040:  6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69 6F  o PIV Attestatio
+0050:  6E 30 20 17 0D 31 36 30 33 31 34 30 30 30 30 30  n0 ..16031400000
+0060:  30 5A 18 0F 32 30 35 32 30 34 31 37 30 30 30 30  0Z..205204170000
+0070:  30 30 5A 30 25 31 23 30 21 06 03 55 04 03 0C 1A  00Z0%1#0!..U....
+0080:  59 75 62 69 4B 65 79 20 50 49 56 20 41 74 74 65  YubiKey PIV Atte
+0090:  73 74 61 74 69 6F 6E 20 39 61 30 59 30 13 06 07  station 9a0Y0...
+00a0:  2A 86 48 CE 3D 02 01 06 08 2A 86 48 CE 3D 03 01  *.H.=....*.H.=..
+00b0:  07 03 42 00 04 33 0B A9 F0 10 A5 1A DA F3 2B 69  ..B..3........+i
+00c0:  C9 ED E3 F0 36 0D 26 B1 98 63 5E E2 B4 31 2B BE  ....6.&..c^..1+.
+00d0:  53 8D D8 B8 94 F0 37 F8 1B F6 F9 EA A0 17 A2 B8  S.....7.........
+00e0:  38 92 22 0E 05 60 35 58 A7 74 0F CB 4F 9D ED BD  8."..`5X.t..O...
+00f0:  71 FD 74 25 8A A3 3C 30 3A 30 11 06 0A 2B 61 FF  q.t%..<0:0...+a.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 256 bytes: 61 4B  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  06 01 04 01 82 C4 0A 03 03 04 03 04 03 04 30 13  ..............0.
+0010:  06 0A 2B 06 01 04 01 82 C4 0A 03 07 04 05 02 03  ..+.............
+0020:  52 82 5A 30 10 06 0A 2B 06 01 04 01 82 C4 0A 03  R.Z0...+........
+0030:  08 04 02 02 01 30 0D 06 09 2A 86 48 86 F7 0D 01  .....0...*.H....
+0040:  01 0B 05 00 03 82 01 01 00 3E CD EF 41 99 4B 29  .........>..A.K)
+0050:  22 21 F9 D3 FD 7C 67 4C E6 0D 14 66 7A 27 E8 A2  "!...|gL...fz'..
+0060:  55 7A D6 B5 24 2B E2 75 F4 CE A7 0D 67 BD F9 C1  Uz..$+.u....g...
+0070:  30 44 EE 63 FB 75 21 DE AC E7 86 68 C8 DA 7F 18  0D.c.u!....h....
+0080:  A6 09 E8 8C DB 9C B1 BE 32 21 FC F6 C7 72 B8 43  ........2!...r.C
+0090:  42 10 59 14 66 E9 40 4E 0B 65 9D B8 72 48 5E 7B  B.Y.f.@N.e..rH^{
+00a0:  24 7F 89 77 64 B1 61 C3 6C 48 BA 8E 2A E2 A1 2A  $..wd.a.lH..*..*
+00b0:  74 80 DC 15 8A E2 6A 72 27 31 82 22 24 A8 77 A8  t.....jr'1."$.w.
+00c0:  53 F8 0D 26 E7 55 ED 8E 80 C6 00 A6 56 79 65 07  S..&.U......Vye.
+00d0:  78 27 52 FD 49 51 BD 37 AD AE F4 C5 4A 23 01 74  x'R.IQ.7....J#.t
+00e0:  F8 36 00 51 AD 82 7E AB FB 3E C0 33 E1 55 A8 D2  .6.Q..~..>.3.U..
+00f0:  EF F3 D9 47 9F 6B 36 C9 E8 14 9F 23 37 A7 61 4B  ...G.k6....#7.aK
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 77 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  20 CB 22 13 AD AE FF E9 52 38 78 8A A4 C8 50 2E   .".....R8x...P.
+0010:  B4 4E D8 8B DD 89 5C 76 3B C7 BE EE 54 A7 32 E5  .N....\v;...T.2.
+0020:  B9 78 99 C8 10 8E 22 01 0F 07 13 37 4E EE A9 AC  .x...."....7N...
+0030:  C7 22 95 B7 9A C6 59 D6 5A B4 EA 89 0E E2 85 07  ."....Y.Z.......
+0040:  73 DB 1A 3C 85 97 2F 74 1A D8 AE 90 00           s..<../t.....
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02                    ..?..\._..
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A7  hX!.B..!8B...4..
+0020:  5C EE 4E E4 BE 0D AB 38 99 79 49 AA 92 06 5C 35  \.N....8.yI...\5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 07                    ..?..\._..
+
+Response 55 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 33 F0 15 A0 00 00 01 16 FF 02 8A 1A 8C E2 90  S3..............
+0010:  60 FE 62 1C EE DC E7 98 B8 F1 01 21 F2 01 21 F3  `.b........!..!.
+0020:  00 F4 01 00 F5 01 10 F6 00 F7 00 FA 00 FB 00 FC  ................
+0030:  00 FD 00 FE 00 90 00                             .......
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0B                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 01                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0D                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0E                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0F                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 10                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 11                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 12                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 13                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 14                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 15                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 16                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 17                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 18                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 19                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1B                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1C                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1D                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1E                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1F                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 20                    ..?..\._. 
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 00                                   . ...
+
+Response  2 bytes: 63 C3  [W] Verify fail, 3 tries left.
+0000:  63 C3                                            c.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0B                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 4D 83 38 57 EE 23 FE EE 90 00        |...M.8W.#....
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 08 F2 DF 54 05 B3 F3  .....|......T...
+0010:  5C 81 08 D1 B2 88 63 3C 82 4D 57                 \.....c<.MW
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 75 D2 33 4D 21 5E E6 89 90 00        |...u.3M!^....
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 BF 91 D2 5A 5F 83 E7 85 90 00        |......Z_.....
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 52 9B 56 17 CB 5D 9F  .....|...R.V..].
+0010:  6C 81 08 B1 C5 F9 79 A9 49 A9 BD                 l.....y.I..
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 DA D4 14 7E 40 F9 72 E2 90 00        |......~@.r...
+
+Command  260 bytes: DB     PUT DATA   x
+0000:  10 DB 3F FF FF 5C 03 5F C1 0B 53 82 01 67 70 82  ..?..\._..S..gp.
+0010:  01 5E 30 82 01 5A 30 82 01 01 A0 03 02 01 02 02  .^0..Z0.........
+0020:  09 00 F7 01 90 9A 8A 4E C0 52 30 0A 06 08 2A 86  .......N.R0...*.
+0030:  48 CE 3D 04 03 02 30 33 31 0C 30 0A 06 03 55 04  H.=...031.0...U.
+0040:  03 0C 03 62 61 72 31 0D 30 0B 06 03 55 04 0B 0C  ...bar1.0...U...
+0050:  04 74 65 73 74 31 14 30 12 06 03 55 04 0A 0C 0B  .test1.0...U....
+0060:  65 78 61 6D 70 6C 65 2E 63 6F 6D 30 1E 17 0D 31  example.com0...1
+0070:  37 30 35 33 31 31 30 34 38 31 31 5A 17 0D 31 38  70531104811Z..18
+0080:  30 35 33 31 31 30 34 38 31 31 5A 30 33 31 0C 30  0531104811Z031.0
+0090:  0A 06 03 55 04 03 0C 03 62 61 72 31 0D 30 0B 06  ...U....bar1.0..
+00a0:  03 55 04 0B 0C 04 74 65 73 74 31 14 30 12 06 03  .U....test1.0...
+00b0:  55 04 0A 0C 0B 65 78 61 6D 70 6C 65 2E 63 6F 6D  U....example.com
+00c0:  30 59 30 13 06 07 2A 86 48 CE 3D 02 01 06 08 2A  0Y0...*.H.=....*
+00d0:  86 48 CE 3D 03 01 07 03 42 00 04 F9 B3 B6 E2 85  .H.=....B.......
+00e0:  26 53 B6 D6 E8 A1 2B 3B EF EC B5 6D CB 60 46 1C  &S....+;...m.`F.
+00f0:  7F 28 78 5E D3 39 EA FF D6 FE 0E 39 40 3D AB 61  .(x^.9.....9@=.a
+0100:  B8 1A 76 03                                      ..v.
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  118 bytes: DB     PUT DATA   x
+0000:  00 DB 3F FF 71 3A 71 C1 37 09 CD D3 94 80 E4 3E  ..?.q:q.7......>
+0010:  13 73 6E 42 27 D3 98 BE E4 1D C6 DD 30 0A 06 08  .snB'.......0...
+0020:  2A 86 48 CE 3D 04 03 02 03 47 00 30 44 02 20 42  *.H.=....G.0D. B
+0030:  79 8B ED 03 58 4D 04 E3 F1 5B 7F 88 A3 CD EA 29  y...XM...[.....)
+0040:  D4 3C 73 E2 0A 1A 00 4F 81 1F 09 6A 13 4A 09 02  .<s....O...j.J..
+0050:  20 14 5A 3B 2C 4E E5 EA 15 77 72 35 B0 67 E6 49   .Z;,N...wr5.g.I
+0060:  D8 43 04 C4 95 26 BA 08 71 A0 E0 93 F6 C8 FA FB  .C...&..q.......
+0070:  90 71 01 00 FE 00                                .q....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0B                    ..?..\._..
+
+Response 256 bytes: 61 6D  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  53 82 01 67 70 82 01 5E 30 82 01 5A 30 82 01 01  S..gp..^0..Z0...
+0010:  A0 03 02 01 02 02 09 00 F7 01 90 9A 8A 4E C0 52  .............N.R
+0020:  30 0A 06 08 2A 86 48 CE 3D 04 03 02 30 33 31 0C  0...*.H.=...031.
+0030:  30 0A 06 03 55 04 03 0C 03 62 61 72 31 0D 30 0B  0...U....bar1.0.
+0040:  06 03 55 04 0B 0C 04 74 65 73 74 31 14 30 12 06  ..U....test1.0..
+0050:  03 55 04 0A 0C 0B 65 78 61 6D 70 6C 65 2E 63 6F  .U....example.co
+0060:  6D 30 1E 17 0D 31 37 30 35 33 31 31 30 34 38 31  m0...17053110481
+0070:  31 5A 17 0D 31 38 30 35 33 31 31 30 34 38 31 31  1Z..180531104811
+0080:  5A 30 33 31 0C 30 0A 06 03 55 04 03 0C 03 62 61  Z031.0...U....ba
+0090:  72 31 0D 30 0B 06 03 55 04 0B 0C 04 74 65 73 74  r1.0...U....test
+00a0:  31 14 30 12 06 03 55 04 0A 0C 0B 65 78 61 6D 70  1.0...U....examp
+00b0:  6C 65 2E 63 6F 6D 30 59 30 13 06 07 2A 86 48 CE  le.com0Y0...*.H.
+00c0:  3D 02 01 06 08 2A 86 48 CE 3D 03 01 07 03 42 00  =....*.H.=....B.
+00d0:  04 F9 B3 B6 E2 85 26 53 B6 D6 E8 A1 2B 3B EF EC  ......&S....+;..
+00e0:  B5 6D CB 60 46 1C 7F 28 78 5E D3 39 EA FF D6 FE  .m.`F..(x^.9....
+00f0:  0E 39 40 3D AB 61 B8 1A 76 03 3A 71 C1 37 61 6D  .9@=.a..v.:q.7am
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 111 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  09 CD D3 94 80 E4 3E 13 73 6E 42 27 D3 98 BE E4  ......>.snB'....
+0010:  1D C6 DD 30 0A 06 08 2A 86 48 CE 3D 04 03 02 03  ...0...*.H.=....
+0020:  47 00 30 44 02 20 42 79 8B ED 03 58 4D 04 E3 F1  G.0D. By...XM...
+0030:  5B 7F 88 A3 CD EA 29 D4 3C 73 E2 0A 1A 00 4F 81  [.....).<s....O.
+0040:  1F 09 6A 13 4A 09 02 20 14 5A 3B 2C 4E E5 EA 15  ..j.J.. .Z;,N...
+0050:  77 72 35 B0 67 E6 49 D8 43 04 C4 95 26 BA 08 71  wr5.g.I.C...&..q
+0060:  A0 E0 93 F6 C8 FA FB 90 71 01 00 FE 00 90 00     ........q......
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  43 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9D 26 7C 24 82 00 81 20 DD 2E F9 73 FD  ....&|$... ...s.
+0010:  A9 6F AB 20 F5 85 D5 9C 0B A7 97 76 A5 3C A6 F9  .o. .......v.<..
+0020:  D0 C0 7D D6 01 80 E1 92 A9 5A 4F                 ..}......ZO
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  43 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9D 26 7C 24 82 00 81 20 0C 2F 2F 3C E6  ....&|$... .//<.
+0010:  CE 7B D6 94 37 EE 39 5D A9 20 F9 18 6F E3 69 72  .{..7.9]. ..o.ir
+0020:  D8 59 8F 59 96 41 0F B6 E4 7B 19                 .Y.Y.A...{.
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  43 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9C 26 7C 24 82 00 81 20 8F EC 5C 66 60  ....&|$... ..\f`
+0010:  EA 44 95 DC 61 02 35 B1 68 38 D7 B1 A0 C7 82 DB  .D..a.5.h8......
+0020:  5C 63 F5 4D DF AF 1A 35 66 74 86                 \c.M...5ft.
+
+Response 77 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 49 82 47 30 45 02 20 04 81 FD C2 1D 05 EE 8A  |I.G0E. ........
+0010:  B7 B4 BA E6 5B 37 19 AC 87 39 F8 9E 12 C4 33 C9  ....[7...9....3.
+0020:  48 C0 D8 2D D6 25 AD E7 02 21 00 8D F2 DA B4 CE  H..-.%...!......
+0030:  40 4E 11 7C 24 86 E3 FF B7 62 3A 1C B0 AF 2A 80  @N.|$....b:...*.
+0040:  FC 9B 66 68 22 54 62 BB 2C A0 3E 90 00           ..fh"Tb.,.>..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  43 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9A 26 7C 24 82 00 81 20 70 D7 F2 03 2B  ....&|$... p...+
+0010:  BE DC 62 AE B5 37 86 71 E7 91 41 CB 5A 08 66 88  ..b..7.q..A.Z.f.
+0020:  BE FC D9 0C 83 3C D0 88 AF 89 AD                 .....<.....
+
+Response 76 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 48 82 46 30 44 02 20 55 33 A3 87 46 21 05 44  |H.F0D. U3..F!.D
+0010:  19 9A 34 D1 4B D1 97 E3 3C 33 8E 68 F3 68 6A 9D  ..4.K...<3.h.hj.
+0020:  78 25 AA CC 6D 0E CE 7F 02 20 45 9F 83 73 58 E8  x%..m.... E..sX.
+0030:  CD 1C 14 39 17 3E 44 B9 D5 7A C2 40 42 67 15 22  ...9.>D..z.@Bg."
+0040:  EF F3 70 C1 A5 42 1A 34 3F A8 90 00              ..p..B.4?...
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 A9 C5 03 7E 08 96 93 44 90 00        |......~...D..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 90 74 11 A4 0C E2 F5  .....|....t.....
+0010:  AA 81 08 BE 1C 92 5F F8 3B 07 89                 ......_.;..
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 05 D5 9F EF 39 2C A4 EB 90 00        |.......9,....
+
+Command  63 bytes: DB     PUT DATA   x
+0000:  00 DB 3F FF 3A 5C 03 5F C1 07 53 33 F0 15 A0 00  ..?.:\._..S3....
+0010:  00 01 16 FF 02 DC 56 34 72 F5 ED 8D 29 0B 8B B8  ......V4r...)...
+0020:  64 92 CC F1 01 21 F2 01 21 F3 00 F4 01 00 F5 01  d....!..!.......
+0030:  10 F6 00 F7 00 FA 00 FB 00 FC 00 FD 00 FE 00     ...............
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 A1 89 29 67 4A 9B 97 32 90 00        |.....)gJ..2..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 34 EF 89 95 A8 E1 E8  .....|...4......
+0010:  12 81 08 87 AF 8F 8C 86 C5 50 E2                 .........P.
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 5C 14 BC C6 F9 A8 1B 64 90 00        |...\......d..
+
+Command  63 bytes: DB     PUT DATA   x
+0000:  00 DB 3F FF 3A 5C 03 5F C1 07 53 33 F0 15 A0 00  ..?.:\._..S3....
+0010:  00 01 16 FF 02 0D 66 F8 C7 23 E2 66 77 2E 04 C1  ......f..#.fw...
+0020:  4F 45 A2 F1 01 21 F2 01 21 F3 00 F4 01 00 F5 01  OE...!..!.......
+0030:  10 F6 00 F7 00 FA 00 FB 00 FC 00 FD 00 FE 00     ...............
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 C9 D1 B1 01 0F 17 08 87 90 00        |.............
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 29 B3 E1 1C 29 C3 D9  .....|...)...)..
+0010:  C0 81 08 DB A5 E1 73 96 71 38 E4                 ......s.q8.
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 3D 1C 52 FD F8 72 2E 8E 90 00        |...=.R..r....
+
+Command  63 bytes: DB     PUT DATA   x
+0000:  00 DB 3F FF 3A 5C 03 5F C1 07 53 33 F0 15 A0 00  ..?.:\._..S3....
+0010:  00 01 16 FF 02 07 C5 72 5E C9 9D 7A D8 F5 8B EE  .......r^..z....
+0020:  B9 96 60 F1 01 21 F2 01 21 F3 00 F4 01 00 F5 01  ..`..!..!.......
+0030:  10 F6 00 F7 00 FA 00 FB 00 FC 00 FD 00 FE 00     ...............
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 46 52 B6 8C 28 6E 81 67 90 00        |...FR..(n.g..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 0F 7E CC B2 EE B6 5B  .....|....~....[
+0010:  7D 81 08 3B 62 B8 7C 09 76 D3 2C                 }..;b.|.v.,
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 26 C3 E0 64 89 50 86 AA 90 00        |...&..d.P....
+
+Command  63 bytes: DB     PUT DATA   x
+0000:  00 DB 3F FF 3A 5C 03 5F C1 07 53 33 F0 15 A0 00  ..?.:\._..S3....
+0010:  00 01 16 FF 02 02 13 96 24 81 B4 51 41 F2 11 83  ........$..QA...
+0020:  34 F4 FA F1 01 21 F2 01 21 F3 00 F4 01 00 F5 01  4....!..!.......
+0030:  10 F6 00 F7 00 FA 00 FB 00 FC 00 FD 00 FE 00     ...............
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 C0 90 D3 7F 5D F6 5F 96 90 00        |.......]._...
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 D0 01 B4 FF E5 B2 11  .....|..........
+0010:  89 81 08 F8 8D F9 54 7D 7F B8 C0                 ......T}...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 D2 3C 85 03 26 39 14 51 90 00        |....<..&9.Q..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 D6 1F 92 DF 38 3A 51 D2 90 00        |.......8:Q...
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 81 29 68 8D 87 3D DE  .....|....)h..=.
+0010:  1B 81 08 F1 4F 87 07 70 CF 69 77                 ....O..p.iw
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 3E 5E 48 C6 46 51 FC 1B 90 00        |...>^H.FQ....
+
+Command  71 bytes: DB     PUT DATA   x
+0000:  00 DB 3F FF 42 5C 03 5F C1 02 53 3B 30 19 D4 E7  ..?.B\._..S;0...
+0010:  39 DA 73 9C ED 39 CE 73 9D 83 68 58 21 08 42 10  9.s..9.s..hX!.B.
+0020:  84 21 38 42 10 C3 F5 34 10 A0 5C C6 10 3D B8 86  .!8B...4..\..=..
+0030:  F2 D5 1F C3 93 D4 F2 23 66 35 08 32 30 33 30 30  .......#f5.20300
+0040:  31 30 31 3E 00 FE 00                             101>...
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02                    ..?..\._..
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A0  hX!.B..!8B...4..
+0020:  5C C6 10 3D B8 86 F2 D5 1F C3 93 D4 F2 23 66 35  \..=.........#f5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 07                    ..?..\._..
+
+Response 55 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 33 F0 15 A0 00 00 01 16 FF 02 02 13 96 24 81  S3............$.
+0010:  B4 51 41 F2 11 83 34 F4 FA F1 01 21 F2 01 21 F3  .QA...4....!..!.
+0020:  00 F4 01 00 F5 01 10 F6 00 F7 00 FA 00 FB 00 FC  ................
+0030:  00 FD 00 FE 00 90 00                             .......
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0B                    ..?..\._..
+
+Response 256 bytes: 61 6D  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  53 82 01 67 70 82 01 5E 30 82 01 5A 30 82 01 01  S..gp..^0..Z0...
+0010:  A0 03 02 01 02 02 09 00 F7 01 90 9A 8A 4E C0 52  .............N.R
+0020:  30 0A 06 08 2A 86 48 CE 3D 04 03 02 30 33 31 0C  0...*.H.=...031.
+0030:  30 0A 06 03 55 04 03 0C 03 62 61 72 31 0D 30 0B  0...U....bar1.0.
+0040:  06 03 55 04 0B 0C 04 74 65 73 74 31 14 30 12 06  ..U....test1.0..
+0050:  03 55 04 0A 0C 0B 65 78 61 6D 70 6C 65 2E 63 6F  .U....example.co
+0060:  6D 30 1E 17 0D 31 37 30 35 33 31 31 30 34 38 31  m0...17053110481
+0070:  31 5A 17 0D 31 38 30 35 33 31 31 30 34 38 31 31  1Z..180531104811
+0080:  5A 30 33 31 0C 30 0A 06 03 55 04 03 0C 03 62 61  Z031.0...U....ba
+0090:  72 31 0D 30 0B 06 03 55 04 0B 0C 04 74 65 73 74  r1.0...U....test
+00a0:  31 14 30 12 06 03 55 04 0A 0C 0B 65 78 61 6D 70  1.0...U....examp
+00b0:  6C 65 2E 63 6F 6D 30 59 30 13 06 07 2A 86 48 CE  le.com0Y0...*.H.
+00c0:  3D 02 01 06 08 2A 86 48 CE 3D 03 01 07 03 42 00  =....*.H.=....B.
+00d0:  04 F9 B3 B6 E2 85 26 53 B6 D6 E8 A1 2B 3B EF EC  ......&S....+;..
+00e0:  B5 6D CB 60 46 1C 7F 28 78 5E D3 39 EA FF D6 FE  .m.`F..(x^.9....
+00f0:  0E 39 40 3D AB 61 B8 1A 76 03 3A 71 C1 37 61 6D  .9@=.a..v.:q.7am
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response 111 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  09 CD D3 94 80 E4 3E 13 73 6E 42 27 D3 98 BE E4  ......>.snB'....
+0010:  1D C6 DD 30 0A 06 08 2A 86 48 CE 3D 04 03 02 03  ...0...*.H.=....
+0020:  47 00 30 44 02 20 42 79 8B ED 03 58 4D 04 E3 F1  G.0D. By...XM...
+0030:  5B 7F 88 A3 CD EA 29 D4 3C 73 E2 0A 1A 00 4F 81  [.....).<s....O.
+0040:  1F 09 6A 13 4A 09 02 20 14 5A 3B 2C 4E E5 EA 15  ..j.J.. .Z;,N...
+0050:  77 72 35 B0 67 E6 49 D8 43 04 C4 95 26 BA 08 71  wr5.g.I.C...&..q
+0060:  A0 E0 93 F6 C8 FA FB 90 71 01 00 FE 00 90 00     ........q......
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 01                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0D                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0E                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0F                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 10                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 11                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 12                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 13                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 14                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 15                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 16                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 17                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 18                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 19                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1A                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1B                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1C                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1D                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1E                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 1F                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 20                    ..?..\._. 
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 00                                   . ...
+
+Response  2 bytes: 63 C3  [W] Verify fail, 3 tries left.
+0000:  63 C3                                            c.
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02 08                 ..?..\._...
+
+Response 10 bytes: 61 35  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  53 3B 30 19 D4 E7 39 DA 61 35                    S;0...9.a5
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02 3D                 ..?..\._..=
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A0  hX!.B..!8B...4..
+0020:  5C C6 10 3D B8 86 F2 D5 1F C3 93 D4 F2 23 66 35  \..=.........#f5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02 08                 ..?..\._...
+
+Response 10 bytes: 61 35  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  53 3B 30 19 D4 E7 39 DA 61 35                    S;0...9.a5
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02 3D                 ..?..\._..=
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A0  hX!.B..!8B...4..
+0020:  5C C6 10 3D B8 86 F2 D5 1F C3 93 D4 F2 23 66 35  \..=.........#f5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  11 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 0C 08                 ..?..\._...
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 08                       ..?..\.~.
+
+Response 10 bytes: 61 0C  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7E 12 4F 0B A0 00 00 03 61 0C                    ~.O.....a.
+
+Command   9 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 03 5C 01 7E 14                       ..?..\.~.
+
+Response 22 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 12 4F 0B A0 00 00 03 08 00 00 10 00 01 00 5F  ~.O............_
+0010:  2F 02 40 00 90 00                                /.@...
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 9F 0F 3A 51 0F 7A D1 2D 90 00        |.....:Q.z.-..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 76 77 01 7C 43 CD A6  .....|...vw.|C..
+0010:  98 81 08 B0 04 59 4C A0 D9 94 A2                 .....YL....
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 D8 A2 75 A5 CD 77 BB 18 90 00        |.....u..w....
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 01 E4 DC 2E 1C 5E BE 6B 90 00        |........^.k..
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 BD F0 7C EA CD E6 2C  .....|.....|...,
+0010:  C5 81 08 9A 6A 1D CC C5 14 9F 6D                 ....j.....m
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 2E 18 56 CA 61 0B 67 BD 90 00        |.....V.a.g...
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 EB 9C E0 A8 3B 77 50 E6 90 00        |.......;wP...
+
+Command  27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 E4 8C 42 B0 F9 CE 01  .....|.....B....
+0010:  8E 81 08 2E 92 58 42 91 48 AE A4                 .....XB.H..
+
+Response 14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 45 CE 39 97 07 AB 84 DE 90 00        |...E.9.......
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF 01 81 80 EF 89 4E 28 BF 25 F6 56  ..........N(.%.V
+0010:  48 DC C1 4D 3B F0 12 74 DA D9 51 15 C5 FE 17 7F  H..M;..t..Q.....
+0020:  63 E5 CC 86 A8 AE 14 89 48 AB 9A 20 3A 7B 87 F0  c.......H.. :{..
+0030:  BA 68 40 98 BB AD ED 66 BD 29 3E 9D 22 B6 B7 5E  .h@....f.)>."..^
+0040:  F8 EF DB 8A A2 4A 22 A4 7B BB B6 63 49 EF D0 9A  .....J".{..cI...
+0050:  E0 6E 86 B3 00 A1 2E 03 55 84 07 D6 2B 2B 31 4F  .n......U...++1O
+0060:  77 D7 4D BD 46 40 55 D4 8A 07 97 74 22 55 CB 3F  w.M.F@U....t"U.?
+0070:  69 16 07 A8 7E 38 80 D1 CA 53 B8 43 F9 2E 5D D3  i...~8...S.C..].
+0080:  59 8F 0D E6 46 5D 47 D1 02 81 80 C4 E1 95 41 42  Y...F]G.......AB
+0090:  39 B4 53 D0 7D 87 E9 A7 6D A1 85 53 31 36 D3 E5  9.S.}...m..S16..
+00a0:  4B BE FE 99 79 30 AF D1 D4 55 98 CB 09 FB 09 0E  K...y0...U......
+00b0:  3E 4E 4E BB DF DD 42 BE 84 03 5B 35 7F F1 D1 94  >NN...B...[5....
+00c0:  B0 20 7A 4F 18 FC 74 6B DA C3 AE 66 69 78 79 95  . zO..tk...fixy.
+00d0:  F7 3F B9 67 6D 7C 11 48 00 22 E2 1A 7F FC 07 D1  .?.gm|.H."......
+00e0:  94 37 D5 C9 11 52 DD 86 6E 59 B0 5F 0C 12 C4 36  .7...R..nY._...6
+00f0:  FF 1F CA C1 FE 6B 3F 1E 81 80 F1 11 BA 30 0B 2C  .....k?......0.,
+0100:  63 57 14 13                                      cW..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF 5B 7F BE 4A 2E 0B 49 03 81 80 27  .....[..J..I...'
+0010:  A7 22 32 2A 9A 7D 32 01 73 D1 E8 18 31 00 CD 29  ."2*.}2.s...1..)
+0020:  61 6A 43 E1 77 D3 A9 F9 FE 93 A2 03 10 76 43 D7  ajC.w........vC.
+0030:  AC D8 A1 D7 2C 95 EF 6A DC 51 3D 37 6C 6E 6D 60  ....,..j.Q=7lnm`
+0040:  89 10 5D 70 DE B0 72 5F 61 4D 85 A0 A2 07 24 15  ..]p..r_aM....$.
+0050:  7B 98 90 CD 2F 8E E7 E4 99 47 61 20 8C 8E 12 6D  {.../....Ga ...m
+0060:  38 A3 17 78 23 F9 50 BF 74 FB E0 86 5D A6 17 BE  8..x#.P.t...]...
+0070:  15 CD A3 A2 FF 72 DA F7 69 77 31 14 5C 04 2F 36  .....r..iw1.\./6
+0080:  80 2F 73 C9 2F 3C C6 FC FF 6A 7C A1 4F 55 D1 04  ./s./<...j|.OU..
+0090:  81 80 63 1B 23 24 EC 8F 5B A4 ED 48 A3 88 0C CD  ..c.#$..[..H....
+00a0:  F5 06 C6 2F F9 E7 84 7F 32 AF BA D5 F4 9A 2C C7  .../....2.....,.
+00b0:  F4 26 AB DE 64 4D D4 AB AC 83 99 B3 41 0F FE 13  .&..dM......A...
+00c0:  3A 15 49 C3 14 19 69 FD 96 FB BA A1 5B 43 C7 9F  :.I...i.....[C..
+00d0:  21 ED C2 83 C9 2F 7B 3C 31 09 C5 74 A9 85 91 76  !..../{<1..t...v
+00e0:  F0 18 5D 3A 9B C5 DB CB FE A7 51 45 B5 2E EA 22  ..]:......QE..."
+00f0:  D6 67 20 11 55 C9 0B DE 35 44 BD 8E B2 B1 DD 4B  .g .U...5D.....K
+0100:  57 7B 02 6F                                      W{.o
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  150 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  00 FE 07 9A 91 75 0B CA D6 5E D9 2E 3D 5A FA 91  .....u...^..=Z..
+0010:  20 C8 71 05 81 80 9D 59 3D 7B 17 22 B6 8E A2 1E   .q....Y={."....
+0020:  4C 5D 5B 9F C2 A7 88 B9 56 26 97 18 11 F4 F3 4C  L][.....V&.....L
+0030:  53 22 EB 30 01 D2 8E DB DC D7 7B A6 E8 77 F6 3D  S".0......{..w.=
+0040:  C9 3B A0 E5 27 6B 74 31 DE B6 08 2F CF 13 BF 87  .;..'kt1.../....
+0050:  B4 24 66 F4 3F F3 07 E3 A6 30 CA D1 37 47 B3 62  .$f.?....0..7G.b
+0060:  00 B3 DA 78 13 B1 F1 05 C1 65 D9 8B E8 B1 79 CD  ...x.....e....y.
+0070:  7D CF AE C8 BC 6F 07 8A B8 FB A7 66 30 EF 56 6B  }....o.....f0.Vk
+0080:  87 79 E0 62 21 28 5E 67 E3 EB EF 0B CD 13 D6 9A  .y.b!(^g........
+0090:  6C 1B DD 9D 87 81                                l.....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  76 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9A 47 7C 45 82 00 85 41 04 AF AE 7A A8  ....G|E...A...z.
+0010:  FD 13 EA 3D 32 2B 65 55 E4 00 AA 18 1C F2 65 A6  ...=2+eU......e.
+0020:  AE 2D 3E 78 D9 90 2F 1F F6 C2 13 39 E0 BF C8 BE  .->x../....9....
+0030:  3B B1 9D DB 11 3C 6E 0E EC 06 88 BE 51 2A 2F 88  ;....<n.....Q*/.
+0040:  22 71 5D 67 AF F3 F2 1E 3A FD 58 B1              "q]g....:.X.
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  76 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9A 47 7C 45 82 00 85 41 04 30 48 88 5D  ....G|E...A.0H.]
+0010:  6E 00 83 01 5C A6 95 0B 6C 75 01 73 8C 46 DF C4  n...\...lu.s.F..
+0020:  D0 4D 5C 90 E8 08 E4 08 09 77 9B 5E 4C 6D A7 77  .M\......w.^Lm.w
+0030:  D3 BE 5B 8D 6F 88 59 6F 68 70 5D 5F 1A E4 0F 61  ..[.o.Yohp]_...a
+0040:  BB E9 1E B0 3A 48 7E D2 A0 52 9A AB              ....:H~..R..
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  76 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9C 47 7C 45 82 00 85 41 04 AF 13 E4 1D  ....G|E...A.....
+0010:  80 B8 99 02 70 C2 E5 A2 8D E9 F6 BE 83 68 24 D2  ....p........h$.
+0020:  40 32 2D 3E A2 8C 52 E6 76 DD E9 7E 7B 30 D8 A5  @2->..R.v..~{0..
+0030:  0B 2D 7B FF 70 1B 49 25 4C 49 22 C3 57 CF ED 1A  .-{.p.I%LI".W...
+0040:  8B EA 43 C2 E1 04 FA 9B 44 CB F0 61              ..C.....D..a
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  76 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9D 47 7C 45 82 00 85 41 04 F3 43 9F 36  ....G|E...A..C.6
+0010:  2A 16 E6 CA 53 81 78 D1 1E D4 1B C0 A0 FE 08 86  *...S.x.........
+0020:  0C 07 96 C6 BF E3 33 CE 71 8F 47 E1 7D C0 C4 4B  ......3.q.G.}..K
+0030:  68 53 72 A3 31 B9 3D D2 65 38 71 3F 60 8F DF 0A  hSr.1.=.e8q?`...
+0040:  6A 3F D6 F3 6F B5 BE 84 E1 E3 66 8F              j?..o.....f.
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  76 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9E 47 7C 45 82 00 85 41 04 C1 10 85 18  ....G|E...A.....
+0010:  CF A7 CF 30 7D 4A 6A EB 41 62 D8 09 6E 41 EA C5  ...0}Jj.Ab..nA..
+0020:  EC CD A7 F2 E5 24 6D B5 61 53 67 90 BA 9F 14 CD  .....$m.aSg.....
+0030:  FD C7 74 F0 12 0C 35 D0 A5 2D C9 06 98 7B D5 D0  ..t...5..-...{..
+0040:  65 7F EA 67 8E 55 73 55 5F C4 72 CF              e..g.UsU_.r.
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  43 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9A 26 7C 24 82 00 81 20 CD 66 9D 29 F2  ....&|$... .f.).
+0010:  5A 08 F0 CA 18 26 8E 59 EA 05 F2 1D 92 69 C0 EF  Z....&.Y.....i..
+0020:  BF 63 92 E4 93 34 1E 4A 5B AF 07                 .c...4.J[..
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  43 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9C 26 7C 24 82 00 81 20 91 09 84 A0 3E  ....&|$... ....>
+0010:  A4 C9 37 54 70 5A 16 E9 6C 4B 28 59 8A A2 60 D6  ..7TpZ..lK(Y..`.
+0020:  96 EF FB 2C 02 1E F6 D0 B6 53 56                 ...,.....SV
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  43 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9D 26 7C 24 82 00 81 20 8E E3 F2 D6 0B  ....&|$... .....
+0010:  91 E5 3B 74 03 6B 4F 6B 0C 7D 6F 38 AC 60 B2 B3  ..;t.kOk.}o8.`..
+0020:  17 B7 28 74 E8 1B 8C AB 7C 43 17                 ..(t....|C.
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  76 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 11 9A 47 7C 45 82 00 85 41 04 D9 F6 51 EE  ....G|E...A...Q.
+0010:  55 F9 77 04 DD 09 C5 B4 50 D4 C3 0D B9 54 7A 07  U.w.....P....Tz.
+0020:  B6 08 08 8A 58 19 C9 3B 08 4C 0A E9 07 FD C4 29  ....X..;.L.....)
+0030:  4A 2E 23 60 C7 9C 13 6A CE 6D 72 8B 24 D1 E7 D9  J.#`...j.mr.$...
+0040:  A4 8B AA 4B 5E 7F 62 51 54 96 9A 57              ...K^.bQT..W
+
+Response  2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02                    ..?..\._..
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A0  hX!.B..!8B...4..
+0020:  5C C6 10 3D B8 86 F2 D5 1F C3 93 D4 F2 23 66 35  \..=.........#f5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command   6 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 01 5C                                ..?..\
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 01                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 08                    ..?..\._..
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 02                    ..?..\._..
+
+Response 63 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  53 3B 30 19 D4 E7 39 DA 73 9C ED 39 CE 73 9D 83  S;0...9.s..9.s..
+0010:  68 58 21 08 42 10 84 21 38 42 10 C3 F5 34 10 A0  hX!.B..!8B...4..
+0020:  5C C6 10 3D B8 86 F2 D5 1F C3 93 D4 F2 23 66 35  \..=.........#f5
+0030:  08 32 30 33 30 30 31 30 31 3E 00 FE 00 90 00     .20300101>.....
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 03                    ..?..\._..
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 04                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 06                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 04                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 03                    ..?..\._..
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 03                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 04                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 06                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 08                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C0 9C                    ..?..\._..
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down
+Power Up
+
+Command  10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response 21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+Command  13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command  10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 01 24 01                    ..?..\..$.
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Reset
+Power Down

@@ -1,0 +1,640 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C F2 76 A2 88 BC FB A6 9D 34 F3 10  ......v......4..
+0010:  01                                               .
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 97 42 54 46 59 00     ..........BTFY.
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 06 D2 76 00 01 24 01                 ......v..$.
+Intercepting SELECT OpenPGP Card
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 4F 10                                   ...O.
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D2 76 00 01 24 01 02 01 00 06 05 40 73 22 00 00  .v..$......@s"..
+0010:  90 00                                            ..
+
+Command  12 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 D2 76 00 01 24 01 00              ......v..$..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 4F 10                                   ...O.
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D2 76 00 01 24 01 02 01 00 06 05 40 73 22 00 00  .v..$......@s"..
+0010:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 5F 52 00                                   .._R.
+
+Response 10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 73 00 00 80 05 90 00 90 00                    .s........
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 6E 00                                   ...n.
+
+Response 226 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6E 81 DD 4F 10 D2 76 00 01 24 01 02 01 00 06 05  n..O..v..$......
+0010:  40 73 22 00 00 5F 52 08 00 73 00 00 80 05 90 00  @s".._R..s......
+0020:  7F 74 03 81 01 20 73 81 B7 C0 0A 3C 00 00 00 04  .t... s....<....
+0030:  C0 00 FF 00 FF C1 06 01 08 00 00 11 00 C2 06 01  ................
+0040:  08 00 00 11 00 C3 06 01 08 00 00 11 00 C4 07 FF  ................
+0050:  7F 7F 7F 03 00 03 C5 3C A6 4E 2B FE A8 BA D3 07  .......<.N+.....
+0060:  9C 09 B3 14 02 CF B3 52 E1 83 94 C7 0D C2 2E 61  .......R.......a
+0070:  DA FE 3B 96 6E B6 47 9B 3F 83 51 39 14 B7 8B F8  ..;.n.G.?.Q9....
+0080:  02 AB 9B 30 FC 63 B8 08 AB 19 1B 94 3C 9E D8 05  ...0.c......<...
+0090:  C4 F6 A8 F7 C6 3C 00 00 00 00 00 00 00 00 00 00  .....<..........
+00a0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00b0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00c0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00d0:  00 00 CD 0C 59 2E B8 8D 59 2E B8 8D 59 2E BA CF  ....Y...Y...Y...
+00e0:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 65 00                                   ...e.
+
+Response 13 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  65 09 5B 00 5F 2D 00 5F 35 01 39 90 00           e.[._-._5.9..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 7F 21 00                                   ...!.
+
+Response 256 bytes: 61 05  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 21 82 00 FF FF FF FF FF FF FF FF FF FF FF FF  .!..............
+0010:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0020:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0030:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0040:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0050:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0060:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0070:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0080:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0090:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00a0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00b0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00c0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00d0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00e0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00f0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF 61 05  ..............a.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 05                                   .....
+
+Response  7 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  FF FF FF FF FF 90 00                             .......
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 01 00                                   .....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 02 00                                   .....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 03 00                                   .....
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 04 00                                   .....
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C F2 76 A2 88 BC FB A6 9D 34 F3 10  ......v......4..
+0010:  01                                               .
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 97 42 54 46 59 00     ..........BTFY.
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 06 D2 76 00 01 24 01                 ......v..$.
+Intercepting SELECT OpenPGP Card
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 4F 10                                   ...O.
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D2 76 00 01 24 01 02 01 00 06 05 40 73 22 00 00  .v..$......@s"..
+0010:  90 00                                            ..
+
+Command  12 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 D2 76 00 01 24 01 00              ......v..$..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 4F 10                                   ...O.
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D2 76 00 01 24 01 02 01 00 06 05 40 73 22 00 00  .v..$......@s"..
+0010:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 5F 52 00                                   .._R.
+
+Response 10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 73 00 00 80 05 90 00 90 00                    .s........
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 6E 00                                   ...n.
+
+Response 226 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6E 81 DD 4F 10 D2 76 00 01 24 01 02 01 00 06 05  n..O..v..$......
+0010:  40 73 22 00 00 5F 52 08 00 73 00 00 80 05 90 00  @s".._R..s......
+0020:  7F 74 03 81 01 20 73 81 B7 C0 0A 3C 00 00 00 04  .t... s....<....
+0030:  C0 00 FF 00 FF C1 06 01 08 00 00 11 00 C2 06 01  ................
+0040:  08 00 00 11 00 C3 06 01 08 00 00 11 00 C4 07 FF  ................
+0050:  7F 7F 7F 03 00 03 C5 3C A6 4E 2B FE A8 BA D3 07  .......<.N+.....
+0060:  9C 09 B3 14 02 CF B3 52 E1 83 94 C7 0D C2 2E 61  .......R.......a
+0070:  DA FE 3B 96 6E B6 47 9B 3F 83 51 39 14 B7 8B F8  ..;.n.G.?.Q9....
+0080:  02 AB 9B 30 FC 63 B8 08 AB 19 1B 94 3C 9E D8 05  ...0.c......<...
+0090:  C4 F6 A8 F7 C6 3C 00 00 00 00 00 00 00 00 00 00  .....<..........
+00a0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00b0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00c0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00d0:  00 00 CD 0C 59 2E B8 8D 59 2E B8 8D 59 2E BA CF  ....Y...Y...Y...
+00e0:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 65 00                                   ...e.
+
+Response 13 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  65 09 5B 00 5F 2D 00 5F 35 01 39 90 00           e.[._-._5.9..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 7F 21 00                                   ...!.
+
+Response 256 bytes: 61 05  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 21 82 00 FF FF FF FF FF FF FF FF FF FF FF FF  .!..............
+0010:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0020:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0030:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0040:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0050:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0060:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0070:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0080:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0090:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00a0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00b0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00c0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00d0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00e0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00f0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF 61 05  ..............a.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 05                                   .....
+
+Response  7 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  FF FF FF FF FF 90 00                             .......
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 01 00                                   .....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 02 00                                   .....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 03 00                                   .....
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 04 00                                   .....
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C F2 76 A2 88 BC FB A6 9D 34 F3 10  ......v......4..
+0010:  01                                               .
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 97 42 54 46 59 00     ..........BTFY.
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 06 D2 76 00 01 24 01                 ......v..$.
+Intercepting SELECT OpenPGP Card
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 4F 10                                   ...O.
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D2 76 00 01 24 01 02 01 00 06 05 40 73 22 00 00  .v..$......@s"..
+0010:  90 00                                            ..
+
+Command  12 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 D2 76 00 01 24 01 00              ......v..$..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 4F 10                                   ...O.
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D2 76 00 01 24 01 02 01 00 06 05 40 73 22 00 00  .v..$......@s"..
+0010:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 5F 52 00                                   .._R.
+
+Response 10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 73 00 00 80 05 90 00 90 00                    .s........
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 6E 00                                   ...n.
+
+Response 226 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6E 81 DD 4F 10 D2 76 00 01 24 01 02 01 00 06 05  n..O..v..$......
+0010:  40 73 22 00 00 5F 52 08 00 73 00 00 80 05 90 00  @s".._R..s......
+0020:  7F 74 03 81 01 20 73 81 B7 C0 0A 3C 00 00 00 04  .t... s....<....
+0030:  C0 00 FF 00 FF C1 06 01 08 00 00 11 00 C2 06 01  ................
+0040:  08 00 00 11 00 C3 06 01 08 00 00 11 00 C4 07 FF  ................
+0050:  7F 7F 7F 03 00 03 C5 3C A6 4E 2B FE A8 BA D3 07  .......<.N+.....
+0060:  9C 09 B3 14 02 CF B3 52 E1 83 94 C7 0D C2 2E 61  .......R.......a
+0070:  DA FE 3B 96 6E B6 47 9B 3F 83 51 39 14 B7 8B F8  ..;.n.G.?.Q9....
+0080:  02 AB 9B 30 FC 63 B8 08 AB 19 1B 94 3C 9E D8 05  ...0.c......<...
+0090:  C4 F6 A8 F7 C6 3C 00 00 00 00 00 00 00 00 00 00  .....<..........
+00a0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00b0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00c0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00d0:  00 00 CD 0C 59 2E B8 8D 59 2E B8 8D 59 2E BA CF  ....Y...Y...Y...
+00e0:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 65 00                                   ...e.
+
+Response 13 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  65 09 5B 00 5F 2D 00 5F 35 01 39 90 00           e.[._-._5.9..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 7F 21 00                                   ...!.
+
+Response 256 bytes: 61 05  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 21 82 00 FF FF FF FF FF FF FF FF FF FF FF FF  .!..............
+0010:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0020:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0030:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0040:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0050:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0060:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0070:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0080:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0090:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00a0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00b0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00c0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00d0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00e0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00f0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF 61 05  ..............a.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 05                                   .....
+
+Response  7 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  FF FF FF FF FF 90 00                             .......
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 01 00                                   .....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 02 00                                   .....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 03 00                                   .....
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 04 00                                   .....
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down
+Power Up
+
+Command  20 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0F D2 33 00 00 00 45 73 74 45 49 44  ......3...EstEID
+0010:  20 76 33 35                                       v35
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 05                                   ...0.
+
+Response  2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 A0 00 00 00 01 01                 ...........
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 08 00 00 10 00 00     ...............
+Intercepting SELECT PIV Card Application AID
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C F2 76 A2 88 BC FB A6 9D 34 F3 10  ......v......4..
+0010:  01                                               .
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  15 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 09 A0 00 00 03 97 42 54 46 59 00     ..........BTFY.
+
+Response  2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+Command  11 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 0C 06 D2 76 00 01 24 01                 ......v..$.
+Intercepting SELECT OpenPGP Card
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 4F 10                                   ...O.
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D2 76 00 01 24 01 02 01 00 06 05 40 73 22 00 00  .v..$......@s"..
+0010:  90 00                                            ..
+
+Command  12 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 06 D2 76 00 01 24 01 00              ......v..$..
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 4F 10                                   ...O.
+
+Response 18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D2 76 00 01 24 01 02 01 00 06 05 40 73 22 00 00  .v..$......@s"..
+0010:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 5F 52 00                                   .._R.
+
+Response 10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  00 73 00 00 80 05 90 00 90 00                    .s........
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 6E 00                                   ...n.
+
+Response 226 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  6E 81 DD 4F 10 D2 76 00 01 24 01 02 01 00 06 05  n..O..v..$......
+0010:  40 73 22 00 00 5F 52 08 00 73 00 00 80 05 90 00  @s".._R..s......
+0020:  7F 74 03 81 01 20 73 81 B7 C0 0A 3C 00 00 00 04  .t... s....<....
+0030:  C0 00 FF 00 FF C1 06 01 08 00 00 11 00 C2 06 01  ................
+0040:  08 00 00 11 00 C3 06 01 08 00 00 11 00 C4 07 FF  ................
+0050:  7F 7F 7F 03 00 03 C5 3C A6 4E 2B FE A8 BA D3 07  .......<.N+.....
+0060:  9C 09 B3 14 02 CF B3 52 E1 83 94 C7 0D C2 2E 61  .......R.......a
+0070:  DA FE 3B 96 6E B6 47 9B 3F 83 51 39 14 B7 8B F8  ..;.n.G.?.Q9....
+0080:  02 AB 9B 30 FC 63 B8 08 AB 19 1B 94 3C 9E D8 05  ...0.c......<...
+0090:  C4 F6 A8 F7 C6 3C 00 00 00 00 00 00 00 00 00 00  .....<..........
+00a0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00b0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00c0:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+00d0:  00 00 CD 0C 59 2E B8 8D 59 2E B8 8D 59 2E BA CF  ....Y...Y...Y...
+00e0:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 00 65 00                                   ...e.
+
+Response 13 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  65 09 5B 00 5F 2D 00 5F 35 01 39 90 00           e.[._-._5.9..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 7F 21 00                                   ...!.
+
+Response 256 bytes: 61 05  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 21 82 00 FF FF FF FF FF FF FF FF FF FF FF FF  .!..............
+0010:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0020:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0030:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0040:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0050:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0060:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0070:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0080:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+0090:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00a0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00b0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00c0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00d0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00e0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ................
+00f0:  FF FF FF FF FF FF FF FF FF FF FF FF FF FF 61 05  ..............a.
+
+Command   5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 05                                   .....
+
+Response  7 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  FF FF FF FF FF 90 00                             .......
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 01 00                                   .....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 02 00                                   .....
+
+Response  2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 03 00                                   .....
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+
+Command   5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 01 04 00                                   .....
+
+Response  2 bytes: 69 82  [E] Security condition not satisfied.
+0000:  69 82                                            i.
+Reset
+Power Down

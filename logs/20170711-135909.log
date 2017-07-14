@@ -1,0 +1,45 @@
+Launched virtual smart card os=relay attack=intercept
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 62 83  [W] Selected file invalidated
+0000:  62 83                                            b.
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command      11 bytes: 22     MANAGE SECURITY ENVIRONMENT Sets or replaces one component of the current SE.
+0000:  00 22 41 A4 06 83 01 01 95 01 80                 ."A........
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command       5 bytes: 84     UPDATE PSAM Parameter (offline) Modify the parameters in the PSAM (offline).
+0000:  80 84 00 00 08                                   .....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+
+User command      69 bytes: 82     UPDATE PSAM Parameter (online) Modify the parameters in the PSAM (online).
+0000:  80 82 00 00 48 E2 A6 CF 1A E8 53 DC DE 86 DD 30  ....H.....S....0
+0010:  F1 E3 1E AF A2 F1 ED D3 60 02 0D 7B CB 5F 47 D3  ........`..{._G.
+0020:  34 EF C0 4C 2B 67 DA E9 CC A4 56 CD B7 94 11 1D  4..L+g....V.....
+0030:  DA 54 6A 50 C1 22 C4 6E 7B 85 59 20 62 A3 2E 60  .TjP.".n{.Y b..`
+0040:  57 D2 FC F0 1F                                   W....
+
+Response           2 bytes: 6D 00  [E] Instruction code not supported or invalid
+0000:  6D 00                                            m.
+Power Down
+----------------------------------------------------------------------

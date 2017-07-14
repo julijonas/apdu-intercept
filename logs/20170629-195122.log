@@ -1,0 +1,226 @@
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 22 34 00  ..*G.P......."4.
+0010:  00 AF 04 E3 A9 40 82 30 23 12 93 30 23 20 05 30  .....@.0#..0# .0
+0020:  23 00 00 00 14 00 00 00 00 00 00 00 00 90 00     #..............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  2E 38 30 34 5A 00 32 39 31 38 35 30 30 38 00 00  .804Z.29185008..
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0E 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 22 34 00  ..*G.P......."4.
+0010:  00 AF 04 E3 A9 40 82 30 23 12 93 30 23 20 05 30  .....@.0#..0# .0
+0020:  23 00 00 00 14 00 00 00 00 00 00 00 00 90 00     #..............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 00 02                             .......
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: B0     READ BINARY Reads part of a binary file.
+0000:  00 B0 00 00 20                                   .... 
+
+Response          34 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  2E 38 30 34 5A 00 32 39 31 38 35 30 30 38 00 00  .804Z.29185008..
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  90 00                                            ..
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6C 08  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 08                                            l.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30 08                                   ...0.
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  DF 30 05 76 33 2E 30 33 90 00                    .0.v3.03..
+
+User command       5 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 00                                   . ...
+
+Response           2 bytes: 63 C3  [W] Verify fail, 3 tries left.
+0000:  63 C3                                            c.
+
+User command      21 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 81 10 31 32 33 34 35 36 00 00 00 00 00  . ...123456.....
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      21 bytes: A4     SELECT     Select a file.
+0000:  00 A4 02 00 10 00 00 00 00 00 00 00 00 00 00 00  ................
+0010:  00 00 00 00 00                                   .....
+
+Response           2 bytes: 67 00  [E] Wrong length
+0000:  67 00                                            g.
+
+User command      15 bytes: CB     GET DATA   x
+0000:  00 CB 00 FF 0A B6 03 83 01 0B 7F 49 02 81 00     ...........I...
+
+Response           2 bytes: 61 8E  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 8E                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 8E                                   .....
+
+Response         144 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  B6 03 83 01 0B 7F 49 82 00 84 81 82 00 80 9B 55  ......I........U
+0010:  62 14 DF 87 9C 83 2C A4 A3 78 F4 CC 6A 85 4A 82  b.....,..x..j.J.
+0020:  85 78 7C D6 A8 86 CD E6 E1 45 2E 28 E8 C8 5C 32  .x|......E.(..\2
+0030:  6D CD C7 A2 B8 55 C7 2E A8 5C CC 64 F6 61 28 86  m....U...\.d.a(.
+0040:  C3 80 00 C3 07 BE E7 0A 1A E5 49 B4 83 E1 68 C2  ..........I...h.
+0050:  FF 77 4A F9 EA 85 1C 71 11 B1 E6 CE C9 5B AB 42  .wJ....q.....[.B
+0060:  A4 EB 9D 5F A7 28 54 36 54 BE F4 42 CB 94 9A 62  ..._.(T6T..B...b
+0070:  91 16 6F FB 37 A7 82 A5 1A 8E 73 77 D2 66 64 2D  ..o.7.....sw.fd-
+0080:  FE EF 7D 2B B9 69 AD 72 DB D4 7D FB 1A 21 90 00  ..}+.i.r..}..!..
+
+User command      15 bytes: CB     GET DATA   x
+0000:  00 CB 00 FF 0A B6 03 83 01 0B 7F 49 02 82 00     ...........I...
+
+Response           2 bytes: 61 10  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 10                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 10                                   .....
+
+Response          18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  B6 03 83 01 0B 7F 49 82 00 06 82 81 03 01 00 01  ......I.........
+0010:  90 00                                            ..
+
+User command      11 bytes: 22     MANAGE SECURITY ENVIRONMENT Sets or replaces one component of the current SE.
+0000:  00 22 41 A4 06 83 01 01 95 01 80                 ."A........
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: 84     UPDATE PSAM Parameter (offline) Modify the parameters in the PSAM (offline).
+0000:  80 84 00 00 08                                   .....
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  D7 8A E4 B7 E3 01 AE 31 90 00                    .......1..
+
+User command      77 bytes: 82     UPDATE PSAM Parameter (online) Modify the parameters in the PSAM (online).
+0000:  80 82 00 00 48 31 1B C2 E1 0F C9 0C 42 80 3C 67  ....H1......B.<g
+0010:  97 08 7F B8 3E F1 8C 81 51 03 C8 2A 2A 73 FB 80  ....>...Q..**s..
+0020:  E3 4C 00 A2 3B 61 17 D2 F4 20 14 98 E5 65 E1 5D  .L..;a... ...e.]
+0030:  D0 69 DE 64 2E 13 DC E1 92 E3 CE 4B 22 1E EA 1B  .i.d.......K"...
+0040:  CD 8B 5B D0 04 17 11 B7 40 09 76 53 CC           ..[.....@.vS.
+
+Response           2 bytes: 61 48  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 48                                            aH
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  80 C0 00 00 48                                   ....H
+
+Response          74 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  97 1D E2 BE 87 12 35 F2 95 C3 15 87 75 36 F2 78  ......5.....u6.x
+0010:  8A A2 D2 7D 3D 39 40 ED 8B D8 3B E1 C2 F4 C7 84  ...}=9@...;.....
+0020:  AA F5 92 0A E0 9B D1 F3 0C 29 B2 8C 1E 38 6D 04  .........)...8m.
+0030:  FF E3 44 D1 3B AC 51 C2 5A 23 E8 B1 AF 5B D1 82  ..D.;.Q.Z#...[..
+0040:  F8 E1 31 8D 08 70 96 B9 90 00                    ..1..p....
+
+User command      49 bytes: D6     UPDATE BINARY Updates part of a binary file.
+0000:  0C D6 00 00 2C 81 20 2E 35 38 37 5A 00 32 39 31  ....,. .587Z.291
+0010:  38 35 31 32 36 00 00 00 00 00 00 00 00 00 00 00  85126...........
+0020:  00 00 00 00 00 00 00 8E 08 A6 D4 6E D4 9C 9D 17  ...........n....
+0030:  6A                                               j
+
+Response           2 bytes: 61 0E  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 0E                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  0C C0 00 00 0E                                   .....
+
+Response          16 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  99 02 90 00 8E 08 46 51 21 4C A5 1A 62 1D 90 00  ......FQ!L..b...
+
+User command       9 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 04 50 00 50 02                       .....P.P.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      63 bytes: D6     UPDATE BINARY Updates part of a binary file.
+0000:  0C D6 00 00 3A 81 2E 30 2C 30 0D 0C 07 6D 79 4C  ....:..0,0...myL
+0010:  61 62 65 6C 03 02 06 40 30 0F 04 02 12 34 03 02  abel...@0....4..
+0020:  00 8B 03 02 03 48 02 01 0A A1 0A 30 08 30 02 04  .....H.....0.0..
+0030:  00 02 02 04 00 8E 08 3F 7B 3B 3C 93 B9 3F EA     .......?{;<..?.
+
+Response           2 bytes: 61 0E  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 0E                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  0C C0 00 00 0E                                   .....
+
+Response          16 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  99 02 90 00 8E 08 9B 45 20 58 55 D8 E3 09 90 00  .......E XU.....
+
+User command      63 bytes: D6     UPDATE BINARY Updates part of a binary file.
+0000:  0C D6 00 2E 3A 81 2E 00 00 00 00 00 00 00 00 00  ....:...........
+0010:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0020:  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0030:  00 00 00 00 00 8E 08 7F B9 26 1B 1F 28 CD 53     .........&..(.S
+
+Response           2 bytes: 61 0E  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 0E                                            a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  0C C0 00 00 0E                                   .....
+
+Response          16 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  99 02 90 00 8E 08 DF F8 26 8C B7 17 55 1A 90 00  ........&...U...
+Power Down

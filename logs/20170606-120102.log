@@ -1,0 +1,4 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Failed to open socket: [Errno 111] Connection refused
+Is pcscd running at localhost? Is vpcd loaded? Is a                           firewall blocking port 35963?
+Error disconnecting from card: Failed to disconnect: Service not available.

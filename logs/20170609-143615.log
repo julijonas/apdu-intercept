@@ -1,0 +1,712 @@
+Connected to card in 'Yubico Yubikey 4 OTP+U2F+CCID 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command       9 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 04 7C 02 80 00                       .....|...
+
+Response          14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 80 08 4E 03 05 4F FD 3E 9D 53 90 00        |...N..O.>.S..
+
+User command      27 bytes: 87     GENERAL AUTHENTICATE The General Authenticate command is used to generate secure messaging session keys between both entities (IFD and ICC) as part of elliptic curve asymmetric key mutual authentication.
+0000:  00 87 03 9B 16 7C 14 80 08 79 A8 77 DC 42 C6 BE  .....|...y.w.B..
+0010:  E1 81 08 96 84 6F 70 D5 32 61 A6                 .....op.2a.
+
+Response          14 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7C 0A 82 08 51 21 70 B5 70 23 61 B0 90 00        |...Q!p.p#a...
+
+User command      13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      10 bytes: 47     GENERATE ASYMMETRIC KEY PAIR x
+0000:  00 47 00 9A 05 AC 03 80 01 07                    .G........
+
+Response         256 bytes: 61 10  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  7F 49 82 01 09 81 82 01 00 93 10 0C 77 9E 8B 1C  .I..........w...
+0010:  32 6F 2F 67 71 E3 E7 B9 40 AE 54 BF E2 38 A8 A7  2o/gq...@.T..8..
+0020:  CB 4E 3E 0C 9F D9 B2 80 21 58 33 92 D5 80 3C C8  .N>.....!X3...<.
+0030:  3A 2F C6 3C B9 F0 B1 9D 85 A9 B9 E6 E7 91 E2 BC  :/.<............
+0040:  9C EF F6 3A B7 E9 77 06 B4 17 1A F1 B0 46 49 0B  ...:..w......FI.
+0050:  FA CD AC 2E 17 69 A8 2A 6D 18 47 DB F6 39 BE 62  .....i.*m.G..9.b
+0060:  34 DB BB D5 09 0C C6 9D D9 9D C8 8C CE D1 09 FD  4...............
+0070:  4E F7 69 F4 1E 66 17 C0 C7 6F AF 95 D7 59 4F F8  N.i..f...o...YO.
+0080:  A8 A2 98 66 2C 75 8F FC 16 ED 63 34 BB BF AF B7  ...f,u....c4....
+0090:  D5 04 F1 1D 67 B7 1A 86 2A 1A 10 8B 0E 0A 19 38  ....g...*......8
+00a0:  F8 3A 03 EC 85 AE 9C 32 A3 EA 0C 5B 42 EC C5 56  .:.....2...[B..V
+00b0:  74 8B 75 AD 97 FB CD C4 87 F2 18 17 09 4D 75 BC  t.u..........Mu.
+00c0:  2E 28 DD A0 14 9B A5 38 4A 2E CC E9 D1 A2 FD C4  .(.....8J.......
+00d0:  E4 91 81 9C 3C 09 56 AE CB 66 C6 37 83 7A 43 DF  ....<.V..f.7.zC.
+00e0:  3D 16 97 E5 D9 EC 86 64 51 E7 7F 16 85 8B FF C4  =......dQ.......
+00f0:  5A 5F 40 27 AC 72 25 4A B3 68 75 3A 7A 58 61 10  Z_@'.r%J.hu:zXa.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response          18 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  25 02 E7 81 B7 4D 6D 88 2D 24 EB 82 03 01 00 01  %....Mm.-$......
+0010:  90 00                                            ..
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command       5 bytes: F9     ATTESTATION Get an attestation certificate for a slot where the key has been generated on device.
+0000:  00 F9 9A 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  30 82 03 0E 30 82 01 F6 A0 03 02 01 02 02 10 56  0...0..........V
+0010:  9E 33 E5 17 CD EF C2 D3 A7 5E FB 39 81 02 4A 30  .3.......^.9..J0
+0020:  0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30 21  ...*.H........0!
+0030:  31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69 63  1.0...U....Yubic
+0040:  6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69 6F  o PIV Attestatio
+0050:  6E 30 20 17 0D 31 36 30 33 31 34 30 30 30 30 30  n0 ..16031400000
+0060:  30 5A 18 0F 32 30 35 32 30 34 31 37 30 30 30 30  0Z..205204170000
+0070:  30 30 5A 30 25 31 23 30 21 06 03 55 04 03 0C 1A  00Z0%1#0!..U....
+0080:  59 75 62 69 4B 65 79 20 50 49 56 20 41 74 74 65  YubiKey PIV Atte
+0090:  73 74 61 74 69 6F 6E 20 39 61 30 82 01 22 30 0D  station 9a0.."0.
+00a0:  06 09 2A 86 48 86 F7 0D 01 01 01 05 00 03 82 01  ..*.H...........
+00b0:  0F 00 30 82 01 0A 02 82 01 01 00 93 10 0C 77 9E  ..0...........w.
+00c0:  8B 1C 32 6F 2F 67 71 E3 E7 B9 40 AE 54 BF E2 38  ..2o/gq...@.T..8
+00d0:  A8 A7 CB 4E 3E 0C 9F D9 B2 80 21 58 33 92 D5 80  ...N>.....!X3...
+00e0:  3C C8 3A 2F C6 3C B9 F0 B1 9D 85 A9 B9 E6 E7 91  <.:/.<..........
+00f0:  E2 BC 9C EF F6 3A B7 E9 77 06 B4 17 1A F1 61 FF  .....:..w.....a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  B0 46 49 0B FA CD AC 2E 17 69 A8 2A 6D 18 47 DB  .FI......i.*m.G.
+0010:  F6 39 BE 62 34 DB BB D5 09 0C C6 9D D9 9D C8 8C  .9.b4...........
+0020:  CE D1 09 FD 4E F7 69 F4 1E 66 17 C0 C7 6F AF 95  ....N.i..f...o..
+0030:  D7 59 4F F8 A8 A2 98 66 2C 75 8F FC 16 ED 63 34  .YO....f,u....c4
+0040:  BB BF AF B7 D5 04 F1 1D 67 B7 1A 86 2A 1A 10 8B  ........g...*...
+0050:  0E 0A 19 38 F8 3A 03 EC 85 AE 9C 32 A3 EA 0C 5B  ...8.:.....2...[
+0060:  42 EC C5 56 74 8B 75 AD 97 FB CD C4 87 F2 18 17  B..Vt.u.........
+0070:  09 4D 75 BC 2E 28 DD A0 14 9B A5 38 4A 2E CC E9  .Mu..(.....8J...
+0080:  D1 A2 FD C4 E4 91 81 9C 3C 09 56 AE CB 66 C6 37  ........<.V..f.7
+0090:  83 7A 43 DF 3D 16 97 E5 D9 EC 86 64 51 E7 7F 16  .zC.=......dQ...
+00a0:  85 8B FF C4 5A 5F 40 27 AC 72 25 4A B3 68 75 3A  ....Z_@'.r%J.hu:
+00b0:  7A 58 25 02 E7 81 B7 4D 6D 88 2D 24 EB 02 03 01  zX%....Mm.-$....
+00c0:  00 01 A3 3C 30 3A 30 11 06 0A 2B 06 01 04 01 82  ...<0:0...+.....
+00d0:  C4 0A 03 03 04 03 04 03 04 30 13 06 0A 2B 06 01  .........0...+..
+00e0:  04 01 82 C4 0A 03 07 04 05 02 03 52 82 5A 30 10  ...........R.Z0.
+00f0:  06 0A 2B 06 01 04 01 82 C4 0A 03 08 04 02 61 FF  ..+...........a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 18  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  02 01 30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05  ..0...*.H.......
+0010:  00 03 82 01 01 00 0C 7A 1B DD 95 78 8F 6C E2 DD  .......z...x.l..
+0020:  7C 89 17 BC D7 D8 4C AA 22 D0 66 C0 8A 6D A2 06  |.....L.".f..m..
+0030:  F7 D5 A6 9E 41 83 44 FF B9 F6 9C 29 C8 7A CE 26  ....A.D....).z.&
+0040:  20 7F 32 95 4C 6F AA 71 81 21 58 28 53 A5 CA 22   .2.Lo.q.!X(S.."
+0050:  8D BA 32 AB 5B 60 13 C9 DE B3 EB 74 FC 3C EF 46  ..2.[`.....t.<.F
+0060:  0E 6B F3 51 5D 87 B4 3F BA 93 6B D7 96 DA 58 E4  .k.Q]..?..k...X.
+0070:  9C 82 6F F6 66 C4 53 F1 6D B2 45 8C EA 49 20 57  ..o.f.S.m.E..I W
+0080:  52 15 2F E8 AA D9 02 37 57 8E 68 86 EB E8 70 08  R./....7W.h...p.
+0090:  FE 66 D8 F4 AA 07 27 8E 98 2A 5E 73 BB C1 C6 08  .f....'..*^s....
+00a0:  63 74 95 61 25 63 BF 54 8D 56 80 A9 5B C1 27 F5  ct.a%c.T.V..[.'.
+00b0:  C5 46 C6 C2 D1 90 56 96 A7 AF 14 7F 8F FF 06 9E  .F....V.........
+00c0:  3D 11 45 E5 7C 77 DA C0 53 03 9C BD 78 6F 83 33  =.E.|w..S...xo.3
+00d0:  8A FD 5A EC 43 04 FE FB 0B 9C 05 33 B9 A0 63 A1  ..Z.C......3..c.
+00e0:  40 93 D6 F9 ED 64 06 98 AD 7A 44 C6 0A B3 08 73  @....d...zD....s
+00f0:  B9 1C 17 A6 1F A9 D1 AB D2 2A B5 B3 01 E4 61 18  .........*....a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response          26 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  A5 62 30 AE 72 DF A2 63 65 C3 B7 D1 25 20 C5 0F  .b0.r..ce...% ..
+0010:  88 61 72 72 26 33 AE 8C 90 00                    .arr&3....
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command       5 bytes: F9     ATTESTATION Get an attestation certificate for a slot where the key has been generated on device.
+0000:  00 F9 9A 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  30 82 03 0E 30 82 01 F6 A0 03 02 01 02 02 10 58  0...0..........X
+0010:  2F 34 B4 F1 D8 5B 06 82 E6 AF 55 39 42 11 EE 30  /4...[....U9B..0
+0020:  0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30 21  ...*.H........0!
+0030:  31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69 63  1.0...U....Yubic
+0040:  6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69 6F  o PIV Attestatio
+0050:  6E 30 20 17 0D 31 36 30 33 31 34 30 30 30 30 30  n0 ..16031400000
+0060:  30 5A 18 0F 32 30 35 32 30 34 31 37 30 30 30 30  0Z..205204170000
+0070:  30 30 5A 30 25 31 23 30 21 06 03 55 04 03 0C 1A  00Z0%1#0!..U....
+0080:  59 75 62 69 4B 65 79 20 50 49 56 20 41 74 74 65  YubiKey PIV Atte
+0090:  73 74 61 74 69 6F 6E 20 39 61 30 82 01 22 30 0D  station 9a0.."0.
+00a0:  06 09 2A 86 48 86 F7 0D 01 01 01 05 00 03 82 01  ..*.H...........
+00b0:  0F 00 30 82 01 0A 02 82 01 01 00 93 10 0C 77 9E  ..0...........w.
+00c0:  8B 1C 32 6F 2F 67 71 E3 E7 B9 40 AE 54 BF E2 38  ..2o/gq...@.T..8
+00d0:  A8 A7 CB 4E 3E 0C 9F D9 B2 80 21 58 33 92 D5 80  ...N>.....!X3...
+00e0:  3C C8 3A 2F C6 3C B9 F0 B1 9D 85 A9 B9 E6 E7 91  <.:/.<..........
+00f0:  E2 BC 9C EF F6 3A B7 E9 77 06 B4 17 1A F1 61 FF  .....:..w.....a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  B0 46 49 0B FA CD AC 2E 17 69 A8 2A 6D 18 47 DB  .FI......i.*m.G.
+0010:  F6 39 BE 62 34 DB BB D5 09 0C C6 9D D9 9D C8 8C  .9.b4...........
+0020:  CE D1 09 FD 4E F7 69 F4 1E 66 17 C0 C7 6F AF 95  ....N.i..f...o..
+0030:  D7 59 4F F8 A8 A2 98 66 2C 75 8F FC 16 ED 63 34  .YO....f,u....c4
+0040:  BB BF AF B7 D5 04 F1 1D 67 B7 1A 86 2A 1A 10 8B  ........g...*...
+0050:  0E 0A 19 38 F8 3A 03 EC 85 AE 9C 32 A3 EA 0C 5B  ...8.:.....2...[
+0060:  42 EC C5 56 74 8B 75 AD 97 FB CD C4 87 F2 18 17  B..Vt.u.........
+0070:  09 4D 75 BC 2E 28 DD A0 14 9B A5 38 4A 2E CC E9  .Mu..(.....8J...
+0080:  D1 A2 FD C4 E4 91 81 9C 3C 09 56 AE CB 66 C6 37  ........<.V..f.7
+0090:  83 7A 43 DF 3D 16 97 E5 D9 EC 86 64 51 E7 7F 16  .zC.=......dQ...
+00a0:  85 8B FF C4 5A 5F 40 27 AC 72 25 4A B3 68 75 3A  ....Z_@'.r%J.hu:
+00b0:  7A 58 25 02 E7 81 B7 4D 6D 88 2D 24 EB 02 03 01  zX%....Mm.-$....
+00c0:  00 01 A3 3C 30 3A 30 11 06 0A 2B 06 01 04 01 82  ...<0:0...+.....
+00d0:  C4 0A 03 03 04 03 04 03 04 30 13 06 0A 2B 06 01  .........0...+..
+00e0:  04 01 82 C4 0A 03 07 04 05 02 03 52 82 5A 30 10  ...........R.Z0.
+00f0:  06 0A 2B 06 01 04 01 82 C4 0A 03 08 04 02 61 FF  ..+...........a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 18  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  02 01 30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05  ..0...*.H.......
+0010:  00 03 82 01 01 00 01 DB CC 7C 08 80 66 3A 53 10  .........|..f:S.
+0020:  BC B7 AA 81 C4 6F CA 12 A8 A3 66 46 E0 D1 B7 DD  .....o....fF....
+0030:  51 9F F9 F3 0C FE 88 8F DA 83 CE 99 06 39 C2 F9  Q............9..
+0040:  7F 8B 3B 3F 4E A0 B9 2F 08 D2 DE 8D AF 9E 0B 69  ..;?N../.......i
+0050:  4B 47 66 1C 8A 5C 89 D0 4E 0A E5 97 1F 7A 0E 13  KGf..\..N....z..
+0060:  0D EA 8F 3F F0 08 52 3A 73 A5 82 C6 38 C7 60 42  ...?..R:s...8.`B
+0070:  4C A6 15 67 56 58 D8 A8 FF 2E DA 56 6E 4B ED B3  L..gVX.....VnK..
+0080:  3A 4F 40 DB B6 40 C0 10 A0 D9 6E F0 4F F0 9B 2B  :O@..@....n.O..+
+0090:  36 66 B7 90 C7 B0 41 F0 EC 2A DD 8F D5 17 FA 73  6f....A..*.....s
+00a0:  47 26 1C B5 41 A2 C0 A2 03 15 2F 2A 7F 6E 9F BD  G&..A...../*.n..
+00b0:  1D 4B 0B F6 44 AC 27 EF 55 E7 49 EF B1 10 87 09  .K..D.'.U.I.....
+00c0:  59 E9 B0 99 8B 7F D0 33 92 BB 7D 0D E0 CB 49 75  Y......3..}...Iu
+00d0:  80 E9 42 7E 04 4D 7E 14 69 91 2F 5C F6 90 02 CC  ..B~.M~.i./\....
+00e0:  94 43 37 EA C6 E7 D4 5F 61 78 33 5B 83 E1 52 B0  .C7...._ax3[..R.
+00f0:  AA 6D 17 6B 9D 1B 7B 5C 66 12 85 F6 C9 CD 61 18  .m.k..{\f.....a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response          26 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  7E 1F 5E 52 1D B7 C8 10 83 EF 10 C0 8D 9D 60 6B  ~.^R..........`k
+0010:  4C F4 BF C7 FE BC CF A9 90 00                    L.........
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command       5 bytes: F9     ATTESTATION Get an attestation certificate for a slot where the key has been generated on device.
+0000:  00 F9 9A 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  30 82 03 0E 30 82 01 F6 A0 03 02 01 02 02 10 13  0...0...........
+0010:  03 20 4D A9 39 5D AD 02 5D 19 82 5C 12 0A 17 30  . M.9]..]..\...0
+0020:  0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30 21  ...*.H........0!
+0030:  31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69 63  1.0...U....Yubic
+0040:  6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69 6F  o PIV Attestatio
+0050:  6E 30 20 17 0D 31 36 30 33 31 34 30 30 30 30 30  n0 ..16031400000
+0060:  30 5A 18 0F 32 30 35 32 30 34 31 37 30 30 30 30  0Z..205204170000
+0070:  30 30 5A 30 25 31 23 30 21 06 03 55 04 03 0C 1A  00Z0%1#0!..U....
+0080:  59 75 62 69 4B 65 79 20 50 49 56 20 41 74 74 65  YubiKey PIV Atte
+0090:  73 74 61 74 69 6F 6E 20 39 61 30 82 01 22 30 0D  station 9a0.."0.
+00a0:  06 09 2A 86 48 86 F7 0D 01 01 01 05 00 03 82 01  ..*.H...........
+00b0:  0F 00 30 82 01 0A 02 82 01 01 00 93 10 0C 77 9E  ..0...........w.
+00c0:  8B 1C 32 6F 2F 67 71 E3 E7 B9 40 AE 54 BF E2 38  ..2o/gq...@.T..8
+00d0:  A8 A7 CB 4E 3E 0C 9F D9 B2 80 21 58 33 92 D5 80  ...N>.....!X3...
+00e0:  3C C8 3A 2F C6 3C B9 F0 B1 9D 85 A9 B9 E6 E7 91  <.:/.<..........
+00f0:  E2 BC 9C EF F6 3A B7 E9 77 06 B4 17 1A F1 61 FF  .....:..w.....a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  B0 46 49 0B FA CD AC 2E 17 69 A8 2A 6D 18 47 DB  .FI......i.*m.G.
+0010:  F6 39 BE 62 34 DB BB D5 09 0C C6 9D D9 9D C8 8C  .9.b4...........
+0020:  CE D1 09 FD 4E F7 69 F4 1E 66 17 C0 C7 6F AF 95  ....N.i..f...o..
+0030:  D7 59 4F F8 A8 A2 98 66 2C 75 8F FC 16 ED 63 34  .YO....f,u....c4
+0040:  BB BF AF B7 D5 04 F1 1D 67 B7 1A 86 2A 1A 10 8B  ........g...*...
+0050:  0E 0A 19 38 F8 3A 03 EC 85 AE 9C 32 A3 EA 0C 5B  ...8.:.....2...[
+0060:  42 EC C5 56 74 8B 75 AD 97 FB CD C4 87 F2 18 17  B..Vt.u.........
+0070:  09 4D 75 BC 2E 28 DD A0 14 9B A5 38 4A 2E CC E9  .Mu..(.....8J...
+0080:  D1 A2 FD C4 E4 91 81 9C 3C 09 56 AE CB 66 C6 37  ........<.V..f.7
+0090:  83 7A 43 DF 3D 16 97 E5 D9 EC 86 64 51 E7 7F 16  .zC.=......dQ...
+00a0:  85 8B FF C4 5A 5F 40 27 AC 72 25 4A B3 68 75 3A  ....Z_@'.r%J.hu:
+00b0:  7A 58 25 02 E7 81 B7 4D 6D 88 2D 24 EB 02 03 01  zX%....Mm.-$....
+00c0:  00 01 A3 3C 30 3A 30 11 06 0A 2B 06 01 04 01 82  ...<0:0...+.....
+00d0:  C4 0A 03 03 04 03 04 03 04 30 13 06 0A 2B 06 01  .........0...+..
+00e0:  04 01 82 C4 0A 03 07 04 05 02 03 52 82 5A 30 10  ...........R.Z0.
+00f0:  06 0A 2B 06 01 04 01 82 C4 0A 03 08 04 02 61 FF  ..+...........a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 18  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  02 01 30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05  ..0...*.H.......
+0010:  00 03 82 01 01 00 10 25 62 C3 D3 DA D8 CD EB CB  .......%b.......
+0020:  4F 58 07 87 A8 E1 83 D0 47 AA 62 78 23 1A EE 8D  OX......G.bx#...
+0030:  4B B1 34 C7 71 E5 5E 79 DD 05 38 58 03 5F BE 65  K.4.q.^y..8X._.e
+0040:  C0 12 E4 F8 2E 91 4B D7 3D 37 47 E6 BA 5D BE 7E  ......K.=7G..].~
+0050:  4C F8 48 9B A9 54 03 7A 05 15 3A 20 D4 0B A1 53  L.H..T.z..: ...S
+0060:  20 C9 94 DF 59 D1 3D 23 B6 DB CC 60 E8 56 71 54   ...Y.=#...`.VqT
+0070:  9B B4 24 BB 5E AE FD AA C5 FE 1A 20 F4 CD 0B 23  ..$.^...... ...#
+0080:  2A 75 9F 66 0A 1E D1 61 71 04 9B 10 CA 24 F0 BC  *u.f...aq....$..
+0090:  CA A6 5C 25 A8 73 19 1B 5A B7 6A 75 B9 61 62 CE  ..\%.s..Z.ju.ab.
+00a0:  0C 05 03 17 61 C4 CB 2B 9B B1 ED 8F A6 D1 ED 0E  ....a..+........
+00b0:  57 07 4B A8 F8 00 A1 87 2C 22 8E D4 3D C5 62 C9  W.K.....,"..=.b.
+00c0:  B0 ED 5F 4F 68 F6 65 4A 5D 31 07 2C 0F 01 6C 2E  .._Oh.eJ]1.,..l.
+00d0:  D1 E0 92 83 E9 A0 34 B0 DD 69 22 5D 6B 39 42 5D  ......4..i"]k9B]
+00e0:  52 FD 4E CE 1E 1D 1D 7B F3 1A 8A 75 AD 56 03 93  R.N....{...u.V..
+00f0:  65 47 51 C4 52 92 B5 59 79 03 D6 FF 66 09 61 18  eGQ.R..Yy...f.a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response          26 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  84 FA EC 57 C0 9F 8E 5E FD A6 3D A2 F4 D2 F2 82  ...W...^..=.....
+0010:  3D 3F 32 8F 23 00 1E F6 90 00                    =?2.#.....
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command      10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F C1 05                    ..?..\._..
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  53 82 02 BA 70 82 02 B1 30 82 02 AD 30 82 01 95  S...p...0...0...
+0010:  A0 03 02 01 02 02 09 00 D9 BC 7A D1 8F AD 52 1C  ..........z...R.
+0020:  30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30  0...*.H........0
+0030:  16 31 14 30 12 06 03 55 04 03 0C 0B 68 65 6C 6C  .1.0...U....hell
+0040:  6F 20 77 6F 72 6C 64 30 1E 17 0D 31 37 30 36 30  o world0...17060
+0050:  35 30 39 33 31 32 35 5A 17 0D 31 38 30 36 30 35  5093125Z..180605
+0060:  30 39 33 31 32 35 5A 30 16 31 14 30 12 06 03 55  093125Z0.1.0...U
+0070:  04 03 0C 0B 68 65 6C 6C 6F 20 77 6F 72 6C 64 30  ....hello world0
+0080:  82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01 01 01  .."0...*.H......
+0090:  05 00 03 82 01 0F 00 30 82 01 0A 02 82 01 01 00  .......0........
+00a0:  98 45 4D 20 51 B5 3D D5 5B 3C 77 8F 5F DC 76 06  .EM Q.=.[<w._.v.
+00b0:  D2 95 EC 31 B5 F1 C5 D3 39 E9 1B AE A1 B9 C3 9C  ...1....9.......
+00c0:  6C 45 BB 2A 18 3A F2 C6 B8 2D 49 0E 9C 37 5E 03  lE.*.:...-I..7^.
+00d0:  DA 84 0A 40 8D A2 42 C3 88 A1 61 82 F5 5B 89 42  ...@..B...a..[.B
+00e0:  A4 47 B8 E2 C2 23 50 42 72 9C 60 70 A7 94 9B 4F  .G...#PBr.`p...O
+00f0:  D5 9B 34 6F 56 9E B4 A1 B8 70 0E 68 6E D5 61 FF  ..4oV....p.hn.a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 C2  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  38 90 6D 74 78 34 81 94 7B 61 0D 6D 10 2A 8B 83  8.mtx4..{a.m.*..
+0010:  F9 EF 7A DD 56 A2 9B DC B0 B8 C3 69 26 C7 CC 18  ..z.V......i&...
+0020:  38 C3 22 7A 92 52 35 C6 18 4B 0E 75 04 36 E0 B9  8."z.R5..K.u.6..
+0030:  8E 3A 42 62 3D B9 7A 7D CD E3 DF C9 2F DE 41 1E  .:Bb=.z}..../.A.
+0040:  EA 24 70 76 5A 87 C6 C4 38 57 93 B8 CF A8 E0 1B  .$pvZ...8W......
+0050:  CB 70 C1 38 14 41 F1 96 08 A5 FD A9 06 09 00 20  .p.8.A......... 
+0060:  6B 9A 3F F9 14 69 97 B3 25 14 1B F8 F1 DE 0D EA  k.?..i..%.......
+0070:  7D 5E 0B C4 20 DB 5F 9E 38 90 D4 43 01 37 47 98  }^.. ._.8..C.7G.
+0080:  27 95 33 FA 03 BC 52 CC BD 3D 5D 3B 3C AA 26 B5  '.3...R..=];<.&.
+0090:  2C AF 76 BF E4 46 3D D2 BB E3 13 39 DB 01 95 9A  ,.v..F=....9....
+00a0:  A3 CF 02 03 01 00 01 30 0D 06 09 2A 86 48 86 F7  .......0...*.H..
+00b0:  0D 01 01 0B 05 00 03 82 01 01 00 85 74 0C 1C E1  ............t...
+00c0:  17 C0 44 14 38 61 9C 10 DA 7C 49 B9 4A F8 E6 3D  ..D.8a...|I.J..=
+00d0:  3F 95 23 D2 10 27 88 97 1B 95 A0 BC 39 99 3B 27  ?.#..'......9.;'
+00e0:  8C 6E 80 9A 0B E2 3B 93 89 02 E7 47 59 F7 54 A7  .n....;....GY.T.
+00f0:  2E 8B 6B 53 AD B4 C4 D8 F4 0B 4D 92 B1 4A 61 C2  ..kS......M..Ja.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         196 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  5F E8 41 1D 3A E1 F1 21 EF 88 08 B6 31 06 D9 A5  _.A.:..!....1...
+0010:  B8 A0 9E 4A 8C F3 97 DD 19 30 BE D1 9B 1B 75 11  ...J.....0....u.
+0020:  EC 1C B9 E4 E8 C8 B4 E6 54 43 71 50 0F 4B AB 61  ........TCqP.K.a
+0030:  15 AE B1 A2 14 C0 A6 F6 C8 A7 5B 2C 88 25 B0 4E  ..........[,.%.N
+0040:  65 FF 63 A6 4B D6 06 65 69 15 AC 34 2B 2A D1 D0  e.c.K..ei..4+*..
+0050:  F2 EB BE 58 EA 16 AD 06 70 BC 6B 3F 78 01 BE 4A  ...X....p.k?x..J
+0060:  02 A9 01 EC B7 3D 97 03 14 FF 31 8C 64 11 87 7B  .....=....1.d..{
+0070:  C1 30 71 DB 5D FF 46 A3 02 A6 6B F9 D1 83 F0 37  .0q.].F...k....7
+0080:  BC 9B D4 13 C6 06 56 A7 76 D2 37 5A AA BD 56 76  ......V.v.7Z..Vv
+0090:  F3 1D 2F CC D4 13 11 AB 6F 2F 36 B6 22 9A 1A A7  ../.....o/6."...
+00a0:  7C 7F F8 95 5C 8C 0E CA 91 FE DA 7D E2 F7 8F 75  |...\......}...u
+00b0:  7A 6E D5 26 B4 BD DE CA C9 DB 27 9B EB 71 01 00  zn.&......'..q..
+00c0:  FE 00 90 00                                      ....
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command      10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F FF 01                    ..?..\._..
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  53 82 02 EE 70 82 02 EA 30 82 02 E6 30 82 01 CE  S...p...0...0...
+0010:  A0 03 02 01 02 02 09 00 A4 85 22 AA 34 AF AE 4F  ..........".4..O
+0020:  30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30  0...*.H........0
+0030:  2B 31 29 30 27 06 03 55 04 03 0C 20 59 75 62 69  +1)0'..U... Yubi
+0040:  63 6F 20 50 49 56 20 52 6F 6F 74 20 43 41 20 53  co PIV Root CA S
+0050:  65 72 69 61 6C 20 32 36 33 37 35 31 30 20 17 0D  erial 2637510 ..
+0060:  31 36 30 33 31 34 30 30 30 30 30 30 5A 18 0F 32  160314000000Z..2
+0070:  30 35 32 30 34 31 37 30 30 30 30 30 30 5A 30 21  0520417000000Z0!
+0080:  31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69 63  1.0...U....Yubic
+0090:  6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69 6F  o PIV Attestatio
+00a0:  6E 30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01  n0.."0...*.H....
+00b0:  01 01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01  .........0......
+00c0:  01 00 AB A9 0B 16 9B EF 31 CC 3E AC 18 5A 2D 45  ........1.>..Z-E
+00d0:  80 75 70 C7 58 B0 6C 3F 1B 59 0D 49 B9 89 E8 6F  .up.X.l?.Y.I...o
+00e0:  CE BB 27 6F D8 3C 60 3A 85 00 EF 5C BC 40 99 3D  ..'o.<`:...\.@.=
+00f0:  41 EE EA C0 81 7F 76 48 E4 A9 4C BC D5 6B 61 FF  A.....vH..L..ka.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 F6  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  E1 1F 0A 60 93 C6 FE AA D2 8D 8E E2 B7 CD 8B 2B  ...`...........+
+0010:  F7 9B DD 5A AB 2F CF B9 0E 54 CE EC 8D F5 5E D7  ...Z./...T....^.
+0020:  7B 91 C3 A7 56 9C DC C1 06 86 76 36 44 53 FB 08  {...V.....v6DS..
+0030:  25 D8 06 B9 06 8C 81 FD 63 67 CA 3C A8 B8 EA 1C  %.......cg.<....
+0040:  A6 CA DB 44 7B 12 CA B2 34 01 7E 73 E4 36 83 DF  ...D{...4.~s.6..
+0050:  EB F9 23 00 07 01 6A 07 19 8A 64 56 9D 10 8A C5  ..#...j...dV....
+0060:  73 02 3D 18 6E AF 3F C3 02 A7 C0 F7 A2 FD 6D 5A  s.=.n.?.......mZ
+0070:  42 76 4E D6 C0 1E D6 C0 C6 AA 5D A7 1A 9F 10 DB  BvN.......].....
+0080:  30 57 18 5C B5 B5 FD 0C BE 49 24 22 AF 1E 56 4A  0W.\.....I$"..VJ
+0090:  34 44 D4 AA D4 E1 AE 95 4C 75 C0 88 61 F4 8C 7E  4D......Lu..a..~
+00a0:  54 F3 13 EB 0F E5 2B 52 60 5A 6E BA D7 E5 8C 63  T.....+R`Zn....c
+00b0:  DA 51 1A BB 22 5C 37 2B D7 D1 70 57 4C 2E DC 35  .Q.."\7+..pWL..5
+00c0:  3C 22 98 9B 02 03 01 00 01 A3 15 30 13 30 11 06  <".........0.0..
+00d0:  0A 2B 06 01 04 01 82 C4 0A 03 03 04 03 04 03 03  .+..............
+00e0:  30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 03  0...*.H.........
+00f0:  82 01 01 00 52 80 5A 6D C3 9E DF 47 A8 F1 61 F6  ....R.Zm...G..a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         248 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  B2 A5 9C A3 80 81 3B 1D 6A EB 6A 12 62 4B 11 FD  ......;.j.j.bK..
+0010:  8D 30 F1 7B FC 71 10 C9 B2 08 FC D1 4E 35 7F 45  .0.{.q......N5.E
+0020:  F2 10 A2 52 B9 D4 B3 02 1A 01 56 07 6B FA 64 A7  ...R......V.k.d.
+0030:  08 F0 03 FB 27 A9 60 8D 0D D3 AC 5A 10 CF 20 96  ....'.`....Z.. .
+0040:  4E 82 BC 9D E3 37 DA C1 4C 50 E1 3D 16 B4 CA F4  N....7..LP.=....
+0050:  1B FF 08 64 C9 74 4F 2A 3A 43 E0 DE 42 79 F2 13  ...d.tO*:C..By..
+0060:  AE 77 A1 E2 AE 6B DF 72 A5 B6 CE D7 4C 90 13 DF  .w...k.r....L...
+0070:  DE DB F2 8B 34 45 8B 30 DC 51 AB A9 34 F8 A9 E5  ....4E.0.Q..4...
+0080:  0C 47 29 AA 2F 42 54 F2 F8 19 5A B4 89 FE 1B 9F  .G)./BT...Z.....
+0090:  19 7A 16 C8 C8 BA 8F 18 17 7A 07 A9 97 A1 56 B9  .z.......z....V.
+00a0:  52 5D A1 21 C0 81 67 2D E8 0E A6 51 B9 08 B0 9D  R].!..g-...Q....
+00b0:  D3 60 1C 70 A3 0F FA D8 62 D8 79 2B 0A E6 42 FC  .`.p....b.y+..B.
+00c0:  F8 2D F5 E4 CD FB 15 96 23 FF B6 C0 A7 A7 E2 85  .-......#.......
+00d0:  83 F9 70 C8 19 6B F3 C1 3F 37 44 65 27 FB 67 88  ..p..k..?7De'.g.
+00e0:  C8 83 B7 2F 85 1F 80 44 BB 72 CE 06 82 59 2D 83  .../...D.r...Y-.
+00f0:  00 E1 94 8D A0 85 90 00                          ........
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command      13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: F9     ATTESTATION Get an attestation certificate for a slot where the key has been generated on device.
+0000:  00 F9 F9 00 00                                   .....
+
+Response           2 bytes: 6A 80  [E] The parameters in the data field are incorrect.
+0000:  6A 80                                            j.
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command      13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: F9     ATTESTATION Get an attestation certificate for a slot where the key has been generated on device.
+0000:  00 F9 9A 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  30 82 03 0F 30 82 01 F7 A0 03 02 01 02 02 11 00  0...0...........
+0010:  D4 E5 59 F4 10 81 55 F2 10 DA CC 17 4D EA 1B A5  ..Y...U.....M...
+0020:  30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30  0...*.H........0
+0030:  21 31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69  !1.0...U....Yubi
+0040:  63 6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69  co PIV Attestati
+0050:  6F 6E 30 20 17 0D 31 36 30 33 31 34 30 30 30 30  on0 ..1603140000
+0060:  30 30 5A 18 0F 32 30 35 32 30 34 31 37 30 30 30  00Z..20520417000
+0070:  30 30 30 5A 30 25 31 23 30 21 06 03 55 04 03 0C  000Z0%1#0!..U...
+0080:  1A 59 75 62 69 4B 65 79 20 50 49 56 20 41 74 74  .YubiKey PIV Att
+0090:  65 73 74 61 74 69 6F 6E 20 39 61 30 82 01 22 30  estation 9a0.."0
+00a0:  0D 06 09 2A 86 48 86 F7 0D 01 01 01 05 00 03 82  ...*.H..........
+00b0:  01 0F 00 30 82 01 0A 02 82 01 01 00 93 10 0C 77  ...0...........w
+00c0:  9E 8B 1C 32 6F 2F 67 71 E3 E7 B9 40 AE 54 BF E2  ...2o/gq...@.T..
+00d0:  38 A8 A7 CB 4E 3E 0C 9F D9 B2 80 21 58 33 92 D5  8...N>.....!X3..
+00e0:  80 3C C8 3A 2F C6 3C B9 F0 B1 9D 85 A9 B9 E6 E7  .<.:/.<.........
+00f0:  91 E2 BC 9C EF F6 3A B7 E9 77 06 B4 17 1A 61 FF  ......:..w....a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  F1 B0 46 49 0B FA CD AC 2E 17 69 A8 2A 6D 18 47  ..FI......i.*m.G
+0010:  DB F6 39 BE 62 34 DB BB D5 09 0C C6 9D D9 9D C8  ..9.b4..........
+0020:  8C CE D1 09 FD 4E F7 69 F4 1E 66 17 C0 C7 6F AF  .....N.i..f...o.
+0030:  95 D7 59 4F F8 A8 A2 98 66 2C 75 8F FC 16 ED 63  ..YO....f,u....c
+0040:  34 BB BF AF B7 D5 04 F1 1D 67 B7 1A 86 2A 1A 10  4........g...*..
+0050:  8B 0E 0A 19 38 F8 3A 03 EC 85 AE 9C 32 A3 EA 0C  ....8.:.....2...
+0060:  5B 42 EC C5 56 74 8B 75 AD 97 FB CD C4 87 F2 18  [B..Vt.u........
+0070:  17 09 4D 75 BC 2E 28 DD A0 14 9B A5 38 4A 2E CC  ..Mu..(.....8J..
+0080:  E9 D1 A2 FD C4 E4 91 81 9C 3C 09 56 AE CB 66 C6  .........<.V..f.
+0090:  37 83 7A 43 DF 3D 16 97 E5 D9 EC 86 64 51 E7 7F  7.zC.=......dQ..
+00a0:  16 85 8B FF C4 5A 5F 40 27 AC 72 25 4A B3 68 75  .....Z_@'.r%J.hu
+00b0:  3A 7A 58 25 02 E7 81 B7 4D 6D 88 2D 24 EB 02 03  :zX%....Mm.-$...
+00c0:  01 00 01 A3 3C 30 3A 30 11 06 0A 2B 06 01 04 01  ....<0:0...+....
+00d0:  82 C4 0A 03 03 04 03 04 03 04 30 13 06 0A 2B 06  ..........0...+.
+00e0:  01 04 01 82 C4 0A 03 07 04 05 02 03 52 82 5A 30  ............R.Z0
+00f0:  10 06 0A 2B 06 01 04 01 82 C4 0A 03 08 04 61 FF  ...+..........a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 19  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  02 02 01 30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B  ...0...*.H......
+0010:  05 00 03 82 01 01 00 6B E3 4C 9B 81 43 DB E1 19  .......k.L..C...
+0020:  9C 32 AB 5F 08 99 07 1A AC 33 F5 66 E5 B7 93 2E  .2._.....3.f....
+0030:  B4 4D 59 C3 FD 08 9D 3C 94 52 1F AD BC 40 AA 37  .MY....<.R...@.7
+0040:  66 A8 00 C7 06 EB 0F 88 B1 51 12 F8 33 FC F6 9C  f........Q..3...
+0050:  A8 19 8A AF 0A E5 9A A3 AE 0D D6 59 97 B7 F5 E3  ...........Y....
+0060:  71 61 AE 28 A5 BA C6 55 7A E7 8A 46 BD 09 C2 E8  qa.(...Uz..F....
+0070:  6A 25 F1 6D 53 3E 41 8D A6 29 A7 1E E8 5A 6A 7E  j%.mS>A..)...Zj~
+0080:  DB 61 52 04 5B 1C BF 9F 31 FE F3 A6 CA CE 67 BA  .aR.[...1.....g.
+0090:  7E 6A 5E 72 CE 26 5D B9 9D 23 5F 3F A6 11 F5 E9  ~j^r.&]..#_?....
+00a0:  AF 5E 03 04 08 25 93 3F 36 F9 2F 1C 88 F4 26 63  .^...%.?6./...&c
+00b0:  CA 82 DB 59 9F 6A 70 B2 6E BA 42 A8 5E 12 45 64  ...Y.jp.n.B.^.Ed
+00c0:  3F 3A C8 F3 37 0A 94 A9 D4 9F 2A CF 18 EF C5 0D  ?:..7.....*.....
+00d0:  73 92 09 C2 E1 E9 10 30 4E 8E 71 B4 73 58 25 23  s......0N.q.sX%#
+00e0:  28 A7 30 6E E1 05 E9 7D 35 FB 88 BC 39 4F 79 36  (.0n...}5...9Oy6
+00f0:  B0 15 B3 C3 39 67 5A 18 B5 DD 02 97 EB AA 61 19  ....9gZ.......a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response          27 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9D 40 6F 49 09 84 05 B3 B6 DE 87 33 2C 73 6C AA  .@oI.......3,sl.
+0010:  3C D2 94 FA 1D 42 63 5B 05 90 00                 <....Bc[...
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command      13 bytes: 20     VERIFY     Verify the transferred data (such as a PIN).
+0000:  00 20 00 80 08 31 32 33 34 35 36 FF FF           . ...123456..
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: F9     ATTESTATION Get an attestation certificate for a slot where the key has been generated on device.
+0000:  00 F9 9A 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  30 82 03 0F 30 82 01 F7 A0 03 02 01 02 02 11 00  0...0...........
+0010:  CD C4 38 01 33 D6 DE 7C 3D FE 94 EB EE 4B BE AE  ..8.3..|=....K..
+0020:  30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30  0...*.H........0
+0030:  21 31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69  !1.0...U....Yubi
+0040:  63 6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69  co PIV Attestati
+0050:  6F 6E 30 20 17 0D 31 36 30 33 31 34 30 30 30 30  on0 ..1603140000
+0060:  30 30 5A 18 0F 32 30 35 32 30 34 31 37 30 30 30  00Z..20520417000
+0070:  30 30 30 5A 30 25 31 23 30 21 06 03 55 04 03 0C  000Z0%1#0!..U...
+0080:  1A 59 75 62 69 4B 65 79 20 50 49 56 20 41 74 74  .YubiKey PIV Att
+0090:  65 73 74 61 74 69 6F 6E 20 39 61 30 82 01 22 30  estation 9a0.."0
+00a0:  0D 06 09 2A 86 48 86 F7 0D 01 01 01 05 00 03 82  ...*.H..........
+00b0:  01 0F 00 30 82 01 0A 02 82 01 01 00 93 10 0C 77  ...0...........w
+00c0:  9E 8B 1C 32 6F 2F 67 71 E3 E7 B9 40 AE 54 BF E2  ...2o/gq...@.T..
+00d0:  38 A8 A7 CB 4E 3E 0C 9F D9 B2 80 21 58 33 92 D5  8...N>.....!X3..
+00e0:  80 3C C8 3A 2F C6 3C B9 F0 B1 9D 85 A9 B9 E6 E7  .<.:/.<.........
+00f0:  91 E2 BC 9C EF F6 3A B7 E9 77 06 B4 17 1A 61 FF  ......:..w....a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  F1 B0 46 49 0B FA CD AC 2E 17 69 A8 2A 6D 18 47  ..FI......i.*m.G
+0010:  DB F6 39 BE 62 34 DB BB D5 09 0C C6 9D D9 9D C8  ..9.b4..........
+0020:  8C CE D1 09 FD 4E F7 69 F4 1E 66 17 C0 C7 6F AF  .....N.i..f...o.
+0030:  95 D7 59 4F F8 A8 A2 98 66 2C 75 8F FC 16 ED 63  ..YO....f,u....c
+0040:  34 BB BF AF B7 D5 04 F1 1D 67 B7 1A 86 2A 1A 10  4........g...*..
+0050:  8B 0E 0A 19 38 F8 3A 03 EC 85 AE 9C 32 A3 EA 0C  ....8.:.....2...
+0060:  5B 42 EC C5 56 74 8B 75 AD 97 FB CD C4 87 F2 18  [B..Vt.u........
+0070:  17 09 4D 75 BC 2E 28 DD A0 14 9B A5 38 4A 2E CC  ..Mu..(.....8J..
+0080:  E9 D1 A2 FD C4 E4 91 81 9C 3C 09 56 AE CB 66 C6  .........<.V..f.
+0090:  37 83 7A 43 DF 3D 16 97 E5 D9 EC 86 64 51 E7 7F  7.zC.=......dQ..
+00a0:  16 85 8B FF C4 5A 5F 40 27 AC 72 25 4A B3 68 75  .....Z_@'.r%J.hu
+00b0:  3A 7A 58 25 02 E7 81 B7 4D 6D 88 2D 24 EB 02 03  :zX%....Mm.-$...
+00c0:  01 00 01 A3 3C 30 3A 30 11 06 0A 2B 06 01 04 01  ....<0:0...+....
+00d0:  82 C4 0A 03 03 04 03 04 03 04 30 13 06 0A 2B 06  ..........0...+.
+00e0:  01 04 01 82 C4 0A 03 07 04 05 02 03 52 82 5A 30  ............R.Z0
+00f0:  10 06 0A 2B 06 01 04 01 82 C4 0A 03 08 04 61 FF  ...+..........a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 19  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  02 02 01 30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B  ...0...*.H......
+0010:  05 00 03 82 01 01 00 82 EE B6 95 5A 29 5F 2A DB  ...........Z)_*.
+0020:  0A B8 60 B2 CA EE A4 06 ED C0 72 F0 DB C1 B2 6B  ..`.......r....k
+0030:  CF 3F BE 22 5C 2B 22 56 07 44 B8 3C A3 BE 1D 89  .?."\+"V.D.<....
+0040:  76 A3 40 87 3F A9 9D CA DD 31 36 91 33 33 9B 3C  v.@.?....16.33.<
+0050:  57 C9 2F 8A 84 1F EE E6 90 87 1C 04 62 32 00 D0  W./.........b2..
+0060:  10 0D 30 7C 15 81 5A DB 6C 78 31 EF 28 89 A4 FF  ..0|..Z.lx1.(...
+0070:  F8 58 04 ED 95 A2 E0 97 5D C6 14 CB A5 71 FE 9B  .X......]....q..
+0080:  40 4B 59 FA 64 5D 26 22 45 72 9D AD 90 0E E6 34  @KY.d]&"Er.....4
+0090:  98 1F DD C3 58 E0 DE 95 4C 56 FD 01 06 61 D7 6D  ....X...LV...a.m
+00a0:  58 1F B2 AF A0 C1 B3 D8 2D 52 D9 6A 8E FC 85 44  X.......-R.j...D
+00b0:  02 51 F5 B0 A4 F0 46 10 CA 80 88 CA 8C 5C 63 34  .Q....F......\c4
+00c0:  52 28 59 15 47 91 9E 40 DC B4 67 3C 77 B4 20 21  R(Y.G..@..g<w. !
+00d0:  13 5C 98 22 7A F4 6D BF 4F 6A E9 A0 60 14 88 89  .\."z.m.Oj..`...
+00e0:  6D E0 6B 7A F2 94 10 95 64 95 BF F9 4A B4 22 B0  m.kz....d...J.".
+00f0:  D2 BA 5F CB EA 4C 33 65 DE 34 51 F1 48 65 61 19  .._..L3e.4Q.Hea.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response          27 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  13 8D EA 95 32 ED A5 6C 6B 96 D4 E1 6F D7 74 CD  ....2..lk...o.t.
+0010:  7D A8 8B 03 70 98 2E 73 36 90 00                 }...p..s6..
+Reset
+Power Down
+Power Up
+
+User command      10 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 05 A0 00 00 03 08                    ..........
+
+Response          21 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  61 11 4F 06 00 00 10 00 01 00 79 07 4F 05 A0 00  a.O.......y.O...
+0010:  00 03 08 90 00                                   .....
+
+User command      10 bytes: CB     GET DATA   x
+0000:  00 CB 3F FF 05 5C 03 5F FF 01                    ..?..\._..
+
+Response         256 bytes: 61 FF  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  53 82 02 EE 70 82 02 EA 30 82 02 E6 30 82 01 CE  S...p...0...0...
+0010:  A0 03 02 01 02 02 09 00 A4 85 22 AA 34 AF AE 4F  ..........".4..O
+0020:  30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 30  0...*.H........0
+0030:  2B 31 29 30 27 06 03 55 04 03 0C 20 59 75 62 69  +1)0'..U... Yubi
+0040:  63 6F 20 50 49 56 20 52 6F 6F 74 20 43 41 20 53  co PIV Root CA S
+0050:  65 72 69 61 6C 20 32 36 33 37 35 31 30 20 17 0D  erial 2637510 ..
+0060:  31 36 30 33 31 34 30 30 30 30 30 30 5A 18 0F 32  160314000000Z..2
+0070:  30 35 32 30 34 31 37 30 30 30 30 30 30 5A 30 21  0520417000000Z0!
+0080:  31 1F 30 1D 06 03 55 04 03 0C 16 59 75 62 69 63  1.0...U....Yubic
+0090:  6F 20 50 49 56 20 41 74 74 65 73 74 61 74 69 6F  o PIV Attestatio
+00a0:  6E 30 82 01 22 30 0D 06 09 2A 86 48 86 F7 0D 01  n0.."0...*.H....
+00b0:  01 01 05 00 03 82 01 0F 00 30 82 01 0A 02 82 01  .........0......
+00c0:  01 00 AB A9 0B 16 9B EF 31 CC 3E AC 18 5A 2D 45  ........1.>..Z-E
+00d0:  80 75 70 C7 58 B0 6C 3F 1B 59 0D 49 B9 89 E8 6F  .up.X.l?.Y.I...o
+00e0:  CE BB 27 6F D8 3C 60 3A 85 00 EF 5C BC 40 99 3D  ..'o.<`:...\.@.=
+00f0:  41 EE EA C0 81 7F 76 48 E4 A9 4C BC D5 6B 61 FF  A.....vH..L..ka.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         256 bytes: 61 F6  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  E1 1F 0A 60 93 C6 FE AA D2 8D 8E E2 B7 CD 8B 2B  ...`...........+
+0010:  F7 9B DD 5A AB 2F CF B9 0E 54 CE EC 8D F5 5E D7  ...Z./...T....^.
+0020:  7B 91 C3 A7 56 9C DC C1 06 86 76 36 44 53 FB 08  {...V.....v6DS..
+0030:  25 D8 06 B9 06 8C 81 FD 63 67 CA 3C A8 B8 EA 1C  %.......cg.<....
+0040:  A6 CA DB 44 7B 12 CA B2 34 01 7E 73 E4 36 83 DF  ...D{...4.~s.6..
+0050:  EB F9 23 00 07 01 6A 07 19 8A 64 56 9D 10 8A C5  ..#...j...dV....
+0060:  73 02 3D 18 6E AF 3F C3 02 A7 C0 F7 A2 FD 6D 5A  s.=.n.?.......mZ
+0070:  42 76 4E D6 C0 1E D6 C0 C6 AA 5D A7 1A 9F 10 DB  BvN.......].....
+0080:  30 57 18 5C B5 B5 FD 0C BE 49 24 22 AF 1E 56 4A  0W.\.....I$"..VJ
+0090:  34 44 D4 AA D4 E1 AE 95 4C 75 C0 88 61 F4 8C 7E  4D......Lu..a..~
+00a0:  54 F3 13 EB 0F E5 2B 52 60 5A 6E BA D7 E5 8C 63  T.....+R`Zn....c
+00b0:  DA 51 1A BB 22 5C 37 2B D7 D1 70 57 4C 2E DC 35  .Q.."\7+..pWL..5
+00c0:  3C 22 98 9B 02 03 01 00 01 A3 15 30 13 30 11 06  <".........0.0..
+00d0:  0A 2B 06 01 04 01 82 C4 0A 03 03 04 03 04 03 03  .+..............
+00e0:  30 0D 06 09 2A 86 48 86 F7 0D 01 01 0B 05 00 03  0...*.H.........
+00f0:  82 01 01 00 52 80 5A 6D C3 9E DF 47 A8 F1 61 F6  ....R.Zm...G..a.
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  00 C0 00 00 00                                   .....
+
+Response         248 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  B2 A5 9C A3 80 81 3B 1D 6A EB 6A 12 62 4B 11 FD  ......;.j.j.bK..
+0010:  8D 30 F1 7B FC 71 10 C9 B2 08 FC D1 4E 35 7F 45  .0.{.q......N5.E
+0020:  F2 10 A2 52 B9 D4 B3 02 1A 01 56 07 6B FA 64 A7  ...R......V.k.d.
+0030:  08 F0 03 FB 27 A9 60 8D 0D D3 AC 5A 10 CF 20 96  ....'.`....Z.. .
+0040:  4E 82 BC 9D E3 37 DA C1 4C 50 E1 3D 16 B4 CA F4  N....7..LP.=....
+0050:  1B FF 08 64 C9 74 4F 2A 3A 43 E0 DE 42 79 F2 13  ...d.tO*:C..By..
+0060:  AE 77 A1 E2 AE 6B DF 72 A5 B6 CE D7 4C 90 13 DF  .w...k.r....L...
+0070:  DE DB F2 8B 34 45 8B 30 DC 51 AB A9 34 F8 A9 E5  ....4E.0.Q..4...
+0080:  0C 47 29 AA 2F 42 54 F2 F8 19 5A B4 89 FE 1B 9F  .G)./BT...Z.....
+0090:  19 7A 16 C8 C8 BA 8F 18 17 7A 07 A9 97 A1 56 B9  .z.......z....V.
+00a0:  52 5D A1 21 C0 81 67 2D E8 0E A6 51 B9 08 B0 9D  R].!..g-...Q....
+00b0:  D3 60 1C 70 A3 0F FA D8 62 D8 79 2B 0A E6 42 FC  .`.p....b.y+..B.
+00c0:  F8 2D F5 E4 CD FB 15 96 23 FF B6 C0 A7 A7 E2 85  .-......#.......
+00d0:  83 F9 70 C8 19 6B F3 C1 3F 37 44 65 27 FB 67 88  ..p..k..?7De'.g.
+00e0:  C8 83 B7 2F 85 1F 80 44 BB 72 CE 06 82 59 2D 83  .../...D.r...Y-.
+00f0:  00 E1 94 8D A0 85 90 00                          ........
+Reset
+Power Down
+Error getting ATR: Failed to get status: Card was reset.

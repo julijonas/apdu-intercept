@@ -1,0 +1,113 @@
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response           2 bytes: 6C 2A  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 2A                                            l*
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2A                                   ....*
+
+Response          44 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  47 90 50 81 12 91 11 02 02 01 22 34 00 00 AF 04  G.P......."4....
+0010:  E3 A9 40 82 30 23 12 93 30 23 20 05 30 23 00 00  ..@.0#..0# .0#..
+0020:  00 14 00 00 00 00 00 00 00 00 90 00              ............
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response           2 bytes: 6C 2A  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 2A                                            l*
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2A                                   ....*
+
+Response          44 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  47 90 50 81 12 91 11 02 02 01 22 34 00 00 AF 04  G.P......."4....
+0010:  E3 A9 40 82 30 23 12 93 30 23 20 05 30 23 00 00  ..@.0#..0# .0#..
+0020:  00 14 00 00 00 00 00 00 00 00 90 00              ............
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 2F 00                             ...../.
+
+Response           2 bytes: 6A 86  [E] Incorrect P1 or P2 parameter.
+0000:  6A 86                                            j.
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response           2 bytes: 6C 2A  [E] Bad length value in Le; \xx\ is the correct exact Le
+0000:  6C 2A                                            l*
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2A                                   ....*
+
+Response          44 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  47 90 50 81 12 91 11 02 02 01 22 34 00 00 AF 04  G.P......."4....
+0010:  E3 A9 40 82 30 23 12 93 30 23 20 05 30 23 00 00  ..@.0#..0# .0#..
+0020:  00 14 00 00 00 00 00 00 00 00 90 00              ............
+
+User command       4 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA DF 30                                      ...0
+
+Response           2 bytes: 6A 88  [E] Referenced data not found
+0000:  6A 88                                            j.
+
+User command      17 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 0C A0 00 00 00 18 0C 00 00 01 63 42  ..............cB
+0010:  00                                               .
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command      11 bytes: 22     MANAGE SECURITY ENVIRONMENT Sets or replaces one component of the current SE.
+0000:  00 22 41 A4 06 83 01 01 95 01 80                 ."A........
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: 84     UPDATE PSAM Parameter (offline) Modify the parameters in the PSAM (offline).
+0000:  80 84 00 00 08                                   .....
+
+Response          10 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  E2 53 12 E6 5D F3 46 5D 90 00                    .S..].F]..
+
+User command      77 bytes: 82     UPDATE PSAM Parameter (online) Modify the parameters in the PSAM (online).
+0000:  80 82 00 00 48 84 62 E9 6E 23 4A 41 C0 97 38 E4  ....H.b.n#JA..8.
+0010:  AC 3E 10 BB B7 BB 9D EC 4C 7F DD 04 6E 5F D8 52  .>......L...n_.R
+0020:  CE DC 86 27 E2 F3 35 28 02 2A 1C C4 99 49 95 6D  ...'..5(.*...I.m
+0030:  AE 3E 87 21 75 25 5E E1 5B 5D E8 6F 01 06 2C D5  .>.!u%^.[].o..,.
+0040:  B8 04 FE B3 B3 72 D9 9D 81 02 45 5A 80           .....r....EZ.
+
+Response           2 bytes: 61 48  [I] Command successfully executed; \XX\ bytes of data are available and can be requested using GET RESPONSE.
+0000:  61 48                                            aH
+
+User command       5 bytes: C0     GET RESPONSE Retrieves the response from a previous command.
+0000:  80 C0 00 00 48                                   ....H
+
+Response          74 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  1E 3E D6 3F 4D D4 51 5D 36 8D AB CC 13 8A 13 34  .>.?M.Q]6......4
+0010:  15 E4 2B 8C 52 C2 76 12 EB D6 AE 95 29 5A 42 09  ..+.R.v.....)ZB.
+0020:  31 B0 5D 25 AB 4C 17 32 D4 71 4B 62 B9 A6 79 1E  1.]%.L.2.qKb..y.
+0030:  06 96 30 9E F0 65 B9 06 5F FB ED 63 96 23 3A 5B  ..0..e.._..c.#:[
+0040:  B4 B3 12 D6 12 94 97 7F 90 00                    ..........
+
+User command       7 bytes: A4     SELECT     Select a file.
+0000:  00 A4 08 0C 02 2F 00                             ...../.
+
+Response           2 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  90 00                                            ..
+
+User command       5 bytes: CA     GET DATA   Read TLV-coded data objects.
+0000:  00 CA 9F 7F 2D                                   ....-
+
+Response          47 bytes: 90 00  [I] Command successfully executed (OK).
+0000:  9F 7F 2A 47 90 50 81 12 91 11 02 02 01 22 34 00  ..*G.P......."4.
+0010:  00 AF 04 E3 A9 40 82 30 23 12 93 30 23 20 05 30  .....@.0#..0# .0
+0020:  23 00 00 00 14 00 00 00 00 00 00 00 00 90 00     #..............

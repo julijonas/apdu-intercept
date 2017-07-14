@@ -1,0 +1,33 @@
+Launched virtual smart card os=relay attack=intercept
+Connected to card in 'OMNIKEY AG 3121 USB 00 00'
+Connected to virtual PCD at localhost:35963
+Power Up
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      14 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 08 A0 00 00 00 03 00 00 00 00        ..............
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      12 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 07 A0 00 00 01 51 00 00              .........Q..
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Power Down
+----------------------------------------------------------------------
+Power Up
+
+User command      12 bytes: A4     SELECT     Select a file.
+0000:  00 A4 04 00 07 A0 00 00 01 51 00 00              .........Q..
+
+Response           2 bytes: 6A 82  [E] File not found
+0000:  6A 82                                            j.
+Power Down
+----------------------------------------------------------------------
