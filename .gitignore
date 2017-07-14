@@ -4,3 +4,9 @@
 build
 *.kdev4
 *.pyc
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz

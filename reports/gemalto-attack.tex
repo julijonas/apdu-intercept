@@ -1,0 +1,217 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[square,numbers]{natbib}
+\bibliographystyle{abbrvnat}
+
+\usepackage[a4paper,margin=2cm]{geometry}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage{parskip}
+
+\usepackage{msc}
+\renewcommand\msckeyword{} 
+\renewcommand\hmsckeyword{}
+\renewcommand\mscdockeyword{}
+
+\setlength{\instdist}{6cm}
+
+\newcommand{\conc}{\mathbin{\|}}
+\DeclareMathOperator{\MAC}{MAC}
+\DeclareMathOperator{\E}{E}
+\DeclareMathOperator{\D}{D}
+\DeclareMathOperator{\SHAONE}{SHA1}
+\DeclareMathOperator{\PP}{P}
+
+\title{Secure messaging of Gemalto IDClassic 340}
+\author{Julijonas Kikutis}
+
+\begin{document}
+	
+\maketitle
+
+
+\section{Smartcard}
+
+Gemalto IDClassic 340 is a smartcard storing private and public keys and performing signing and decryption. Its datasheet \cite{datasheet} says it is based on the IDCore JavaCard platform and the Classic v3 applet and works with its minidriver and the IDGo 300 (Classic Client) software. The Classic v3 is a JavaCard applet installed on the card that provides cryptographic functions, file management, and security. The cryptographic functions are: signing, key pair generation, and session key decryption. Supported algorithms on the card are: 3DES (ECB, CBC), SHA-1, SHA-256, RSA 1024, RSA 2048.
+
+There are 12 private key slots on the card for the following purposes:
+\begin{itemize}
+	\item 1-2 are RSA 1024 signing keys,
+	\item 3-6 are RSA 1024 signing and decryption keys,
+	\item 7-8 are RSA 2048 signing keys, and
+	\item 9-12 are RSA 2048 signing and decryption keys.
+\end{itemize}
+
+There is a Classic Client 32-bit Windows application for administrative tasks, such as card initialisation and PIN reset. The Windows software also includes PKCS\#11 (Cryptoki) library. A version of Classic Client for Linux containing only libraries can be found on the internet. There are two libraries that provide the same PKCS\#11 API and are called \texttt{libgclib.so} and \texttt{libgck2015x.so} in \texttt{/usr/lib/ClassicClient}.
+
+
+\section{File structure}
+
+The dedicated file that is selected as application ID as the first command is A0 00 00 00 18 0C 00 00 01 63 42 00 and enables most commands. Then the following files are accessed by the PKCS\#11 library using SELECT FILE.
+
+\begin{tabular}{ l l }   
+
+2F 00           & EF\_DIR containing AID and textual label of application (constant) \\
+
+50 00 50 31     & Repeating pattern 30 08 04 06 3F 00 50 00 50 06 A0 0A (constant) \\
+
+50 00 50 33     & Remaining free key slots, erased and written again after key generation, delete key \\
+
+50 00 50 32     & 8 byte card identifier and constant ``Gemalto S.A. GemP15-1'' \\
+
+00 01           & 8 byte card identifier, used to derive challenge--response keys \\
+
+00 02           & Numeric value in format 333Z.33333333 that library updates on every write access \\
+
+50 00           & DF, to read its content need to satisfy security condition \\
+
+50 00 50 01     & Labels and IDs of private keys \\
+
+50 00 50 02     & Labels and IDs of public keys \\
+
+50 00 50 06     & PIN and PUK code information \\
+
+50 00 50 34     & Information about private key slots \\
+
+\end{tabular}
+
+Data object TLV tags accessed using GET DATA:
+
+\begin{tabular}{ l l }
+9F 7F & Card production life cycle (CPLC) data, 2 bytes are different for different cards \\
+DF 30 & ``v3.03'' (constant) \\
+\end{tabular}
+
+The following GET DATA command is used to retrieve public keys:
+
+00 CB 00 FF 0A B6 03 83 01 \textbf{0A} 7F 49 02 \textbf{81} 00 where first byte in bold is slot ranging from 03 to 06 and from 09 to 0C and second byte in bold is either 81 modulus or 82 exponent.
+
+
+\section{Cryptographic functions}
+
+Before any operation, the PIN is sent to card using VERIFY message in plaintext.
+For encryption, the public key is retrieved from the card in plaintext. For decryption, the ciphertext is sent and plaintext is returned unencrypted and not in secure messaging. During key pair generation, private and public key import, secure messaging is established using challenge--response authentication as seen in \autoref{sec:chresp}. Then the appropriate metadata files are modified, GENERATE PUBLIC KEY PAIR issued or PUT DATA with encrypted public or private key sent as part of secure messaging. The encryption of public and private keys during import needs to be investigated.
+
+
+\section{Secure messaging}
+
+Before doing any smartcard state changing operations, such as import or generation of keys, the smartcard and library performs challenge--response authentication, which establishes new keys used for MAC calculation in secure messaging. Secure messaging is indicated by APDU command class byte 0C. Messages sent in secure messaging are sent in plaintext but with their MAC appended. This is known as the authentic mode procedure, which should guarantee authentic transmission of APDUs, meaning that the APDUs are protected against manipulation during transmission \cite{rankl2004smart}. However, the PKCS\#11 library derives the keys used for challenge--response encryption from static key and card identifier, which allows reverse engineering of all subsequent keys by an attacker and does not guarantee authentic transmission.
+
+\subsection{Static key}
+
+A static key $K_S$ is calculated in the library using AES-CBC decryption:
+\[
+K_S=\D_\textrm{AES-CBC}(K_{AES}, C, IV)[0:16]
+\]
+The ciphertext $C$ and initialisation vector $IV$ is read by the library from file \texttt{keys.conf} in the library directory. There are multiple values in the same TLV format $\mathtt{31~10}\conc IV\conc\mathtt{32~01~10~33~20}\conc C$, the relevant one is under heading \texttt{[v3\_3des\_1]}. The alphanumeric AES key $K_{AES}$ cannot be found in the libraries using simple byte search. Because the card does not support AES algorithm to calculate this key itself, it is likely that the decrypted static key is constant among cards of the same model, and does not depend on some other values. Note that 32 byte $K_{AES}$ is a concatenation of 16 byte alphanumeric string and its reverse. The three parameters are:
+
+\begin{tabular}{ l l }
+	$K_{AES}$ & \texttt{Yy32echR8gWImxqKKqxmIWg8Rhce23yY} \\
+	$C$ & \texttt{58 dc e2 03 c6 63 d1 ac~~42 a0 e9 8e 70 32 a9 18} \\
+	& \texttt{71 47 79 06 c5 6f 8b 76~~41 f6 b8 be d1 20 f4 6a} \\
+	$IV$ & \texttt{c2 fd fa 6b 6f b4 87 38~~07 89 10 40 6e d7 fa 2a} \\
+\end{tabular}
+
+
+\subsection{Card identifier}
+
+The card identifier $I$ consists of 8 bytes and is kept in files 50 00 50 32 and 00 01. The identifier in file 00 01 is used to derive challenge--response encryption and MAC keys. It is retrieved from the card using SELECT FILE and READ BINARY.
+
+Note that the card identifier and contents of other files are cached by the library for subsequent usage of the same smartcard in multiple files in \texttt{/dev/shm} directory. To be able to calculate the challenge--response keys solely from an APDU trace, the files in this directory have to be deleted so that the library would read the files again.
+
+The identifiers for two cards are as follows:
+
+\begin{tabular}{ l l }
+Card 1 & \texttt{30 40 00 1A 66 83 29 71} \\
+Card 2 & \texttt{30 40 00 19 67 C3 29 71} \\
+\end{tabular}
+
+Two 8 byte keys in $K_S$ are swapped to derive another key:
+\[
+K'_S=K_S[8:16]\conc K_S[0:8]
+\]
+Then challenge--response encryption and MAC keys are calculated as follows:
+\begin{align*}
+K_{CR} &= \E_\textrm{3DES-ECB}(K_S, I)\conc\E_\textrm{3DES-ECB}(K'_S, I) \\
+K_{MAC} &= \E_\textrm{3DES-ECB}(K_S, \hat{I})\conc\E_\textrm{3DES-ECB}(K'_S, \hat{I})
+\end{align*}
+where $\hat{I}$ is reversed byte string $I$.
+
+
+\subsection{Challenge--response authentication} \label{sec:chresp}
+
+The challenge--response authenticates and establishes nonces $N_L$ and $N_C$ for secure messaging. The encryption used is 3DES-CBC under secret key $K_{CR}=k_1\conc k_2$ and initialization vector of zeros. The key is used the following way in each DES encryption during 3DES: $\E_\textrm{3DES}(K_{CR}, m)=\E_\textrm{DES}(k_1, \D_\textrm{DES}(k_2, \E_\textrm{DES}(k_1, m)))$.
+
+Encrypt-then-MAC approach is used. MAC of the two encrypted messages $m=\{\,\cdot\,\}_{K_{CR}}$ is calculated as shown in \autoref{sub:cbcmac} using a seed of zeros and another secret key $K_{MAC}$, e.g. $\MAC(0, K_{MAC}, m)$.
+
+\begin{tabular}{ l l l }
+$K_{CR}$ & encryption key for challenge--response & 16 bytes \\
+$K_{MAC}$ & MAC key for challenge--response & 16 bytes \\
+$c$ & random smartcard challenge & 8 bytes \\
+$r$ & random terminal value & 16 bytes \\
+$x$ & constant value & 8 bytes \\
+$N_L$ & library nonce & 32 bytes \\
+$N_C$ & card nonce & 32 bytes \\
+\end{tabular}
+
+\begin{msc}{Challenge--response}
+	\declinst{lib}{}{Library}
+	\declinst{card}{}{Card}
+	\mess{manage security environment}{lib}{card}
+	\nextlevel
+	\mess{success}{card}{lib}
+	\nextlevel
+	\mess{get challenge}{lib}{card}
+	\nextlevel
+	\mess{$c\conc SW$}{card}{lib}
+	\nextlevel
+	\mess{$H\conc\{r\conc c\conc x\conc N_L\}_{K_{CR}}\conc MAC$}{lib}{card}
+	\nextlevel
+	\action*{Check $c$, $MAC$}{card}
+	\nextlevel[3]
+	\mess{data available}{card}{lib}
+	\nextlevel
+    \mess{get data}{lib}{card}
+    \nextlevel
+	\mess{$\{c\conc x\conc r\conc N_C\}_{K_{CR}}\conc MAC\conc SW$}{card}{lib}
+	\nextlevel
+	\action*{Check $x$, $r$, $MAC$}{lib}
+	\nextlevel
+\end{msc}
+
+\begin{tabular}{ l l l }
+$x$ & constant value from library & \texttt{22 34 00 00 AF 04 E3 A9} \\
+$H$ & message header of library challenge & \texttt{80 82 00 00 48} \\
+$SW$ & response status for success & \texttt{90 00} \\
+\end{tabular}
+
+
+\subsection{Secure messaging algorithm}
+
+For each new message sent in secure messaging mode, we increment the counter $i$, first message has $i=1$.
+We calculate the secure messaging MAC key and seed:
+\begin{align*}
+K_{SM} &= \SHAONE((N_L\oplus N_C)\conc\mathtt{00~00~00~02}) \\
+S &= (c[4:8]\conc r[4:8])+i
+\end{align*}
+Data $m$ and header $h=CLA\conc INS\conc P1\conc P2$ parts are used to calculate $\MAC(K_{SM}, S, m, h)$ as seen in \autoref{sub:cbcmac}. The resultant message is $h\conc LC\conc m\conc\mathtt{8E~08}\conc MAC$. Similarly, a response is $m\conc\mathtt{8E~08}\conc MAC\conc SW1\conc SW2$.
+	
+
+\subsection{CBC-MAC algorithm} \label{sub:cbcmac}
+
+The following MAC algorithm $\MAC(s, k, m, h)$ is used to calculate MAC for challenge--response and secure messaging messages. The inputs are 8 byte seed $s$, 16 byte key $k=k_1\conc k_2$, message data $m$, and optional 4 byte header $h$. The output is 8 byte MAC.
+
+A padding function $\PP(m)$ is used that appends \texttt{80} byte and an appropriate number of zero bytes to $m$ so that length of $\PP(m)$ in bytes $n$ would be at next closest multiple of 8. For secure messaging message MAC calculation, header $h$ is provided and it is padded such that $m'=\PP(h)\conc \PP(m)$. For challenge--response MAC and for secure messaging response MAC, $m'=\PP(m)$.
+
+Then we initialize with seed as $v_0=s$. Then $v_i=\E_\textrm{DES}(k_1, v_{i-1})\oplus m_i$ where $m_i$ is the $i$th block of padded message $m'$. Lastly, $MAC=\E_\textrm{3DES-ECB}(k, m_n)$.
+
+
+\bibliography{gemalto-attack}
+
+\end{document}
