@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 AES_KEY = "Yy32echR8gWImxqKKqxmIWg8Rhce23yY"
 
-AES_PLAINTEXT = from_hex("""
+AES_CIPHERTEXT = from_hex("""
 58 dc e2 03 c6 63 d1 ac
 42 a0 e9 8e 70 32 a9 18
 71 47 79 06 c5 6f 8b 76
@@ -76,7 +76,7 @@ class GemaltoCrypto(object):
         
     def initialize_static_key(self):
         cipher = AES.new(AES_KEY, AES.MODE_CBC, AES_IV)
-        self.static_key = cipher.decrypt(AES_PLAINTEXT)[:16]
+        self.static_key = cipher.decrypt(AES_CIPHERTEXT)[:16]
         
     def parse_card_identifier(self, resp):
         self.card_identifier = resp[:-2]
